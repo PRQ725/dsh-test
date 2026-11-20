@@ -1,0 +1,38 @@
+# Runtime identity capture — 2026-10-19T20:17 (+08:00)
+# Workspace: D:\Projects\dsh-test
+# Method: direct DSH tool calls in this session (pwsh, read, working_directory, get_goal).
+# Note: native-command stdout cannot be captured into a PowerShell pipeline/variable in this
+# session (sandbox denies piped stdio); values below are transcribed from direct output in the
+# live session transcript, not re-captured by redirection.
+
+cwd                      = D:\Projects\dsh-test
+dsh_cli_version          = 0.2.1-rc.2            (direct `dsh --version` output)
+installed_pkg_version    = 0.2.1-rc.2            (package.json of the npm install)
+installed_pkg_path       = C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh
+desktop_runtime_version  = 0.2.0-rc.2            (resources\runtime\primary-runtime\runtime.json -> desktopVersion)
+desktop_app_path         = C:\Users\user02\AppData\Local\Programs\DeepSeek Harness
+node_version             = v24.20.0              (direct `node --version` output)
+session_id               = session-32aa9e1e-a677-4f88-8682-f9c639f0b48c
+profile                  = browser-lab            (DSH_PROFILE)
+profile_dir              = C:\Users\user02\.dsh\profiles\browser-lab
+dsh_home                 = C:\Users\user02\.dsh
+web_url                  = http://127.0.0.1:3080
+git_repository           = NO (.git absent; `git rev-parse --show-toplevel` also fails)
+active_goal              = NO (get_goal -> {"goal":null}; session projection goal.current == null)
+session_format_version   = 4 (session header + delivery-accepted events)
+working_directory_tool   = PRESENT and responsive (0.2.1-only package dsh-tool-working-directory)
+
+Identity chain for the active session:
+
+1. This session's header records `cwd = D:\Projects\dsh-test`, `version = 4`, `agentPreset = standard`.
+2. The tool surface recorded in `request/header` contains `working_directory`. That tool ships
+   only in `@deepseek-ai/dsh-tool-working-directory`, which exists only at 0.2.1-rc.2 in the
+   local npm cache (no 0.2.0-rc.2 tarball exists for it) and is mounted by the 0.2.1 Web bundle.
+3. The only 0.2.1 DSH installation present is the npm package at 0.2.1-rc.2; the profile is
+   `browser-lab` (not `desktop`), and the Desktop bundled runtime on disk is 0.2.0-rc.2.
+4. Therefore the active session cannot be running on the 0.2.0-rc.2 Desktop runtime; it runs the
+   0.2.1-rc.2 CLI/Web-profile runtime.
+
+Tool surface (59 tools) included, among others: create_goal, get_goal, update_goal,
+exit_plan_mode, working_directory, schedule_*, subagent, workflow, present, skill, todo_write,
+web_search/web_fetch, and 30 `mcp__playwright__*` tools.

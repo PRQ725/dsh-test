@@ -1,0 +1,62 @@
+﻿================================================================
+STEP 1 (R2) - QUIESCENT BASELINE CAPTURE     (2026-10-05 13:57:52)
+Root = D:\Projects\dsh-test\evidence\desktop\runtime
+================================================================
+
+[WARN] R1 artifact present and INVALID (do not use): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-compare
+[WARN] R1 artifact present and INVALID (do not use): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-VERDICT.txt
+--- A. quiescence gate (before capture #1) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+[PASS] all hosts stopped and 3080/3180 free
+
+[INFO] destination directories pre-created
+--- B. capture #1 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2 ---
+[PASS] capture valid: sessions=56 shared-state=30 projcache=56
+
+--- C. waiting 20s ---
+--- D0. quiescence gate (before capture #2) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+
+--- D. capture #2 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-VERIFY ---
+[PASS] capture valid: sessions=56 shared-state=30 projcache=56
+
+--- E. diff capture #1 vs capture #2 ---
+[FATAL] [diff] compare-detail.csv is empty
+  diff INVALID -> 'no change' cannot be concluded from it
+  per-section counts:
+    (none - no differences)
+
+--- F0. session format stability ---
+  formats capture#1: v3=54 v4=2   (rows 56)
+  formats capture#2: v3=54 v4=2   (rows 56)
+[PASS] session format distribution stable
+
+================================================================
+VERDICT INPUTS
+  gate #1            : True
+  capture #1 valid   : True
+  gate #2            : True
+  capture #2 valid   : True
+  diff valid         : False
+  format stable      : True
+  changes            : fatal=0 drift=0
+
+QUIESCENT BASELINE: FAIL
+
+  [FATAL] pipeline did not complete validly (see VERDICT INPUTS above)
+
+MTIME-ONLY POLICY (explicit)
+  allowed for a QUIESCENT claim : none
+  effect on baseline usability  : content-identical => usable as CONTENT guard only
+  effect on the E1 guard        : e1-capture.ps1 compares CONTENT (Size/Sha256) only
+captures: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2
+          D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-VERIFY
+compare : @{Ok=False; Errors=System.String[]; Log=D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-compare\_log.txt; CompareDir=D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-compare; Rows=System.Object[]}

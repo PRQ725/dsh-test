@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Hygiene
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U1-consistent\toolkit\long-running
+instance root: not resolved (see the failure reasons below)
+guarantee scope: this run does NOT verify the frozen goal contract, does NOT verify
+initialization readiness, and does NOT authorize creating or arming a goal.
+
+FAIL
+  - V12 the declared instance root does not exist as a directory: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U1-consistent\nowhere
+
+failure reasons: 1

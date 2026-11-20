@@ -1,0 +1,89 @@
+﻿================================================================
+QUIESCENT BASELINE CAPTURE   namespace = e1-BASE-QUIESCENT-R3
+Root = D:\Projects\dsh-test\evidence\desktop\runtime
+started 2026-10-05 15:36:50
+================================================================
+
+--- run metadata cross-check ---
+  metadata   : D:\Projects\dsh-test\evidence\desktop\runtime\e1-run3.metadata.json
+  run        : run3
+  workspace  : D:\Projects\dsh-desktop-runtime-test-3
+  baseline   : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3
+[PASS] metadata cross-check passed
+
+  session-workspace probe : D:\Projects\dsh-desktop-runtime-test-3
+
+[WARN] R1 artifact present and INVALID (do not use): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-compare
+[WARN] R1 artifact present and INVALID (do not use): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-VERDICT.txt
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-A-compare
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-compare
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-compare
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-compare-revalidated
+[WARN] other baseline namespace present (NOT this run's, never used): D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R2-VERIFY
+--- A. quiescence gate (before capture #1) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+[PASS] all hosts stopped and 3080/3180 free
+
+[INFO] destination directories pre-created
+--- B. capture #1 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3 ---
+[PASS] capture valid: sessions=57 shared-state=30 projcache=57
+
+--- C. waiting 20s ---
+--- D0. quiescence gate (before capture #2) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+
+--- D. capture #2 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3-VERIFY ---
+[PASS] capture valid: sessions=57 shared-state=30 projcache=57
+
+--- E. diff capture #1 vs capture #2 ---
+[PASS] diff valid: detailRows=0 expectedDetailRows=0 warnings=0
+[PASS] zero-row diff: every section reported 0 changes (this is the quiescent outcome, NOT an error)
+  per-section counts:
+    (none - no differences)
+
+--- F0. session format stability ---
+  formats capture#1: v3=54 v4=3   (rows 57)
+  formats capture#2: v3=54 v4=3   (rows 57)
+[PASS] session format distribution stable
+
+================================================================
+VERDICT INPUTS
+  gate #1            : True
+  capture #1 valid   : True
+  gate #2            : True
+  capture #2 valid   : True
+  diff valid         : True
+    detailRows        : 0   (entries that CHANGED; 0 is legal for a zero-diff pair)
+    expectedDetailRows: 0   (sum of ADDED+DELETED+CONTENT-CHANGED+MTIME-ONLY over all sections)
+    compare warnings  : 0
+  format stable      : True
+  changes            : fatal=0 drift=0
+
+QUIESCENT BASELINE: PASS
+  both captures valid and byte-identical (no ADDED / DELETED / CONTENT-CHANGED / MTIME-ONLY)
+  baseline : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3
+  verify   : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3-VERIFY
+  this is the E1 run2 guard baseline: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3
+
+MTIME-ONLY POLICY (explicit)
+  allowed for a QUIESCENT claim : none
+  effect on baseline usability  : content-identical => usable as CONTENT guard only
+  effect on the E1 guard        : e1-capture.ps1 compares CONTENT (Size/Sha256) only
+captures: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3
+          D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3-VERIFY
+compare : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3-compare
+
+--- SEAL: bind this baseline to the run ---
+[PASS] baseline binding record written: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3\E1-BASELINE-BINDING.json
+[PASS] metadata SEALED: D:\Projects\dsh-test\evidence\desktop\runtime\e1-run3.metadata.json  (BaselineVerified=true)
+

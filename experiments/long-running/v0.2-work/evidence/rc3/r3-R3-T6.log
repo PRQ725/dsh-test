@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U3-conflict\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U3-conflict\docs\long-running
+declared instance root (the Instance root: field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U3-conflict\planning\GOAL.md): planning/
+instance-root consistency: FAIL
+
+FAIL
+  - V13 instance-root conflict: the Instance root: field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U3-conflict\planning\GOAL.md declares 'planning/' (normalized: d:\projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\u3-conflict\toolkit\planning) but the inspected directory is 'D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U3-conflict\docs\long-running'. Fail-closed: the frozen declaration is not overridden by the filesystem, and the evaluator will not switch to another directory. A human decides which side is corrected.
+
+failure reasons: 1

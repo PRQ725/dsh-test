@@ -1,0 +1,36 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Readiness
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S1-ready-custom\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S1-ready-custom\planning
+declared instance root (the Instance root: field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S1-ready-custom\planning\GOAL.md): planning/
+instance-root consistency: PASS
+
+INITIALIZATION READINESS
+  PASS = mechanically checked and satisfied | POLICY = a record, not authorization
+  PENDING = a human gate, not performed by the evaluator | FAIL = a checkable prerequisite is absent
+
+  R01  PASS    filled objective contract :: GOAL.md present with no blank-form marker
+  R02  POLICY  approved plan :: approval record present: approved by the adopter, 2026-10-09, plan review step (a record, not proof of intent)
+  R03  PASS    initialized state :: round field: synthetic rc.2 value. The round number and the cap it runs against, written as rounds started over the
+  R04  PASS    filled evaluation contract :: EVALUATION.md present with no blank-form marker
+  R05  PASS    project evaluator exists :: resolved 'evaluator/check-project.ps1' to a file on disk
+  R06  POLICY  evaluator test evidence :: record present: untouched project -> exit 0; one missing file -> exit 1 naming it; missing root -> exit 2 (the adequacy of those tests stays a human judgement)
+  R07  PASS    evaluator freeze baseline recorded :: a hash-shaped freeze record is present
+  R08  PASS    budget and stop conditions stated :: both are stated in the objective contract
+  R09  PENDING workspace and permission boundary verified :: the evaluator cannot verify which sandbox mode or scope a human actually accepted; this stays a human gate
+  R10  PASS    instance-root consistency :: the declared root matches the inspected root (D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S1-ready-custom\planning)
+  R11  PENDING human approval records :: plan approval: recorded; workspace-boundary acceptance and goal-arming authorization are human acts with no mechanical proof
+  R12  PASS    final report path and owner determined :: both are named in the report contract
+
+INSTANCE HYGIENE
+  PASS - the instance directory itself is sound.
+
+NOT CLAIMED: whether a plan was genuinely approved, whether the permission boundary was deliberately accepted,
+whether the evaluator tests were adequate, and whether this guidance is any good. Those are human judgements.
+
+NOT READY PENDING HUMAN GATE (2 item(s))
+  Every checkable prerequisite passed, but these belong to a person:
+    R09  PENDING workspace and permission boundary verified :: the evaluator cannot verify which sandbox mode or scope a human actually accepted; this stays a human gate
+    R11  PENDING human approval records :: plan approval: recorded; workspace-boundary acceptance and goal-arming authorization are human acts with no mechanical proof
+  Only a human closes these. This output is not acceptance and it arms nothing.

@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate
+instance root (default): D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\docs\long-running
+instance-root consistency: UNCHECKED
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing about
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.

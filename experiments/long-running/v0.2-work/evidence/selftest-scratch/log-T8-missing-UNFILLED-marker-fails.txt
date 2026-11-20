@@ -1,0 +1,14 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\selftest-scratch\08-T8-unfilled\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V12 templates/GOAL.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/PLAN.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/STATE.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/EVALUATION.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/FINAL-REPORT.md is a blank form and must carry the UNFILLED marker
+
+failure reasons: 5

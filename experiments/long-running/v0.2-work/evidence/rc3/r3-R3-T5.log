@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U4-blank-decl\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U4-blank-decl\planning
+instance-root consistency: FAIL
+
+FAIL
+  - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+  - V13 the 'Instance root:' field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U4-blank-decl\planning\GOAL.md is not recorded ('UNFILLED - not decided yet'); a blank declaration is not a valid path
+
+failure reasons: 2

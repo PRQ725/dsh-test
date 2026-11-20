@@ -1,0 +1,34 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Readiness
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\docs\long-running
+declared instance root (the Instance root: field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\docs\long-running\GOAL.md): synthetic rc.2 value. The directory in this project holding the FILLED documents this contract belongs to -
+instance-root consistency: FAIL
+
+INITIALIZATION READINESS
+  PASS = mechanically checked and satisfied | POLICY = a record, not authorization
+  PENDING = a human gate, not performed by the evaluator | FAIL = a checkable prerequisite is absent
+
+  R01  PASS    filled objective contract :: GOAL.md present with no blank-form marker
+  R02  FAIL    approved plan :: PLAN.md is absent from the instance root
+  R03  FAIL    initialized state :: STATE.md is absent from the instance root
+  R04  FAIL    filled evaluation contract :: EVALUATION.md is absent from the instance root
+  R05  FAIL    project evaluator exists :: no evaluation contract to name an evaluator
+  R06  FAIL    evaluator test evidence :: no test-case record ('')
+  R07  FAIL    evaluator freeze baseline recorded :: no freeze record ('')
+  R08  PASS    budget and stop conditions stated :: both are stated in the objective contract
+  R09  PENDING workspace and permission boundary verified :: the evaluator cannot verify which sandbox mode or scope a human actually accepted; this stays a human gate
+  R10  FAIL    instance-root consistency :: the declaration and the inspected directory disagree; a human must decide which side is corrected
+  R11  PENDING human approval records :: plan approval: not recorded; workspace-boundary acceptance and goal-arming authorization are human acts with no mechanical proof
+  R12  FAIL    final report path and owner determined :: FINAL-REPORT.md is absent from the instance root
+
+INSTANCE HYGIENE
+  FAIL
+    - V13 instance-root conflict: the Instance root: field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\docs\long-running\GOAL.md declares 'synthetic rc.2 value. The directory in this project holding the FILLED documents this contract belongs to -' (normalized: d:\projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\s5-goal-only\toolkit\synthetic rc.2 value. the directory in this project holding the filled documents this contract belongs to -) but the inspected directory is 'D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S5-goal-only\docs\long-running'. Fail-closed: the frozen declaration is not overridden by the filesystem, and the evaluator will not switch to another directory. A human decides which side is corrected.
+
+NOT CLAIMED: whether a plan was genuinely approved, whether the permission boundary was deliberately accepted,
+whether the evaluator tests were adequate, and whether this guidance is any good. Those are human judgements.
+
+NOT READY (10 item(s) unmet or pending)
+  A later goal-arming decision must not treat this output as authorization.

@@ -1,0 +1,30 @@
+﻿================================================================
+CONTROL B - isolated home preparation   (2026-10-05 16:51:26)
+isolated : D:\Projects\dsh-desktop-controlB-home
+real     : C:\Users\user02\.dsh  (READ-ONLY)
+================================================================
+
+[INFO] source v4 log   : 16364 B  sha256=64B4257A37C14035792E0806679A86EC19C683D0E2A9A477060E6621D5777EDB
+[INFO] source projcache: 6099 B
+
+[PASS] v4 log copied byte-identically: 16364 B  sha256=64B4257A37C14035792E0806679A86EC19C683D0E2A9A477060E6621D5777EDB
+[PASS] projcache copied: 6099 B
+[PASS] workspace.json is BOM-free (the runtime's JSON.parse rejects a BOM)
+[PASS] minimal workspace.json written: 1667 B, sessionIds = [ session-0d5e7d0c-c341-48c4-a149-81250d473f20 ]
+
+NOT copied (deliberately): credentials, account/session tokens, unrelated sessions,
+  browser-lab / web profiles, PJOS, the dsh-test research session, settings history.
+
+ISOLATED HOME CONTENTS
+  \.anonymous-user-id                                                            37 B
+  \.credentials.yaml                                                            161 B
+  \profiles\web\cordis.patch.yml                                                217 B
+  \profiles\web\cordis.yml                                                      223 B
+  \profiles\web\package.json                                                    207 B
+  \profiles\web\pnpm-workspace.yaml                                              61 B
+  \sessions\--D-Projects-dsh-desktop-runtime-test-3--\session-0d5e7d0c-c341-48c4-a149-81250d473f20\session.v4.jsonl.zstd    16364 B
+  \storages\session_projcache\sessions\session-0d5e7d0c-c341-48c4-a149-81250d473f20.json     6099 B
+  \storages\workspace.json                                                     1667 B
+
+source untouched check (re-hash after copy):
+[PASS] real source v4 log unchanged

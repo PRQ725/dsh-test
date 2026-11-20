@@ -1,0 +1,51 @@
+{
+  "tag": "chrome",
+  "steps": [
+    {
+      "step": "initial_state",
+      "jobCount": 167,
+      "checkboxChecked": false,
+      "selectedTags": 1
+    },
+    {
+      "step": "locate_tree_checkbox",
+      "value": {
+        "x": 253,
+        "y": 450,
+        "w": 16,
+        "h": 38,
+        "className": "atsx-tree-checkbox",
+        "inViewport": true
+      }
+    },
+    {
+      "step": "after_filter_click",
+      "jobCount": 10,
+      "checkboxChecked": true,
+      "selectedTags": 1,
+      "jobCountChanged": true,
+      "checkboxToggled": true
+    },
+    {
+      "step": "after_restore_click",
+      "jobCount": 167,
+      "checkboxChecked": false,
+      "selectedTags": 1,
+      "restoredToInitial": true
+    },
+    {
+      "step": "job_detail_page",
+      "href": "https://bambulab.jobs.feishu.cn/campus/position/7682701506303117614/detail",
+      "title": "东南亚KOL实习生 - 欢迎加入拓竹科技",
+      "textLen": 375,
+      "textSample": "职位\n产品官网\n招聘官网首页\n社会招聘\n校招FAQ\n登录\n东南亚KOL实习生\n深圳实习市场&销售 - 电商\n职位描述\n1. 负责泰国 / 越南市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的日常运营，参与内容创意讨论，支持 Bambu Lab 产品在本地市场的推广。\n3. 跟进样机寄送、素材整理、内容链接收集、数据记录等项目执行事务。\n4. 进行本地用户、平台热点、KOL生态及竞品动作研究，输出市场洞察和内容机会点。\n职位要求\n1. 泰国/越南语可作为工作语言，英语流利\n2. 熟悉本地 TikTok、Instagram、Facebook、YouTube 等社媒平台；\n3. 加分项：喜欢科技/硬件/DIY，有KOL运营经验或自媒体运营经验；\n4. 实习期不短于3个月，每周实习4天及以上。\n投递",
+      "applyButton": true
+    }
+  ],
+  "summary": {
+    "interactiveClicksWork": true,
+    "checkboxToggled": true,
+    "stateRestored": true,
+    "detailPageReadable": false
+  }
+}

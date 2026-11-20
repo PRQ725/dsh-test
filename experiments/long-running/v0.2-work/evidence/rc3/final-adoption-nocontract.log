@@ -1,0 +1,4 @@
+ERROR: -Mode Adoption requires -GoalContract (or -InstanceRootDeclared) naming the frozen declaration.
+The instance-root consistency check cannot be performed without it, and an unverified
+consistency check must not be reported as an adoption or readiness result.
+Use -Mode Hygiene if you only want the directory-level check; it prints CONTRACT NOT CHECKED.

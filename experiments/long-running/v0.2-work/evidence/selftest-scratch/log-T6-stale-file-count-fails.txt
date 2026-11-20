@@ -1,0 +1,10 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\selftest-scratch\06-T6-count\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V4 stale v0.1 file count wording ('six files') present in README.md
+
+failure reasons: 1

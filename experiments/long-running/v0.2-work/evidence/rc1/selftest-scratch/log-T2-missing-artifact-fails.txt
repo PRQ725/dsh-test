@@ -1,0 +1,14 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc1\selftest-scratch\02-T2-missing\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V1 missing artifact: templates/PLAN.md
+  - V1 expected exactly 8 Markdown files under the toolkit root, found 7
+  - V2 broken reference in README.md: 'templates/PLAN.md' does not exist under the toolkit root
+  - V2 broken reference in SKILL.md: 'templates/PLAN.md' does not exist under the toolkit root
+  - V2 README table names 'templates/PLAN.md', which does not exist under the toolkit root
+
+failure reasons: 5

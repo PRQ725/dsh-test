@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# dsh-test - attribute rules
+#
+# Line endings: store and check out files byte-for-byte. Many files in this
+# repository are FROZEN EVIDENCE whose SHA-256 digests are recorded in reports
+# (rc.1 / rc.2 / rc.3 change reports, RELEASE-REPORT.md, RELEASES.md). Git's
+# default Windows autocrlf would rewrite LF to CRLF on checkout and silently
+# change those bytes, invalidating every recorded digest. So: no conversion.
+#
+# The cost is that a Windows editor may show LF files without CRLF; the
+# benefit is that a clone reproduces the exact bytes that were verified.
+# ---------------------------------------------------------------------------
+
+* -text
+
+# Binary formats are never merged or diffed as text.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.gz binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary

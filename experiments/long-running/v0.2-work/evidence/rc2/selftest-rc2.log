@@ -1,0 +1,363 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\01-T1-pass\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\02-T2-missing\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V1 missing artifact: templates/PLAN.md
+  - V1 expected exactly 8 Markdown files under the toolkit root, found 7
+  - V2 broken reference in README.md: 'templates/PLAN.md' does not exist under the toolki
+t root
+  - V2 broken reference in SKILL.md: 'templates/PLAN.md' does not exist under the toolkit
+ root
+  - V2 README table names 'templates/PLAN.md', which does not exist under the toolkit roo
+t
+
+failure reasons: 5
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\03-T3-nofrontmatter\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - R2 SKILL.md must open with YAML frontmatter (first line is exactly ---)
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\04-T4-abspath\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V3 non-portable absolute path 'C:\' found in README.md
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\05-T5-section\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V1 missing required section in METHODOLOGY.md: '## 6 Stop'
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\06-T6-count\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V4 stale v0.1 file count wording ('six files') present in README.md
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\07-T7-placeholder\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - R1 unfinished placeholder 'TODO' left in templates/STATE.md
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\08-T8-unfilled\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V12 templates/GOAL.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/PLAN.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/STATE.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/EVALUATION.md is a blank form and must carry the UNFILLED marker
+  - V12 templates/FINAL-REPORT.md is a blank form and must carry the UNFILLED marker
+
+failure reasons: 5
+ERROR: root does not exist: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evide
+nce\rc2\selftest-scratch\does-not-exist
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\09-T10-default-blank\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (default): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence
+\rc2\selftest-scratch\09-T10-default-blank\docs\long-running
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\10-T11-candidate-still-passes\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\11-T12-adoption-custom\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\11-T12-adoption-custom\planning
+instance-root consistency: UNCHECKED
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\11-T12-adoption-custom\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root: not resolved (see the failure reasons below)
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the declared instance root does not exist as a directory: D:\Projects\dsh-test\ex
+periments\long-running\v0.2-work\evidence\rc2\selftest-scratch\11-T12-adoption-custom\now
+here
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\project-unfilled\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\project-unfilled\planning
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\11-T12-adoption-custom\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root: not resolved (see the failure reasons below)
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the declared instance root does not exist as a directory: D:\Projects\dsh-test\ex
+periments\long-running\v0.2-work\evidence\rc2\selftest-scratch\11-T12-adoption-custom\too
+lkit\long-running\templates
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\12-T16-default-layout\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (default): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence
+\rc2\selftest-scratch\12-T16-default-layout\docs\long-running
+instance-root consistency: UNCHECKED
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\13-T32-root-conflict\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\13-T32-root-conflict\docs\long-running
+declared instance root (the Instance root: field of D:\Projects\dsh-test\experiments\long
+-running\v0.2-work\evidence\rc2\selftest-scratch\13-T32-root-conflict\planning\GOAL.md): 
+planning/
+instance-root consistency: FAIL
+
+FAIL
+  - V13 instance-root conflict: the Instance root: field of D:\Projects\dsh-test\experime
+nts\long-running\v0.2-work\evidence\rc2\selftest-scratch\13-T32-root-conflict\planning\GO
+AL.md declares 'planning/' (normalized: d:\projects\dsh-test\experiments\long-running\v0.
+2-work\evidence\rc2\selftest-scratch\13-t32-root-conflict\planning) but the inspected dir
+ectory is 'D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-
+scratch\13-T32-root-conflict\docs\long-running'. Fail-closed: the frozen declaration is n
+ot overridden by the filesystem, and the evaluator will not switch to another directory. 
+A human decides which side is corrected.
+
+failure reasons: 1
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\14-T33-equivalent-forms\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\14-T33-equivalent-forms\planning
+declared instance root (the Instance root: field of D:\Projects\dsh-test\experiments\long
+-running\v0.2-work\evidence\rc2\selftest-scratch\14-T33-equivalent-forms\planning\GOAL.md
+): .\PLANNING\
+instance-root consistency: PASS
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\15-T34-blank-declaration\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\15-T34-blank-declaration\planning
+instance-root consistency: FAIL
+
+FAIL
+  - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+  - V13 the 'Instance root:' field of D:\Projects\dsh-test\experiments\long-running\v0.2-
+work\evidence\rc2\selftest-scratch\15-T34-blank-declaration\planning\GOAL.md is not recor
+ded ('UNFILLED - not decided'); a blank declaration is not a valid path
+
+failure reasons: 2
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\16-T35-goal-only\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (default): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence
+\rc2\selftest-scratch\16-T35-goal-only\docs\long-running
+instance-root consistency: UNCHECKED
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing a
+bout
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Readiness
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scrat
+ch\16-T35-goal-only\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidenc
+e\rc2\selftest-scratch\16-T35-goal-only\docs\long-running
+instance-root consistency: UNCHECKED
+
+INITIALIZATION READINESS
+  PASS = mechanically checked and satisfied | POLICY = a record, not authorization
+  PENDING = a human gate, not performed by the evaluator | FAIL = a checkable prerequisit
+e is absent
+
+  R01  PASS    filled objective contract :: GOAL.md present with no blank-form marker
+  R02  FAIL    approved plan :: PLAN.md is absent from the instance root
+  R03  FAIL    initialized state :: STATE.md is absent from the instance root
+  R04  FAIL    filled evaluation contract :: EVALUATION.md is absent from the instance ro
+ot
+  R05  FAIL    project evaluator exists :: no evaluation contract to name an evaluator
+  R06  FAIL    evaluator test evidence :: no test-case record ('')
+  R07  FAIL    evaluator freeze baseline recorded :: no freeze record ('')
+  R08  PASS    budget and stop conditions stated :: both are stated in the objective cont
+ract
+  R09  PENDING workspace and permission boundary verified :: the evaluator cannot verify 
+which sandbox mode or scope a human actually accepted; this stays a human gate
+  R10  PENDING instance-root consistency :: no declared root was supplied, so consistency
+ could not be checked; pass -GoalContract or -InstanceRootDeclared
+  R11  PENDING human approval records :: plan approval: not recorded; workspace-boundary 
+acceptance and goal-arming authorization are human acts with no mechanical proof
+  R12  FAIL    final report path and owner determined :: FINAL-REPORT.md is absent from t
+he instance root
+
+INSTANCE HYGIENE
+  PASS - the instance directory itself is sound.
+
+NOT CLAIMED: whether a plan was genuinely approved, whether the permission boundary was d
+eliberately accepted,
+whether the evaluator tests were adequate, and whether this guidance is any good. Those a
+re human judgements.
+
+NOT READY (7 prerequisite(s) missing)
+  Each FAIL above names something absent and checkable. Fix those first.
+  PASS  T1 compliant copy passes
+  PASS  T2 missing artifact fails
+  PASS  T3 missing skill frontmatter fails
+  PASS  T4 absolute path fails
+  PASS  T5 missing required section fails
+  PASS  T6 stale file count fails
+  PASS  T7 placeholder token fails
+  PASS  T8 missing UNFILLED marker fails
+  PASS  T9 nonexistent root errors
+  PASS  T10 default layout with a blank instance fails
+  PASS  T11 the toolkit copy itself still passes candidate mode
+  PASS  T12 declared custom instance root passes
+  PASS  T13 declared instance root missing fails
+  PASS  T14 declared root still blank fails
+  FAIL  T15 toolkit templates as instance root fails :: exit 1 was correct but the expect
+ed reason 'reusable toolkit' was not printed
+  PASS  T16 undeclared root falls back to the documented default
+  PASS  T31 round-execution wording corrected
+  PASS  T32 declared/actual instance-root conflict fails
+  PASS  T33 equivalent path spellings are not a conflict
+  PASS  T34 unfilled declaration is refused
+  PASS  T35 goal-only instance still passes hygiene
+  PASS  T36 goal-only instance is not initialization-ready
+  PASS  T17 relative scratch root is refused
+  PASS  T18 repository root is refused
+  PASS  T19 parent traversal is refused
+  PASS  T20 shared-prefix lookalike is refused
+  PASS  T21 missing scratch root is refused
+  PASS  T22 no relative scratch root was created
+  PASS  T23 no shared-prefix directory was created
+  PASS  T24 no missing scratch root was created
+  PASS  T25 no traversal target was created
+  PASS  T26 the guard creates nothing while deciding
+  PASS  T27 a non-existent child is refused, never created
+  PASS  T28 candidate unchanged by the selftest
+  PASS  T29 refusal cases wrote nothing
+
+scratch base : D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence
+work root    : D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selft
+est-scratch
+
+SELFTEST FAIL
+cases failed: 1
+1

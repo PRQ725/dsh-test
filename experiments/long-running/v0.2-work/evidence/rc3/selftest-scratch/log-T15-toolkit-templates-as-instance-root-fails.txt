@@ -1,0 +1,13 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Hygiene
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\12-T15-toolkit-templates\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\12-T15-toolkit-templates\long-running\templates
+guarantee scope: this run does NOT verify the frozen goal contract, does NOT verify
+initialization readiness, and does NOT authorize creating or arming a goal.
+
+FAIL
+  - V12 the instance root resolves inside the toolkit's own reusable toolkit tree, which is not an initialized project: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\12-T15-toolkit-templates\long-running\templates
+
+failure reasons: 1

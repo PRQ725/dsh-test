@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scratch\project-unfilled\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scratch\project-unfilled\planning
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+
+failure reasons: 1

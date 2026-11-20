@@ -1,0 +1,18 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\selftest-scratch\01-T1-pass\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V1 expected exactly 8 Markdown files under the toolkit root, found 16
+  - V1 unexpected file under the toolkit root: long-running/METHODOLOGY.md
+  - V1 unexpected file under the toolkit root: long-running/README.md
+  - V1 unexpected file under the toolkit root: long-running/SKILL.md
+  - V1 unexpected file under the toolkit root: long-running/templates/EVALUATION.md
+  - V1 unexpected file under the toolkit root: long-running/templates/FINAL-REPORT.md
+  - V1 unexpected file under the toolkit root: long-running/templates/GOAL.md
+  - V1 unexpected file under the toolkit root: long-running/templates/PLAN.md
+  - V1 unexpected file under the toolkit root: long-running/templates/STATE.md
+
+failure reasons: 9

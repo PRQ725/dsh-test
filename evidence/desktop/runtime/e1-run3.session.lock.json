@@ -1,0 +1,16 @@
+﻿{
+    "SchemaVersion":  1,
+    "RunName":  "run3",
+    "LockedAt":  "2026-10-05 15:41:41",
+    "WorkspacePath":  "D:\\Projects\\dsh-desktop-runtime-test-3",
+    "WorkspaceDir":  "C:\\Users\\user02\\.dsh\\sessions\\--D-Projects-dsh-desktop-runtime-test-3--",
+    "WorkspaceDirName":  "--D-Projects-dsh-desktop-runtime-test-3--",
+    "MetadataPath":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3.metadata.json",
+    "BaselineDir":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-BASE-QUIESCENT-R3",
+    "SessionId":  "session-0d5e7d0c-c341-48c4-a149-81250d473f20",
+    "File":  "session.v4.jsonl.zstd",
+    "Format":  "v4",
+    "SizeAtLock":  16364,
+    "Sha256AtLock":  "64B4257A37C14035792E0806679A86EC19C683D0E2A9A477060E6621D5777EDB",
+    "ProjCache":  "C:\\Users\\user02\\.dsh\\storages\\session_projcache\\sessions\\session-0d5e7d0c-c341-48c4-a149-81250d473f20.json"
+}

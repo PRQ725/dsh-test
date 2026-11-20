@@ -1,0 +1,68 @@
+# Installation health — read-only checks, 2026-10-19
+# No npm install/rebuild/config change was performed.
+
+## Presence and versions (two anchors inspected)
+
+Global npm install (`C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh\node_modules`):
+
+| package | version |
+|---|---|
+| @deepseek-ai/dsh-subprocess-local | 0.2.1-rc.2 |
+| koffi | 3.1.1 |
+| node-pty | 1.2.0-beta.15 |
+| @google/genai | 2.21.0 |
+| protobufjs | 7.6.6 |
+
+Profile hoisted tree (`C:\Users\user02\.dsh\profiles\node_modules`): identical versions.
+
+## Native artifacts
+
+- `@koromix/koffi-win32-x64/win32_x64/koffi.node` (1,042,944 B) present.
+- `node-pty/prebuilds/win32-x64/conpty.node` (291,328 B) and
+  `conpty_console_list.node` (134,656 B) present; also darwin/linux prebuilds.
+- `@img/sharp-win32-x64/lib/sharp-win32-x64-0.35.5.node` present.
+- `conhost.exe` present at `%SystemRoot%\System32\conhost.exe`.
+- `dsh-subprocess-local` postinstall (`node scripts/ensure-spawn-helper.mjs`) only chmods a POSIX
+  spawn-helper; it is a no-op on Windows. No generated native file is required.
+
+## Module load (dynamic import from the global install directory)
+
+| module | result |
+|---|---|
+| @deepseek-ai/dsh-subprocess-local | OK (exports LocalSubprocessRuntime, default) |
+| koffi | OK (native binding loaded) |
+| node-pty | OK (module loads) |
+| @google/genai | OK |
+| protobufjs | OK |
+
+## Functional probes
+
+- Plain child process: `cmd /c "echo plain-ok"` via Node `child_process.spawn` with
+  `stdio: 'inherit'` -> exit 0, output `plain-ok`. Ordinary subprocess execution works.
+- `pwsh` tool (dsh-pwsh-local / dsh-subprocess-local path): works for all audit commands.
+- PTY: `node-pty.spawn(cmd.exe, ['/c','echo ok'])` throws `Cannot launch conpty`, both with
+  `useConpty: true` and `useConpty: false`.
+- MCP: the `mcp__playwright__*` tools are present in the live tool surface, so the MCP client
+  bridge mounted by `browser-lab/cordis.patch.yml` started successfully.
+
+## Classification
+
+| Finding | Class |
+|---|---|
+| All five flagged packages present and importable | PASS |
+| Native prebuilds for win32-x64 present | PASS |
+| Ordinary (non-PTY) subprocess execution | PASS |
+| ConPTY spawn fails with `Cannot launch conpty` | INSTALLATION / ENVIRONMENT ISSUE — root cause UNKNOWN |
+
+The PTY failure is **not** attributed to the version upgrade: the same node-pty version and
+prebuilds are installed, the module loads, and ConPTY uses OS facilities that the DSH sandbox may
+restrict. No 0.2.0-rc.2 runtime is present to A/B test against, and interactive terminal tooling is
+not mounted in this profile, so the practical impact on this audit is none. Do not describe it as a
+confirmed 0.2.1 regression.
+
+## Known limitation
+
+Native-command stdout capture through PowerShell pipelines/variables fails with `Access is denied`
+in this session (e.g. `git --version | ...`, `netstat -ano | ...`, `$v = node --version`), while
+direct execution works. This is an environment/sandbox restriction observed during the audit, not a
+package defect; it limited the way raw command output could be saved.

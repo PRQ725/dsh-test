@@ -1,0 +1,10 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\01-T1-pass\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+
+CANDIDATE VALIDATION PASS
+  the portable eight-file toolkit satisfies V1-V16 and R1-R3.
+  This is a statement about the toolkit artifact only. It does not prove instance hygiene,
+  contract consistency, initialization readiness, or that any goal may be armed.

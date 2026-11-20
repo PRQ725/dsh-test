@@ -1,0 +1,12 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scratch\11-T12-adoption-custom\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root: not resolved (see the failure reasons below)
+instance-root consistency: UNCHECKED
+
+FAIL
+  - V12 the declared instance root does not exist as a directory: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scratch\11-T12-adoption-custom\nowhere
+
+failure reasons: 1

@@ -1,0 +1,564 @@
+{
+  "tag": "edge",
+  "port": "9223",
+  "url": "https://bambulab.jobs.feishu.cn/campus",
+  "layers": {
+    "1.cdp_http_endpoint": {
+      "ok": true,
+      "detail": "Browser=Edg/152.0.4191.66 protocol=1.3"
+    },
+    "2.page_target_found": {
+      "ok": true,
+      "detail": "title=\"我们现在正在你的所有设备上同步你的浏览数据\" url=edge://sync-confirmation-dialog/"
+    },
+    "3.cdp_websocket_attach": {
+      "ok": true,
+      "detail": "websocket open"
+    },
+    "4.domains_enabled": {
+      "ok": true,
+      "detail": "Runtime, Page, Log, Network enabled (observation only)"
+    },
+    "4b.navigate": {
+      "ok": true,
+      "detail": "readyState=complete after 1520ms"
+    },
+    "5.js_execution": {
+      "ok": true,
+      "detail": "Runtime.evaluate returned object; proof=JS_EVAL_OK"
+    },
+    "6.rendered_dom": {
+      "ok": true,
+      "detail": "captured 2351445 chars -> edge-rendered-dom.html"
+    },
+    "7.screenshot": {
+      "ok": true,
+      "detail": "captured 6566 bytes -> edge-screenshot.png"
+    },
+    "8.performance_timing": {
+      "ok": true,
+      "detail": "{\"domContentLoaded\":1077,\"loadEvent\":1528,\"transferSize\":32969,\"resourceCount\":58}"
+    },
+    "9.after_settle_render": {
+      "ok": true,
+      "detail": "textLen=2539 anchors=16 jobish=11"
+    }
+  },
+  "console": [
+    {
+      "type": "warning",
+      "text": "react-intl-universal locales data \"null\" not exists."
+    },
+    {
+      "type": "log",
+      "text": "1.0.0.1095"
+    },
+    {
+      "type": "log",
+      "text": "version:0.1.7"
+    },
+    {
+      "type": "warning",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "type": "warning",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "type": "warning",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "type": "warning",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    }
+  ],
+  "exceptions": [],
+  "requests": [
+    {
+      "status": 200,
+      "mime": "text/html",
+      "url": "https://bambulab.jobs.feishu.cn/campus"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/ttfe/atsx/official/tinycolor-min_1583312799849.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/theme_pc_31a45199.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/lib/sentry.browser.min.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/builder-runtime.0cc08207.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/lib/jsbridge.min.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/lib/core.min.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/6218.437b4a52.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/1702.9db529ae.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/9096.6a50bdeb.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/3231.d2ae429c.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/5115.4112056d.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://verify.snssdk.com/static/pc_slide.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/pc.ee0f1383.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/5615.cdc43769.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/8825.1a2a6d3f.js"
+    },
+    {
+      "status": 200,
+      "mime": "text/javascript",
+      "url": "https://bambulab.jobs.feishu.cn/people-suite/next-sdk/api/notice?appId=ATS-X-SaaS-Recruitment-Site"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/6681.e28a68cb.js"
+    },
+    {
+      "status": 200,
+      "mime": "image/png",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/saas_career/page_not_found_1580702814305.png"
+    },
+    {
+      "status": 200,
+      "mime": "image/png",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/ttfe/ATSX/saas_career/application-success_1582633048158.png"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/8102.c136e7ba.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/7938.c64c8f5d.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/9308.fbf23be6.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/3203.8320f975.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/8827.6ef63d03.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/1516.c5130c33.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/8058.161b1617.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/7653.d63bc940.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/3730.a27f9bca.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/1682.68d607cd.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/8021.26f9ad9c.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/179.f7223c33.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/1290.05599b90.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/8988.fa103a74.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/3970.edade914.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-package-cn.feishucdn.com/obj/atsx-throne/hire-fe-prod/portal/saas-career/static/js/async/5454.b5203caf.js"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=portal&store=1"
+    },
+    {
+      "status": 200,
+      "mime": "image/png",
+      "url": "https://lf3-atsx-tob.feishucdn.com/obj/static-atsx-online-ee-tob/cd8a0c4e115238b4c05d7e99aecd687a/ee7f2e9ee6ee7cf42a2b5096eba780d029de69b1c1c3c3bf84e60a23aafc18c8.png"
+    },
+    {
+      "status": 200,
+      "mime": "image/jpeg",
+      "url": "https://lf3-atsx-tob.feishucdn.com/obj/static-atsx-online-ee-tob/cd8a0c4e115238b4c05d7e99aecd687a/d7e9e87e20f4d4e5c79e6b7159e52f82f0a48def61aa156565796b1db6a56e07.jpg"
+    },
+    {
+      "status": 204,
+      "mime": "",
+      "url": "https://vcs.snssdk.com/vc/setting"
+    },
+    {
+      "status": 200,
+      "mime": "",
+      "url": "https://mcs.snssdk.com/v1/user/webid"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/ip/location"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/user/mobile/login_status?random=525502"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/user/mobile/login_status?random=344364"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mon.zijieapi.com/monitor_web/settings/browser-settings?bid=portal&store=1"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://starling.zijieapi.com/check_and_get_text/aff8e570233711eb96690bb0655fe40d/test/throne-biz?lang=zh,en"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://vcs.snssdk.com/vc/setting"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/user/webid"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/common/setting"
+    },
+    {
+      "status": 405,
+      "mime": "text/plain",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=ny-JRQAAAAD8f5chyYfUpp8viVAAPWa"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/verifycenter/1.0.0.421/index.js"
+    },
+    {
+      "status": 204,
+      "mime": "",
+      "url": "https://verify.snssdk.com/captcha/reportFrontend"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/ip/location"
+    },
+    {
+      "status": 204,
+      "mime": "",
+      "url": "https://verify.snssdk.com/captcha/reportFrontend"
+    },
+    {
+      "status": 200,
+      "mime": "",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "application/javascript",
+      "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/plugins/common-monitors.1.10.0.js"
+    },
+    {
+      "status": 200,
+      "mime": "",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "text/html",
+      "url": "https://verify.snssdk.com/captcha/reportFrontend"
+    },
+    {
+      "status": 200,
+      "mime": "text/html",
+      "url": "https://verify.snssdk.com/captcha/reportFrontend"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/csrf/token"
+    },
+    {
+      "status": 200,
+      "mime": "",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 204,
+      "mime": "",
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 204,
+      "mime": "text/plain",
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/config/job/filters/6?_signature=ny-JRQAAAAD8f5chyYdKCp8viVAAPWa"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=ny-JRQAAAAD8f5chyYfUpp8viVAAPWa"
+    },
+    {
+      "status": 200,
+      "mime": "application/json",
+      "url": "https://mcs.snssdk.com/v1/list"
+    },
+    {
+      "status": 204,
+      "mime": "text/plain",
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal"
+    },
+    {
+      "status": 204,
+      "mime": "text/plain",
+      "url": "https://mon.zijieapi.com/monitor_browser/collect/batch/?biz_id=portal"
+    }
+  ],
+  "failedRequests": [],
+  "warnings": [
+    {
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 405 ()",
+      "url": "https://bambulab.jobs.feishu.cn/api/v1/search/job/posts?keyword=&limit=10&offset=0&job_category_id_list=&tag_id_list=&location_code_list=&subject_id_list=&recruitment_id_list=&portal_type=6&job_function_id_list=&storefront_id_list=&portal_entrance=1&_signature=ny-JRQAAAAD8f5chyYfUpp8viVAAPWa"
+    }
+  ],
+  "navigation": "https://bambulab.jobs.feishu.cn/campus | 欢迎加入拓竹科技",
+  "eval": {
+    "title": "欢迎加入拓竹科技",
+    "href": "https://bambulab.jobs.feishu.cn/campus",
+    "readyState": "complete",
+    "bodyChildElementCount": 12,
+    "htmlLength": 2351209,
+    "textLength": 47,
+    "textSample": "职位\n产品官网\n招聘官网首页\n社会招聘\n校招FAQ\n登录\n搜索\n筛选\n清除\n开启新的工作（0）",
+    "anchorCount": 6,
+    "jobishAnchorCount": 1,
+    "jobishSamples": [
+      {
+        "t": "社会招聘",
+        "h": "https://bambulab.jobs.feishu.cn/experienced/"
+      }
+    ],
+    "hasRootApp": false,
+    "antiBotSignals": {
+      "slideVerifyScript": true,
+      "verifyContainers": 0,
+      "visibleCaptchaText": false,
+      "signatureRefsInHtml": 1
+    },
+    "jsExecutionProof": "JS_EVAL_OK"
+  },
+  "performance": {
+    "domContentLoaded": 1077,
+    "loadEvent": 1528,
+    "transferSize": 32969,
+    "resourceCount": 58
+  },
+  "evalAfterWait": {
+    "title": "欢迎加入拓竹科技",
+    "href": "https://bambulab.jobs.feishu.cn/campus",
+    "readyState": "complete",
+    "bodyChildElementCount": 12,
+    "htmlLength": 2375187,
+    "textLength": 2539,
+    "textSample": "职位\n产品官网\n招聘官网首页\n社会招聘\n校招FAQ\n登录\n搜索\n筛选\n清除\n招聘项目\n27届校招\n27届秋招（制造类）\n27届秋招（研发类）\n27届秋招（非研发类）\n27届暑期实习\n日常实习\n制造技能人才招聘\n城市\n深圳\n上海\n北京\n武汉\n杭州\n惠州\n职能分类\n研发\nMakerWorld\n供应链\n物流\n市场&销售\n产品\n客户关系\n设计\n生产制造\n职能支持\n项目管理\n产品知识中心\n职位标签\n热招\n开启新的工作（167）\n东南亚KOL实习生\n深圳实习市场&销售 - 电商\n1. 负责泰国 / 越南市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的日常运营，参与内容创意讨论，支持 Bambu Lab 产品在本地市场的推广。\n3. 跟进样机寄送、素材整理、内容链接收集、数据记录等项目执行事务。\n4. 进行本地用户、平台热点、KOL生态及竞品动作研究，输出市场洞察和内容机会点。\n体验设计实习生\n上海实习设计\n1、参与Bambu Lab产品的全链路体验设计工作，包括设备屏幕、控制软件等;\n2、在设计师指导下，支持从用户研究、信息架构、交互流程到UI视觉的完整设计流程;\n3、协助开展用户调研（用户访谈、可用性测试、竞品分析等），帮助团队深入理解用户需求;\n4、参与设计规范、设计资产和流程机制建设，推动复杂业务场景下的设计复用与提效；\n俄语KOL实习生\n深圳实习市场&销售 - 市场\n1. 负责俄语市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的日常运营，参与内容创意讨论，支持 Bambu Lab 产品在本地市场的推广。\n3. 跟进样机寄送、素材整理、内容链接收集、数据记录等项目执行事务。\n4. 进行本地用户、平台热点、KOL生态及竞品动作研究，输出市场洞察和内容机会点。\n海外社群运营实习生\n深圳实习市场&销售 - 市场\n你会做什么\n1、协助官方社群阵地（Reddit / Facebook Group / 官方论坛）的日常运营与维护：内容发布、用户问题响应、氛围维护、用户反馈收集等\n2、内容策划与撰写：通过优质内容将拓竹产品推广至更广泛的圈层、触达更多潜在用户\n3、用户运营支持：新品项目用户对接，包括但不限于优质创作者 / KOC 的沟通与日常关系维护\n4、数据追踪与整理：内容效果、社群增长、热门话题趋势等，为内容选题与运营决策提供支持\nAI 中台产品经理实习生 - Agent方向\n杭州实习产品\n1. 负责 Agent 自演化中台的产品规划、架构设计和路线图落地。\n2. 建设 Agent 从能力定义、评估、失败归因、优化验证到发布回滚的完整闭环。\n3. 设计数据集、评价标准、Gold、LLM Judge及人工评审等评价体系，确保评价结果可信。\n4. 建设 Candidate 验证、",
+    "anchorCount": 16,
+    "jobishAnchorCount": 11,
+    "jobishSamples": [
+      {
+        "t": "社会招聘",
+        "h": "https://bambulab.jobs.feishu.cn/experienced/"
+      },
+      {
+        "t": "东南亚KOL实习生\n深圳实习市场&销售 - 电商\n1. 负责泰国 / 越南市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协",
+        "h": "/campus/position/7682701506303117614/detail"
+      },
+      {
+        "t": "体验设计实习生\n上海实习设计\n1、参与Bambu Lab产品的全链路体验设计工作，包括设备屏幕、控制软件等;\n2、在设计师指导下，支持从用户研究、信息架构、交互",
+        "h": "/campus/position/7682699711812323622/detail"
+      },
+      {
+        "t": "俄语KOL实习生\n深圳实习市场&销售 - 市场\n1. 负责俄语市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的",
+        "h": "/campus/position/7682616300249876746/detail"
+      },
+      {
+        "t": "海外社群运营实习生\n深圳实习市场&销售 - 市场\n你会做什么\n1、协助官方社群阵地（Reddit / Facebook Group / 官方论坛）的日常运营与维",
+        "h": "/campus/position/7681625231060568371/detail"
+      },
+      {
+        "t": "AI 中台产品经理实习生 - Agent方向\n杭州实习产品\n1. 负责 Agent 自演化中台的产品规划、架构设计和路线图落地。\n2. 建设 Agent 从能力",
+        "h": "/campus/position/7681283467217193254/detail"
+      },
+      {
+        "t": "知识内容运营-社区/社媒方向\n深圳正式产品知识中心27届秋招（非研发类）\n1、规划并产出多媒体知识素材，运营主流社媒平台的知识分享账号以及国内外官方论坛；\n2、",
+        "h": "/campus/position/7681277524110248201/detail"
+      },
+      {
+        "t": "行政管培生\n深圳正式生产制造27届秋招（制造类）\n岗位职责：\n1.行政运营：负责行政费用统计，合同管理等工作\n2.员工活动：策划并执行节假日等活动，输出活动宣传",
+        "h": "/campus/position/7680781837862963497/detail"
+      },
+      {
+        "t": "设备工程师（ME）\n深圳正式生产制造27届秋招（制造类）\n1、自动化设备导入：主导自动化设备（含LCIA）的调研、评审、验收及批量导入，参与产品DFA（面向制造",
+        "h": "/campus/position/7680780327866386698/detail"
+      },
+      {
+        "t": "服务运营 - 培训方向实习生\n深圳实习客户关系日常实习\n1. 培训项目落地与执行： 协助完成各类培训项目（如新员工培训、业务技能培训等）的前期筹备、现场组织与跟",
+        "h": "/campus/position/7678992301288802610/detail"
+      },
+      {
+        "t": "广告素材剪辑实习生（MakerWorld）\n深圳实习MakerWorld\n1、结合海内外社媒趋势与用户兴趣，挖掘并筛选具备破圈潜力的优质模型，独立完成素材脚本撰",
+        "h": "/campus/position/7678544081724164371/detail"
+      }
+    ],
+    "hasRootApp": false,
+    "antiBotSignals": {
+      "slideVerifyScript": true,
+      "verifyContainers": 0,
+      "visibleCaptchaText": true,
+      "signatureRefsInHtml": 1
+    },
+    "jsExecutionProof": "JS_EVAL_OK"
+  },
+  "summary": {
+    "cdpReachable": true,
+    "browserLaunched": true,
+    "domObtained": true,
+    "jsExecuted": true,
+    "renderedContent": true,
+    "requestCount": 74,
+    "failedRequestCount": 0
+  }
+}

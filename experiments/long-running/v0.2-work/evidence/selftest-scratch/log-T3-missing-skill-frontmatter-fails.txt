@@ -1,0 +1,10 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\selftest-scratch\03-T3-nofrontmatter\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - R2 SKILL.md must open with YAML frontmatter (first line is exactly ---)
+
+failure reasons: 1

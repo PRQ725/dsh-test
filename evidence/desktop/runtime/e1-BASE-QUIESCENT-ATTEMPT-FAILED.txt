@@ -1,0 +1,17 @@
+﻿================================================================
+STEP 1 - QUIESCENT BASELINE CAPTURE     (2026-10-05 13:13:21)
+Root = D:\Projects\dsh-test\evidence\desktop\runtime
+================================================================
+
+--- A. quiescence gate (before capture #1) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 1
+  playwright MCP processes                 = 3
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 1
+    cli pid 24396: "C:\Program Files\nodejs\node.exe" C:\Users\user02\AppData\Roaming\npm/node_modules/@deepseek-ai/dsh/lib/bin.js --profile browser-lab --no-open
+    port 3080 held by pid 24396
+
+[STOP] host/port NOT quiescent -> refusing to capture. Baseline NOT written.
+       Stop Desktop (tray included) and browser-lab, then close this research session,
+       and re-run this wrapper from an external PowerShell.

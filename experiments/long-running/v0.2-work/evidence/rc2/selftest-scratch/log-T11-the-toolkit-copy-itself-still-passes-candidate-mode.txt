@@ -1,0 +1,10 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc2\selftest-scratch\10-T11-candidate-still-passes\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+PASS
+  all V1-V15 and R1-R3 checks satisfied.
+  NOTE: this is INSTANCE HYGIENE (and copy integrity in adoption mode). It says nothing about
+  INITIALIZATION READINESS, guidance quality, adoptability or version-claim correctness.

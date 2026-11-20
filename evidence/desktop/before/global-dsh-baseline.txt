@@ -1,0 +1,81 @@
+﻿# Global DSH CLI installation — Desktop 安装前基线 (P0)
+
+| 项 | 值 |
+|---|---|
+| 采集时间 | 2026-10-04 20:17:35 |
+| `dsh --version` | `0.1.5-rc.3` |
+| `where.exe dsh` | `C:\Users\user02\AppData\Roaming\npm\dsh` / `dsh.cmd` |
+| npm global prefix | `C:\Users\user02\AppData\Roaming\npm` |
+| 「npm list -g」 | `@deepseek-ai/dsh@0.1.5-rc.3` |
+| 安装目录 | `C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh` |
+| 安装目录 CreationTime | 09/23/2026 13:11:25 |
+| 安装目录 LastWriteTime | 09/23/2026 13:11:27 |
+| 安装目录 递归文件数 | 25448 |
+| 安装目录 总字节 | 222,694,619 |
+| package.json version | `0.1.5-rc.3` |
+| node / npm / pnpm / corepack | `v24.20.0` / `12.0.2` / `12.4.2` / `0.35.0` |
+
+## 运行中的 host / MCP 进程（只读记录）
+
+```text
+PID 22132  started 10/04/2026 19:35:57  "C:\Program Files\nodejs\node.exe" C:\Users\user02\AppData\Roaming\npm/node_modules/@deepseek-ai/dsh/lib/bin.js --profile browser-lab --no-open
+PID 15312  started 10/04/2026 19:36:03  "C:\Program Files\nodejs\\node.exe"  "C:\Users\user02\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js" "-y" "@playwright/mcp@latest" "--browser=chrome"
+PID 2796  started 10/04/2026 19:36:04  "node"   "C:\Users\user02\AppData\Local\npm-cache\_npx\9833c18b2d85bc59\node_modules\.bin\\..\@playwright\mcp\cli.js" --browser=chrome
+PID 6288  started 10/04/2026 20:17:35  "C:\Program Files\nodejs\node.exe" C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh\node_modules\@deepseek-ai\dsh-subprocess-local\lib\runner.js -- C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -Command "[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false); $OutputEncoding = [System.Text.UTF8Encoding]::new($false); $DSH='C:\Users\user02\.dsh'; $OUT='D:\Projects\dsh-test\evidence\desktop\before'
+# --- global DSH baseline ---
+$L = New-Object System.Collections.Generic.List[string]
+$L.Add('# Global DSH CLI installation — Desktop 安装前基线 (P0)'); $L.Add('')
+$L.Add('| 项 | 值 |'); $L.Add('|---|---|')
+$L.Add(\"| 采集时间 | $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') |\")
+$L.Add(\"| ``dsh --version`` | ``$(dsh --version)`` |\")
+$L.Add(\"| ``where.exe dsh`` | ``C:\Users\user02\AppData\Roaming\npm\dsh`` / ``dsh.cmd`` |\")
+$L.Add(\"| npm global prefix | ``C:\Users\user02\AppData\Roaming\npm`` |\")
+$L.Add(\"| 「npm list -g」 | ``@deepseek-ai/dsh@0.1.5-rc.3`` |\")
+$L.Add(\"| 安装目录 | ``C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh`` |\")
+$D='C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh'
+$it=Get-Item $D -Force; $m=Get-ChildItem $D -Recurse -File -ErrorAction SilentlyContinue | Measure-Object -Property Length -Sum
+$L.Add(\"| 安装目录 CreationTime | $($it.CreationTime) |\")
+$L.Add(\"| 安装目录 LastWriteTime | $($it.LastWriteTime) |\")
+$L.Add(\"| 安装目录 递归文件数 | $($m.Count) |\")
+$L.Add(\"| 安装目录 总字节 | {0:N0} |\" -f $m.Sum)
+$L.Add(\"| package.json version | ``$((Get-Content \"$D\package.json\" -Raw -Encoding UTF8 | ConvertFrom-Json).version)`` |\")
+$L.Add(\"| node / npm / pnpm / corepack | ``v24.20.0`` / ``12.0.2`` / ``12.4.2`` / ``0.35.0`` |\")
+$L.Add('')
+$L.Add('## 运行中的 host / MCP 进程（只读记录）'); $L.Add(''); $L.Add('```text')
+Get-CimInstance Win32_Process -Filter \"Name='node.exe'\" -ErrorAction SilentlyContinue |
+  Where-Object { $_.CommandLine -match 'bin\.js --profile|playwright' } |
+  ForEach-Object { $L.Add(\"PID $($_.ProcessId)  started $($_.CreationDate)  $($_.CommandLine)\") }
+$L.Add('```'); $L.Add('')
+$L.Add('监听：``127.0.0.1:3080``')
+Set-Content \"$OUT\global-dsh-baseline.txt\" -Value $L -Encoding UTF8
+# --- profiles fingerprint ---
+$P = New-Object System.Collections.Generic.List[string]
+$P.Add('# Profiles 指纹 — Desktop 安装前基线 (P0)'); $P.Add('')
+$P.Add(\"采集时间：$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')\"); $P.Add('')
+$P.Add('## profile 清单'); $P.Add('')
+$P.Add('| profile | 存在 |'); $P.Add('|---|---|')
+foreach ($n in @('browser-lab','web','desktop')) { $P.Add(\"| ``$n`` | $(if (Test-Path \"$DSH\profiles\$n\") {'YES'} else {'**NO**'}) |\") }
+$P.Add('')
+foreach ($n in @('browser-lab','web')) {
+  $P.Add(\"## ``$n``\"); $P.Add('')
+  $P.Add('| 文件 | Size | LastWriteTime | SHA-256 |'); $P.Add('|---|---|---|---|')
+  foreach ($f in @('package.json','pnpm-lock.yaml','pnpm-workspace.yaml','cordis.patch.yml','cordis.yml')) {
+    $p=\"$DSH\profiles\$n\$f\"
+    if (Test-Path $p) { $i=Get-Item $p; $P.Add(\"| ``$f`` | $($i.Length) | $($i.LastWriteTime.ToString('yyyy-MM-dd HH:mm:ss')) | ``$((Get-FileHash $p -Algorithm SHA256).Hash)`` |\") }
+    else { $P.Add(\"| ``$f`` | — | — | **ABSENT** |\") }
+  }
+  $P.Add('')
+}
+$P.Add('## ``profiles\node_modules``（共享 fallback）'); $P.Add('')
+$sn=Get-Item \"$DSH\profiles\node_modules\" -Force
+$P.Add(\"- CreationTime: $($sn.CreationTime)\")
+$P.Add(\"- LastWriteTime: $($sn.LastWriteTime)\")
+$P.Add(\"- ``@deepseek-ai`` 条目数: $((Get-ChildItem \"$DSH\profiles\node_modules\@deepseek-ai\" -Force -ErrorAction SilentlyContinue).Count)\")
+$P.Add(\"- 含 ``dsh-whale-widget``: $(Test-Path \"$DSH\profiles\node_modules\dsh-whale-widget\")\")
+$P.Add(''); $P.Add('## ``$DSH_HOME\cordis.patch.yml``（跨 profile 共享层）'); $P.Add('')
+$P.Add(\"- 存在: $(Test-Path \"$DSH\cordis.patch.yml\")\")
+Set-Content \"$OUT\profiles-fingerprint.txt\" -Value $P -Encoding UTF8
+Get-ChildItem $OUT | Select-Object Length,Name | Format-Table -AutoSize"
+```
+
+监听：``127.0.0.1:3080``

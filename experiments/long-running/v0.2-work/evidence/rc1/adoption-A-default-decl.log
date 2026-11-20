@@ -1,0 +1,10 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc1-scenarios\A-default-layout\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc1-scenarios\A-default-layout\docs\long-running
+
+PASS
+  all V1-V12 and R1-R3 checks satisfied.
+  NOTE: this says nothing about guidance quality, adoptability or version-claim correctness - human review required.

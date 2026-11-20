@@ -1,0 +1,962 @@
+﻿# $DSH_HOME tree snapshot — Desktop 安装前基线 (P0)
+
+| 项 | 值 |
+|---|---|
+| 采集时间 | 2026-10-04 20:17:27 |
+| $DSH_HOME | `C:\Users\user02\.dsh` |
+| 文件数（递归） | 226 |
+| 目录数（递归） | 675 |
+| 总字节 | 160,917,140 |
+| 采集方式 | 只读 Get-ChildItem 枚举，未读取任何文件内容（credentials 只做 size/mtime/hash） |
+
+## 顶层条目
+
+| Mode | Size | LastWriteTime | Name |
+|---|---|---|---|
+| FILE | 37 | 2026-09-08 14:29:33 | `.anonymous-user-id` |
+| FILE | 223 | 2026-09-10 15:50:24 | `.credentials.yaml` |
+| FILE | 17875 | 2026-09-15 20:47:53 | `.dshw-bubble.json` |
+| FILE | 249 | 2026-10-01 13:06:13 | `.dshw-size.json` |
+| FILE | 50 | 2026-10-01 14:05:12 | `.dshw-turn.json` |
+| FILE | 19274 | 2026-10-04 20:15:37 | `.dshw-usage.json` |
+| FILE | 626 | 2026-09-12 22:06:51 | `AGENTS.md` |
+| DIR |  | 2026-09-11 16:02:19 | `attachments` |
+| DIR |  | 2026-09-20 13:37:56 | `llm-deepseek` |
+| DIR |  | 2026-09-23 13:27:45 | `profiles` |
+| DIR |  | 2026-09-22 11:54:56 | `sessions` |
+| FILE | 175 | 2026-09-30 23:05:13 | `settings.yaml` |
+| DIR |  | 2026-09-27 15:10:47 | `storages` |
+| DIR |  | 2026-09-15 20:42:46 | `whale-audio` |
+| DIR |  | 2026-09-15 20:44:26 | `whale-bubble-imgs` |
+| DIR |  | 2026-09-15 20:46:44 | `whale-roles` |
+
+## 顶层子目录规模
+
+| 目录 | 文件数 | 字节 |
+|---|---|---|
+| `attachments` | 76 | 19,601,666 |
+| `llm-deepseek` | 1 | 15,942 |
+| `profiles` | 30 | 5,954,081 |
+| `sessions` | 55 | 133,306,644 |
+| `storages` | 55 | 2,000,146 |
+| `whale-audio` | 0 |  |
+| `whale-bubble-imgs` | 0 |  |
+| `whale-roles` | 1 | 152 |
+
+## 关键文件指纹（**不含内容**）
+
+| 文件 | 状态 | Size | LastWriteTime | SHA-256 |
+|---|---|---|---|---|
+| `AGENTS.md` | EXISTS | 626 | 2026-09-12 22:06:51 | `DFBC51358430BDC0091658C62925BFA9385621F6E07197BFADDC7B19A043872C` |
+| `settings.yaml` | EXISTS | 175 | 2026-09-30 23:05:13 | `7A7CCB3CD8576239B788504A80EB5821140B52CC0FBEBDA3692B3CBE47685D52` |
+| `.credentials.yaml` | EXISTS | 223 | 2026-09-10 15:50:24 | `C28BC57922E515EE7185746D08197FF5EA4B13BC6DC77C81AD8E9DBFB0C91385` |
+| `.anonymous-user-id` | EXISTS | 37 | 2026-09-08 14:29:33 | `71A598EF01C8D25F0D28CD2E0531F65C87174F45773A72EE033849FDBF7B049C` |
+| `cordis.patch.yml` | **ABSENT** | | | |
+| `cordis.yml` | **ABSENT** | | | |
+| `package.json` | **ABSENT** | | | |
+
+## 完整树（相对路径 · size · mtime）
+
+```text
+        37  2026-09-08 14:29:33  .anonymous-user-id
+       223  2026-09-10 15:50:24  .credentials.yaml
+     17875  2026-09-15 20:47:53  .dshw-bubble.json
+       249  2026-10-01 13:06:13  .dshw-size.json
+        50  2026-10-01 14:05:12  .dshw-turn.json
+     19274  2026-10-04 20:15:37  .dshw-usage.json
+       626  2026-09-12 22:06:51  AGENTS.md
+DIR  attachments\
+DIR  attachments\v1\
+DIR  attachments\v1\objects\
+DIR  attachments\v1\objects\00\
+    619119  2026-09-17 14:08:54  attachments\v1\objects\00\00b389565763459709f55626d111dd5a7d6b42a85573e95dfbd68c0780a08489
+DIR  attachments\v1\objects\0e\
+    147682  2026-09-14 22:12:04  attachments\v1\objects\0e\0e2e162df8cd2e306c38ece1bb4a26d19e358e02e8afd91e857e50458be963b2
+    441179  2026-09-20 13:37:34  attachments\v1\objects\0e\0ebaae8e9f04183923c38fcd233fe82c98f70fad742eb161c461c8c6dcd5d6fc
+DIR  attachments\v1\objects\16\
+     23500  2026-09-20 13:37:40  attachments\v1\objects\16\16d68c5102af60559fa2a257bca834daaffa4c8f14b9a32b5b172d2e4fd3c7e4
+DIR  attachments\v1\objects\18\
+    529136  2026-09-16 20:52:42  attachments\v1\objects\18\18d14ad6a05b5edfbfff4d75eb73a8d73b3be141baacb68d997af316b186fc21
+DIR  attachments\v1\objects\26\
+    610047  2026-09-17 15:09:04  attachments\v1\objects\26\2686ac619264497df3ae9eedb4f172e98319d148e6181e6a4e31f731a06ed8c7
+DIR  attachments\v1\objects\2f\
+    210032  2026-09-14 22:12:04  attachments\v1\objects\2f\2f8bcb5be256ff83605d9d43ac098dcfd48231ed549b1cf7f7bd397e3e4725f0
+DIR  attachments\v1\objects\3b\
+    512499  2026-09-16 20:51:22  attachments\v1\objects\3b\3b71fb30c3f76788a7aabbed131890aedd4e8df0f128ca2447682a5e76c5fcfd
+DIR  attachments\v1\objects\3c\
+    600584  2026-09-17 14:10:42  attachments\v1\objects\3c\3c2f2f708c9f3e0a51bbc161cc2c1f55d2683ae2736c8f65234a2d85893e2466
+DIR  attachments\v1\objects\46\
+    536449  2026-09-16 22:33:27  attachments\v1\objects\46\463dfbc33a48c27238b372adfdf020743501ac20d4b4974c39d73f87dac7c245
+DIR  attachments\v1\objects\64\
+    194601  2026-09-14 22:12:21  attachments\v1\objects\64\640bc93ac5613aa6017034417d579407261226f26f8f832bd3d4648311fe608c
+DIR  attachments\v1\objects\65\
+      6566  2026-09-11 16:02:19  attachments\v1\objects\65\65454e040d9e3d9e535970b6004b99e1d08577d23d34bb4609296851a14efa06
+DIR  attachments\v1\objects\69\
+    175358  2026-09-14 22:12:21  attachments\v1\objects\69\69aafa27c549aeddf501393fdf817fcbf8a13385a218480b53b9d2fbff9655c7
+DIR  attachments\v1\objects\6b\
+    536329  2026-09-16 22:33:05  attachments\v1\objects\6b\6b2150ef676656fb63f85a4b7d89d8ae57c5c4866b69375182c4f2348103d94e
+DIR  attachments\v1\objects\6c\
+    599811  2026-09-17 15:09:13  attachments\v1\objects\6c\6cc8a83804f40a43eff9364e564216575303a6312fa4a1cdbe317112e8c32fc8
+DIR  attachments\v1\objects\7a\
+    476374  2026-09-16 20:27:13  attachments\v1\objects\7a\7a8f8eb591a1dcb1a7af8166e9a0432f0be523dbadfbd36d0fd0331fddb08696
+DIR  attachments\v1\objects\7e\
+    610545  2026-09-17 14:08:39  attachments\v1\objects\7e\7ee9f5daf85666a3f06ebb0795a2fb2b320d06bf26744f7987f567c44d79e2c6
+DIR  attachments\v1\objects\88\
+    609932  2026-09-17 14:42:04  attachments\v1\objects\88\8879d132a67386a3448133f71c96cd23f1d9bde0cbf2eac9de5d6bfac659944a
+DIR  attachments\v1\objects\8a\
+    219311  2026-09-15 15:30:14  attachments\v1\objects\8a\8a5df17e9233c0d2ab2c573fb9a1973ea873e2cc1e01e1ab3f8412ae0f434092
+DIR  attachments\v1\objects\8f\
+    146585  2026-09-14 22:12:04  attachments\v1\objects\8f\8f3266f5df404919055079f17eef2ec182757627ec61eb438abc46ab495a62ac
+    438743  2026-09-16 18:14:37  attachments\v1\objects\8f\8fb73404ff058a6630dbe9104195633a800a49cb2d9e99868621c1e935d5c97f
+DIR  attachments\v1\objects\9a\
+    235909  2026-09-14 22:12:21  attachments\v1\objects\9a\9a1f20d2f524f53dd8629b5d8c16bc132827e6374506f163cd39458b2ee041d1
+DIR  attachments\v1\objects\a1\
+    844462  2026-09-11 16:02:36  attachments\v1\objects\a1\a163ec58afa973602c7165899cf78e0b55a66d47900509ca87f566398699ded4
+DIR  attachments\v1\objects\a6\
+    460548  2026-09-16 18:13:59  attachments\v1\objects\a6\a68fb6da6bce311721b2e8c3113de23aaa969f995aa5c7e7c5e42c3f799f0ca7
+DIR  attachments\v1\objects\ac\
+    451538  2026-09-16 20:03:21  attachments\v1\objects\ac\ac07198cd964d4d15c355c72f1b92f755ee2fc12ce3fc20dab83ee08d7c134ad
+DIR  attachments\v1\objects\af\
+    107695  2026-09-15 21:55:12  attachments\v1\objects\af\af6b891058b439f2a5f983d2e2e84464249bd7e2ef81d66a5ed734ae8fac9c30
+DIR  attachments\v1\objects\b4\
+     78748  2026-09-20 13:37:56  attachments\v1\objects\b4\b496e8ee7d55d6223d1c11a18e7a60890c679df92e46fb22ab8ce9f52bb4c7ed
+DIR  attachments\v1\objects\b7\
+    610019  2026-09-17 15:36:29  attachments\v1\objects\b7\b71f7eda96131eb290bf8f7f8cda7a75a1cb7a097534ad67eac5a08115f43401
+    218738  2026-09-15 15:31:01  attachments\v1\objects\b7\b7eedfc7b7d20d5e361d4aed5119930e014f2300fecf1c380cd737245b42aee9
+DIR  attachments\v1\objects\c6\
+    610634  2026-09-17 14:10:28  attachments\v1\objects\c6\c6bd61ccd577080411223ef1bb4b4badd2341aceec975259624ef59b0f98b304
+DIR  attachments\v1\objects\cb\
+    107621  2026-09-15 21:54:44  attachments\v1\objects\cb\cb32f5b304379ee2f1eed9eae1c70df9f4c0e13e7ef2eff449eb10fedd7f845b
+DIR  attachments\v1\objects\d1\
+    600033  2026-09-17 14:46:39  attachments\v1\objects\d1\d1245f62162c42fca0bc0f0e8589e03a0775cea7154506f4d842d97304b8297b
+DIR  attachments\v1\objects\d6\
+    599813  2026-09-17 16:11:37  attachments\v1\objects\d6\d6dc5717d37ae90822fd03e6b8e996dd0325f8db78d238165d4e72d9f46fcf7f
+DIR  attachments\v1\objects\d7\
+    219439  2026-09-15 15:30:54  attachments\v1\objects\d7\d75119ec5175b5e63e916c95007a473735f4d778987afb8f853df9d6841dd471
+DIR  attachments\v1\objects\dd\
+    416348  2026-09-20 13:37:49  attachments\v1\objects\dd\dda232cfdf835985687fcd357dd194da5aa8fe502be9181aae3cd5a1c3c21271
+DIR  attachments\v1\objects\de\
+    449133  2026-09-20 13:37:45  attachments\v1\objects\de\de288032a29859ac2c346c0588b9ae511e9d4c98281d4ba331a817c05dad4e0f
+DIR  attachments\v1\objects\ea\
+    191402  2026-09-14 22:12:04  attachments\v1\objects\ea\ead31f364f82724714b2ce66a0b54d5cd0ce907426bedca161d7ba3877ce4e5d
+DIR  attachments\v1\objects\ff\
+    599285  2026-09-16 20:54:33  attachments\v1\objects\ff\ffd649c67f6ef6d6c62e32b10ba74170b3d0281d455f66dfedefa0b513b4d2e5
+DIR  attachments\v1\request-images\
+DIR  attachments\v1\request-images\08\
+     12724  2026-09-20 13:37:40  attachments\v1\request-images\08\089c229d3c5d274a5a644e1ba6fb762ca9b4ea7a81b307389cbb01638f5735b7
+DIR  attachments\v1\request-images\14\
+     76394  2026-09-14 22:12:04  attachments\v1\request-images\14\146e728570ea225bdb16121fe5f136fd01950e3f57f8867347bc9c32ed6bc61e
+DIR  attachments\v1\request-images\2a\
+     76541  2026-09-14 22:12:23  attachments\v1\request-images\2a\2afb4023ef7eb640f941b0e4aa3d2bf4dfe2f451d7bea1a5e54bdb139d390916
+DIR  attachments\v1\request-images\2c\
+    156320  2026-09-17 15:36:29  attachments\v1\request-images\2c\2cc561575621c5c576386d313ff91f7fc5c47b7d9e894c89cdd1e2f780336ec1
+DIR  attachments\v1\request-images\3a\
+     35805  2026-09-20 13:37:56  attachments\v1\request-images\3a\3a2d9f9d2e8ee634e86871a2688b2367aa2874d6d35b1eae3b909347fac89632
+DIR  attachments\v1\request-images\3c\
+     84342  2026-09-15 15:30:14  attachments\v1\request-images\3c\3c28e16c93b8f18caccb91670be601cec1fe3e1950821fb29d197bcaad40f182
+     83662  2026-09-15 15:31:01  attachments\v1\request-images\3c\3ce7665bea7a9449584b056ad2621e6ff00d311fba05de088a502c2c2ccee631
+DIR  attachments\v1\request-images\46\
+     64420  2026-09-11 16:02:37  attachments\v1\request-images\46\46e577033dd9d96337969d99bcee34587fe1ababcb76c358c63725556ed48406
+DIR  attachments\v1\request-images\5a\
+    156998  2026-09-17 14:08:54  attachments\v1\request-images\5a\5a25b9ed2b06461e9718234f6661a4b6cc7ba8def8ec66bdafcceb8954932993
+DIR  attachments\v1\request-images\5c\
+    155366  2026-09-17 16:13:51  attachments\v1\request-images\5c\5c53f3dac00ff50e99d5f9704208bf76a6b0f2324495299fe679d3c7dfda98b6
+DIR  attachments\v1\request-images\63\
+    157263  2026-09-17 14:10:30  attachments\v1\request-images\63\63dd33614dc2c1de2b86e47918b0f9009b125f7ec7d94d5067df2469a22ddf35
+DIR  attachments\v1\request-images\68\
+      4423  2026-09-11 16:02:19  attachments\v1\request-images\68\68947f77349df7627e109497808232d12e3fbd1786f39c42b4c3d1e02d44702b
+DIR  attachments\v1\request-images\6d\
+    157182  2026-09-17 14:08:39  attachments\v1\request-images\6d\6d48c4ef75bb8478cb19da6a9b9c7ccacda81e72c2bb16d8413543bd9e1807c0
+    160334  2026-09-16 22:33:28  attachments\v1\request-images\6d\6db18516dac58f82ab6ed895d219988483d1a13794fc33fa68aa3fc894d88c12
+DIR  attachments\v1\request-images\76\
+     85918  2026-09-15 15:30:54  attachments\v1\request-images\76\763cbe92fa2bbd1ac1e329730131df887edc281d6f69d4a94d52aa0313de4ea6
+DIR  attachments\v1\request-images\88\
+     65100  2026-09-14 22:12:04  attachments\v1\request-images\88\882fc8d3014beda8c47d6210120969ac34a854f32ffa7c283ab8667c55e1be53
+    151124  2026-09-16 20:51:23  attachments\v1\request-images\88\8848914bcaf7733d7ae19b4ff5518fc7002c38711e56a9ccfb700f6e3f6e90a1
+DIR  attachments\v1\request-images\8c\
+    155587  2026-09-17 14:46:40  attachments\v1\request-images\8c\8c2e071883e0a1baaaee4025013676a6c369980cbf188e9d48d4766ae86d4177
+DIR  attachments\v1\request-images\8d\
+     84470  2026-09-14 22:12:23  attachments\v1\request-images\8d\8d6aa6a24821de44224279f682ba3241741445d8baa3d288f28b7cdcf8bc0164
+DIR  attachments\v1\request-images\99\
+    160316  2026-09-16 22:33:05  attachments\v1\request-images\99\999a01c36f04f13cac1a6c92966749abb0e3e8e4c2c5878e0fe9b9a21c85bd58
+DIR  attachments\v1\request-images\9c\
+    175690  2026-09-20 13:37:49  attachments\v1\request-images\9c\9cc5615521c59957fa1daaba582f93532cf5f9d5fbd342cca5afa63541f728ca
+DIR  attachments\v1\request-images\aa\
+     75968  2026-09-14 22:12:23  attachments\v1\request-images\aa\aaaabb2103c441587c120ecac779c9f04ec679564875688a05d723dcce1e8537
+DIR  attachments\v1\request-images\ab\
+    156094  2026-09-17 14:10:43  attachments\v1\request-images\ab\ab83a48b3bd1b644dbce37e7eeea02e7cb5754549fc12a99358775fdb49eb1f7
+    157506  2026-09-16 20:27:13  attachments\v1\request-images\ab\ab8875cfb629694a158643bd904fd5ec863d073efa1886c6b7bdcc2e952eda53
+DIR  attachments\v1\request-images\ac\
+    155361  2026-09-17 15:09:14  attachments\v1\request-images\ac\aca665a63cc8fc65319d91b2168221e9c1c07a06a3969036e96695081568a978
+DIR  attachments\v1\request-images\af\
+    156723  2026-09-17 14:42:04  attachments\v1\request-images\af\af2912a1babc473b6118cc356a8450a24c8eacbde20cc85f214a173abf44d72e
+DIR  attachments\v1\request-images\bb\
+     68646  2026-09-14 22:12:04  attachments\v1\request-images\bb\bb3d5636a8303b36cef16071e6d4274c49b4708fb9afb42d9cbe13cbba955ec0
+DIR  attachments\v1\request-images\c8\
+     60221  2026-09-14 22:12:04  attachments\v1\request-images\c8\c801c7d2bae1dd73762e2ac1a3b8ea542d8ac637735f496ea17b1a6e9301d0fa
+    154519  2026-09-16 20:52:42  attachments\v1\request-images\c8\c83c000300d1ec56e7319a4edfa37e9f6abd016fd45e4628dde61ea45c8fc498
+DIR  attachments\v1\request-images\ca\
+    165238  2026-09-16 18:14:38  attachments\v1\request-images\ca\cab4b3a4179bf83247cfda50e6ec7c22189222af99f6bef95ff631c4104224d7
+DIR  attachments\v1\request-images\cd\
+    189588  2026-09-20 13:37:45  attachments\v1\request-images\cd\cde2afacf6eefba1680f62cc2b6ac25a58140f0725dd5ba59d5893da97fbd2cd
+DIR  attachments\v1\request-images\ce\
+    156327  2026-09-17 15:09:05  attachments\v1\request-images\ce\ce65d725f7772beddc694251a16a2175e14fac46a0a917476233a75f25abdb39
+DIR  attachments\v1\request-images\de\
+     56238  2026-09-15 21:55:12  attachments\v1\request-images\de\de4b976a977f90bd4976a0aea79374e28b84ee6b89e01fd29828f88a7215e058
+DIR  attachments\v1\request-images\e6\
+    170712  2026-09-16 20:03:21  attachments\v1\request-images\e6\e630c714300fa80bbcafb3cdd04ad114e700ac27d599f42ba57f656bac26e9d4
+DIR  attachments\v1\request-images\ea\
+    153748  2026-09-16 20:54:33  attachments\v1\request-images\ea\eafded8a6f330b999517aea2219d3fbb1e00c590d92772cdf7afa9e52ba6a287
+DIR  attachments\v1\request-images\ed\
+    175488  2026-09-16 18:13:59  attachments\v1\request-images\ed\ed3e67dbe290fe44bb3a3455dc2a9d85c48072b61c3af5e6b45af1da3357ad9b
+DIR  attachments\v1\request-images\f8\
+    188065  2026-09-20 13:37:34  attachments\v1\request-images\f8\f8c942f359d59f3452443124238e295442d4e8caff9b8d8b8831be6435383e7b
+DIR  attachments\v1\request-images\ff\
+     55498  2026-09-15 21:54:45  attachments\v1\request-images\ff\fff4ddd601af15b4e1782664a5bd92701026f09feef4cafbb68f951c9a015b4b
+DIR  attachments\v1\tmp\
+DIR  llm-deepseek\
+     15942  2026-09-20 13:37:56  llm-deepseek\files-v3.json
+DIR  profiles\
+DIR  profiles\browser-lab\
+DIR  profiles\browser-lab\.dsh-module-fallback\
+DIR  profiles\browser-lab\.dsh-module-fallback\node_modules\
+       925  2026-09-12 15:10:27  profiles\browser-lab\cordis.patch.yml
+       223  2026-10-04 19:35:58  profiles\browser-lab\cordis.yml
+DIR  profiles\browser-lab\node_modules\
+       693  2026-09-15 20:41:43  profiles\browser-lab\node_modules\.modules.yaml
+DIR  profiles\browser-lab\node_modules\.pnpm\
+       408  2026-09-15 20:41:43  profiles\browser-lab\node_modules\.pnpm\lock.yaml
+       871  2026-09-15 20:41:43  profiles\browser-lab\node_modules\.pnpm-workspace-state-v1.json
+DIR  profiles\browser-lab\node_modules\dsh-whale-widget\
+DIR  profiles\browser-lab\node_modules\dsh-whale-widget\assets\
+   2704365  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\assets\bubble-money1.gif
+     94643  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\bubble-petpet.gif
+      3294  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\D1.mp3
+      4232  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\D2.mp3
+   1103533  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\DSH2.png
+    466452  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\DSniang02.png
+    255988  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\DSniang1.png
+     59488  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\assets\minecraft-exp-orb.wav
+     94643  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\rua.gif
+    319288  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\assets\task-end-a.wav
+    650618  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\assets\whale-widget.js
+      6370  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\Ya1.mp3
+      2976  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\assets\Ya2.mp3
+       719  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\cordis.patch.yml
+DIR  profiles\browser-lab\node_modules\dsh-whale-widget\lib\
+    152701  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\lib\index.js
+      1066  2026-09-15 20:39:23  profiles\browser-lab\node_modules\dsh-whale-widget\LICENSE
+      1020  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\package.json
+     27998  2026-09-15 20:41:43  profiles\browser-lab\node_modules\dsh-whale-widget\README.md
+       308  2026-09-15 20:41:43  profiles\browser-lab\package.json
+       408  2026-09-15 20:41:43  profiles\browser-lab\pnpm-lock.yaml
+       114  2026-09-15 20:41:41  profiles\browser-lab\pnpm-workspace.yaml
+DIR  profiles\node_modules\
+DIR  profiles\node_modules\@agentclientprotocol\
+DIR  profiles\node_modules\@agentclientprotocol\sdk\
+DIR  profiles\node_modules\@anthropic-ai\
+DIR  profiles\node_modules\@anthropic-ai\sdk\
+DIR  profiles\node_modules\@aws\
+DIR  profiles\node_modules\@aws\lambda-invoke-store\
+DIR  profiles\node_modules\@aws-crypto\
+DIR  profiles\node_modules\@aws-crypto\sha256-browser\
+DIR  profiles\node_modules\@aws-crypto\sha256-js\
+DIR  profiles\node_modules\@aws-crypto\supports-web-crypto\
+DIR  profiles\node_modules\@aws-crypto\util\
+DIR  profiles\node_modules\@aws-sdk\
+DIR  profiles\node_modules\@aws-sdk\client-bedrock-runtime\
+DIR  profiles\node_modules\@aws-sdk\core\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-env\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-http\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-ini\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-login\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-node\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-process\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-sso\
+DIR  profiles\node_modules\@aws-sdk\credential-provider-web-identity\
+DIR  profiles\node_modules\@aws-sdk\eventstream-handler-node\
+DIR  profiles\node_modules\@aws-sdk\middleware-eventstream\
+DIR  profiles\node_modules\@aws-sdk\middleware-websocket\
+DIR  profiles\node_modules\@aws-sdk\nested-clients\
+DIR  profiles\node_modules\@aws-sdk\signature-v4-multi-region\
+DIR  profiles\node_modules\@aws-sdk\token-providers\
+DIR  profiles\node_modules\@aws-sdk\types\
+DIR  profiles\node_modules\@aws-sdk\util-locate-window\
+DIR  profiles\node_modules\@aws-sdk\xml-builder\
+DIR  profiles\node_modules\@babel\
+DIR  profiles\node_modules\@babel\code-frame\
+DIR  profiles\node_modules\@babel\helper-validator-identifier\
+DIR  profiles\node_modules\@babel\runtime\
+DIR  profiles\node_modules\@deepseek-ai\
+DIR  profiles\node_modules\@deepseek-ai\cordis\
+DIR  profiles\node_modules\@deepseek-ai\cordis-plugin-group\
+DIR  profiles\node_modules\@deepseek-ai\cordis-plugin-hmr\
+DIR  profiles\node_modules\@deepseek-ai\cordis-plugin-include\
+DIR  profiles\node_modules\@deepseek-ai\cordis-plugin-loader\
+DIR  profiles\node_modules\@deepseek-ai\cordis-plugin-timer\
+DIR  profiles\node_modules\@deepseek-ai\cosmokit\
+DIR  profiles\node_modules\@deepseek-ai\dsh\
+DIR  profiles\node_modules\@deepseek-ai\dsh-acp\
+DIR  profiles\node_modules\@deepseek-ai\dsh-acp-app\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent-default-model\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent-instructions\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent-loop\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent-presets\
+DIR  profiles\node_modules\@deepseek-ai\dsh-agent-tool-presentation\
+DIR  profiles\node_modules\@deepseek-ai\dsh-anonymous-user-id\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-gateway\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-remotes\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-session-controller\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-settings-controller\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-workspace-controller\
+DIR  profiles\node_modules\@deepseek-ai\dsh-api-workspace-files\
+DIR  profiles\node_modules\@deepseek-ai\dsh-app-boot\
+DIR  profiles\node_modules\@deepseek-ai\dsh-atomic-write\
+DIR  profiles\node_modules\@deepseek-ai\dsh-attachment\
+DIR  profiles\node_modules\@deepseek-ai\dsh-attachment-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-authorization\
+DIR  profiles\node_modules\@deepseek-ai\dsh-base\
+DIR  profiles\node_modules\@deepseek-ai\dsh-bash-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-bash-sandbox\
+DIR  profiles\node_modules\@deepseek-ai\dsh-brand\
+DIR  profiles\node_modules\@deepseek-ai\dsh-chunked-list\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-connection\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-file-upload\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-hmr\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-locale\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-modules\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-resources\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-runtime\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-agent-preset\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-approval\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-attachment\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-brand-official\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-chat\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-commands\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-conversation\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-cordis\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-deliverables\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-directory-picker-browse\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-directory-picker-native\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-goal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-input-trigger\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-jobs\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-layout\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-message-feedback\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-model-selection\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-open-in-app\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-permission-presets\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-plan\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-reference\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-renderer\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-schedule\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-session\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-settings\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-settings-general\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-settings-models\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-settings-plugin-inventory\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-settings-plugins\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-sidebar\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-sidebar-documentpreview\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-sidebar-files\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-sidebar-right\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-skill\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-subagent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-theme\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-tool\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-trajectory\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-user-questions\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-workflow-run\
+DIR  profiles\node_modules\@deepseek-ai\dsh-client-ui-workspace\
+DIR  profiles\node_modules\@deepseek-ai\dsh-cmdline\
+DIR  profiles\node_modules\@deepseek-ai\dsh-code-runtime\
+DIR  profiles\node_modules\@deepseek-ai\dsh-code-runtime-worker-thread\
+DIR  profiles\node_modules\@deepseek-ai\dsh-command-compact\
+DIR  profiles\node_modules\@deepseek-ai\dsh-command-feedback\
+DIR  profiles\node_modules\@deepseek-ai\dsh-command-goal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-commands\
+DIR  profiles\node_modules\@deepseek-ai\dsh-compaction\
+DIR  profiles\node_modules\@deepseek-ai\dsh-compaction-basic\
+DIR  profiles\node_modules\@deepseek-ai\dsh-compaction-tool-result-pruner\
+DIR  profiles\node_modules\@deepseek-ai\dsh-cordis-client-runner\
+DIR  profiles\node_modules\@deepseek-ai\dsh-cordis-host-runner\
+DIR  profiles\node_modules\@deepseek-ai\dsh-credentials\
+DIR  profiles\node_modules\@deepseek-ai\dsh-credentials-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-deepseek-llm-api-extensions\
+DIR  profiles\node_modules\@deepseek-ai\dsh-deque\
+DIR  profiles\node_modules\@deepseek-ai\dsh-file-reference\
+DIR  profiles\node_modules\@deepseek-ai\dsh-file-reference-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-fs\
+DIR  profiles\node_modules\@deepseek-ai\dsh-fs-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-fs-observation-policy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-fs-sandbox\
+DIR  profiles\node_modules\@deepseek-ai\dsh-goal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-goal-round-driver\
+DIR  profiles\node_modules\@deepseek-ai\dsh-headless\
+DIR  profiles\node_modules\@deepseek-ai\dsh-home-paths\
+DIR  profiles\node_modules\@deepseek-ai\dsh-hook-protocol\
+DIR  profiles\node_modules\@deepseek-ai\dsh-hooks-claude-code\
+DIR  profiles\node_modules\@deepseek-ai\dsh-hooks-codex\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-apiproxy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-directory-picker\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-directory-picker-auto\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-directory-picker-browse\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-directory-picker-native\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-frontend-static\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-open-in-app\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-plugin-inventory\
+DIR  profiles\node_modules\@deepseek-ai\dsh-host-webserver\
+DIR  profiles\node_modules\@deepseek-ai\dsh-http-proxy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-invariants\
+DIR  profiles\node_modules\@deepseek-ai\dsh-jobs\
+DIR  profiles\node_modules\@deepseek-ai\dsh-jobs-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-launch-environment\
+DIR  profiles\node_modules\@deepseek-ai\dsh-llm\
+DIR  profiles\node_modules\@deepseek-ai\dsh-llm-deepseek\
+DIR  profiles\node_modules\@deepseek-ai\dsh-llm-pi-ai\
+DIR  profiles\node_modules\@deepseek-ai\dsh-llm-retry\
+DIR  profiles\node_modules\@deepseek-ai\dsh-mcp-client\
+DIR  profiles\node_modules\@deepseek-ai\dsh-message-feedback\
+DIR  profiles\node_modules\@deepseek-ai\dsh-native-command\
+DIR  profiles\node_modules\@deepseek-ai\dsh-output-retention\
+DIR  profiles\node_modules\@deepseek-ai\dsh-package-manifest\
+DIR  profiles\node_modules\@deepseek-ai\dsh-permission-presets\
+DIR  profiles\node_modules\@deepseek-ai\dsh-persona\
+DIR  profiles\node_modules\@deepseek-ai\dsh-plan-mode\
+DIR  profiles\node_modules\@deepseek-ai\dsh-plugin-package-inventory-deepseek\
+DIR  profiles\node_modules\@deepseek-ai\dsh-pwsh-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-pwsh-sandbox\
+DIR  profiles\node_modules\@deepseek-ai\dsh-repeat-tool-reminder\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sandbox\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sandbox-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sandbox-policy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sandbox-windows-acl\
+DIR  profiles\node_modules\@deepseek-ai\dsh-schedule\
+DIR  profiles\node_modules\@deepseek-ai\dsh-scope\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sdk-app\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sdk-jsonrpc-server\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sdk-minimal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-sdk-protocol\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-checkpoint-policy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-format\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-format-catalog\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-format-v0-to-v1\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-format-v1-to-v2\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-format-v2-to-v3\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-log-deepseek\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-log-export\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-persistence\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-persistence-jsonl\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-projection\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-projection-cache\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-query\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-query-sqlite\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-reference\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-stats\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-telemetry\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-telemetry-otel\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-title\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-title-first-prompt-llm\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-title-llm\
+DIR  profiles\node_modules\@deepseek-ai\dsh-session-turn-outline\
+DIR  profiles\node_modules\@deepseek-ai\dsh-settings\
+DIR  profiles\node_modules\@deepseek-ai\dsh-settings-file\
+DIR  profiles\node_modules\@deepseek-ai\dsh-shell\
+DIR  profiles\node_modules\@deepseek-ai\dsh-shell-env\
+DIR  profiles\node_modules\@deepseek-ai\dsh-skill\
+DIR  profiles\node_modules\@deepseek-ai\dsh-skill-badge\
+DIR  profiles\node_modules\@deepseek-ai\dsh-skill-filesystem\
+DIR  profiles\node_modules\@deepseek-ai\dsh-spill\
+DIR  profiles\node_modules\@deepseek-ai\dsh-spill-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-spill-policy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-storage\
+DIR  profiles\node_modules\@deepseek-ai\dsh-storage-domain\
+DIR  profiles\node_modules\@deepseek-ai\dsh-storage-json\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subagent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subagent-fork-in-process\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subagent-in-process-driver\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subagent-spawn-in-process\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subprocess\
+DIR  profiles\node_modules\@deepseek-ai\dsh-subprocess-local\
+DIR  profiles\node_modules\@deepseek-ai\dsh-system-prompt\
+DIR  profiles\node_modules\@deepseek-ai\dsh-terminal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-terminal-bash\
+DIR  profiles\node_modules\@deepseek-ai\dsh-time-context\
+DIR  profiles\node_modules\@deepseek-ai\dsh-timeout\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tmux-context\
+DIR  profiles\node_modules\@deepseek-ai\dsh-token-meter\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-ask-user\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-bash\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-bash-persistent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-call-timeout-policy\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-cordis\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-fs\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-fs-search\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-goal\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-jobs\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-present\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-pwsh\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-pwsh-persistent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-ralph\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tools\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-skill\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-str-replace-editor\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-subagent\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-subagent-control\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-subagent-report\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-todo\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-web\
+DIR  profiles\node_modules\@deepseek-ai\dsh-tool-workflow\
+DIR  profiles\node_modules\@deepseek-ai\dsh-typert-loader\
+DIR  profiles\node_modules\@deepseek-ai\dsh-typert-protocol\
+DIR  profiles\node_modules\@deepseek-ai\dsh-typert-registry\
+DIR  profiles\node_modules\@deepseek-ai\dsh-user-approval\
+DIR  profiles\node_modules\@deepseek-ai\dsh-user-questions\
+DIR  profiles\node_modules\@deepseek-ai\dsh-util-crypto\
+DIR  profiles\node_modules\@deepseek-ai\dsh-util-time\
+DIR  profiles\node_modules\@deepseek-ai\dsh-util-values\
+DIR  profiles\node_modules\@deepseek-ai\dsh-util-workspace-path\
+DIR  profiles\node_modules\@deepseek-ai\dsh-web\
+DIR  profiles\node_modules\@deepseek-ai\dsh-web-app\
+DIR  profiles\node_modules\@deepseek-ai\dsh-web-fetch-http\
+DIR  profiles\node_modules\@deepseek-ai\dsh-web-frontend\
+DIR  profiles\node_modules\@deepseek-ai\dsh-webhook\
+DIR  profiles\node_modules\@deepseek-ai\dsh-webhook-github\
+DIR  profiles\node_modules\@deepseek-ai\dsh-web-search-deepseek\
+DIR  profiles\node_modules\@deepseek-ai\dsh-win32-process\
+DIR  profiles\node_modules\@deepseek-ai\dsh-workflow\
+DIR  profiles\node_modules\@deepseek-ai\dsh-workflow-worker-thread\
+DIR  profiles\node_modules\@deepseek-ai\dsh-workspace\
+DIR  profiles\node_modules\@deepseek-ai\node-addon-landlock-run\
+DIR  profiles\node_modules\@deepseek-ai\node-addon-system\
+DIR  profiles\node_modules\@deepseek-ai\schemastery\
+DIR  profiles\node_modules\@earendil-works\
+DIR  profiles\node_modules\@earendil-works\pi-ai\
+DIR  profiles\node_modules\@earendil-works\pi-telemetry\
+DIR  profiles\node_modules\@google\
+DIR  profiles\node_modules\@google\genai\
+DIR  profiles\node_modules\@hono\
+DIR  profiles\node_modules\@hono\node-server\
+DIR  profiles\node_modules\@img\
+DIR  profiles\node_modules\@img\colour\
+DIR  profiles\node_modules\@joplin\
+DIR  profiles\node_modules\@joplin\turndown-plugin-gfm\
+DIR  profiles\node_modules\@mistralai\
+DIR  profiles\node_modules\@mistralai\mistralai\
+DIR  profiles\node_modules\@mixmark-io\
+DIR  profiles\node_modules\@mixmark-io\domino\
+DIR  profiles\node_modules\@modelcontextprotocol\
+DIR  profiles\node_modules\@modelcontextprotocol\sdk\
+DIR  profiles\node_modules\@octokit\
+DIR  profiles\node_modules\@octokit\openapi-types\
+DIR  profiles\node_modules\@octokit\openapi-webhooks-types\
+DIR  profiles\node_modules\@octokit\request-error\
+DIR  profiles\node_modules\@octokit\types\
+DIR  profiles\node_modules\@octokit\webhooks\
+DIR  profiles\node_modules\@octokit\webhooks-methods\
+DIR  profiles\node_modules\@opentelemetry\
+DIR  profiles\node_modules\@opentelemetry\api\
+DIR  profiles\node_modules\@opentelemetry\api-logs\
+DIR  profiles\node_modules\@opentelemetry\core\
+DIR  profiles\node_modules\@opentelemetry\exporter-logs-otlp-http\
+DIR  profiles\node_modules\@opentelemetry\otlp-exporter-base\
+DIR  profiles\node_modules\@opentelemetry\otlp-transformer\
+DIR  profiles\node_modules\@opentelemetry\resources\
+DIR  profiles\node_modules\@opentelemetry\sdk-logs\
+DIR  profiles\node_modules\@opentelemetry\sdk-metrics\
+DIR  profiles\node_modules\@opentelemetry\sdk-trace\
+DIR  profiles\node_modules\@opentelemetry\semantic-conventions\
+DIR  profiles\node_modules\@protobufjs\
+DIR  profiles\node_modules\@protobufjs\aspromise\
+DIR  profiles\node_modules\@protobufjs\base64\
+DIR  profiles\node_modules\@protobufjs\codegen\
+DIR  profiles\node_modules\@protobufjs\eventemitter\
+DIR  profiles\node_modules\@protobufjs\fetch\
+DIR  profiles\node_modules\@protobufjs\float\
+DIR  profiles\node_modules\@protobufjs\path\
+DIR  profiles\node_modules\@protobufjs\pool\
+DIR  profiles\node_modules\@protobufjs\utf8\
+DIR  profiles\node_modules\@smithy\
+DIR  profiles\node_modules\@smithy\core\
+DIR  profiles\node_modules\@smithy\credential-provider-imds\
+DIR  profiles\node_modules\@smithy\fetch-http-handler\
+DIR  profiles\node_modules\@smithy\is-array-buffer\
+DIR  profiles\node_modules\@smithy\node-http-handler\
+DIR  profiles\node_modules\@smithy\signature-v4\
+DIR  profiles\node_modules\@smithy\types\
+DIR  profiles\node_modules\@smithy\util-buffer-from\
+DIR  profiles\node_modules\@smithy\util-utf8\
+DIR  profiles\node_modules\@stablelib\
+DIR  profiles\node_modules\@stablelib\base64\
+DIR  profiles\node_modules\@standard-schema\
+DIR  profiles\node_modules\@standard-schema\spec\
+DIR  profiles\node_modules\@tanstack\
+DIR  profiles\node_modules\@tanstack\react-virtual\
+DIR  profiles\node_modules\@tanstack\virtual-core\
+DIR  profiles\node_modules\@types\
+DIR  profiles\node_modules\@types\node\
+DIR  profiles\node_modules\@types\retry\
+DIR  profiles\node_modules\@vscode\
+DIR  profiles\node_modules\@vscode\ripgrep\
+DIR  profiles\node_modules\@xterm\
+DIR  profiles\node_modules\@xterm\headless\
+DIR  profiles\node_modules\accepts\
+DIR  profiles\node_modules\agent-base\
+DIR  profiles\node_modules\ajv\
+DIR  profiles\node_modules\ajv-formats\
+DIR  profiles\node_modules\argparse\
+DIR  profiles\node_modules\base64-js\
+DIR  profiles\node_modules\bignumber.js\
+DIR  profiles\node_modules\body-parser\
+DIR  profiles\node_modules\bowser\
+DIR  profiles\node_modules\buffer-equal-constant-time\
+DIR  profiles\node_modules\bundle-name\
+DIR  profiles\node_modules\bytes\
+DIR  profiles\node_modules\call-bind-apply-helpers\
+DIR  profiles\node_modules\call-bound\
+DIR  profiles\node_modules\chokidar\
+DIR  profiles\node_modules\clsx\
+DIR  profiles\node_modules\commander\
+DIR  profiles\node_modules\compressible\
+DIR  profiles\node_modules\compression\
+DIR  profiles\node_modules\content-disposition\
+DIR  profiles\node_modules\content-type\
+DIR  profiles\node_modules\cookie\
+DIR  profiles\node_modules\cookie-signature\
+DIR  profiles\node_modules\cors\
+DIR  profiles\node_modules\cross-spawn\
+DIR  profiles\node_modules\data-uri-to-buffer\
+DIR  profiles\node_modules\debug\
+DIR  profiles\node_modules\default-browser\
+DIR  profiles\node_modules\default-browser-id\
+DIR  profiles\node_modules\define-lazy-prop\
+DIR  profiles\node_modules\depd\
+DIR  profiles\node_modules\destroy\
+DIR  profiles\node_modules\detect-libc\
+DIR  profiles\node_modules\diff\
+DIR  profiles\node_modules\dunder-proto\
+DIR  profiles\node_modules\ecdsa-sig-formatter\
+DIR  profiles\node_modules\ee-first\
+DIR  profiles\node_modules\encodeurl\
+DIR  profiles\node_modules\escape-html\
+DIR  profiles\node_modules\es-define-property\
+DIR  profiles\node_modules\es-errors\
+DIR  profiles\node_modules\es-object-atoms\
+DIR  profiles\node_modules\etag\
+DIR  profiles\node_modules\eventsource\
+DIR  profiles\node_modules\eventsource-parser\
+DIR  profiles\node_modules\express\
+DIR  profiles\node_modules\express-rate-limit\
+DIR  profiles\node_modules\extend\
+DIR  profiles\node_modules\fast-deep-equal\
+DIR  profiles\node_modules\fast-sha256\
+DIR  profiles\node_modules\fast-uri\
+DIR  profiles\node_modules\fetch-blob\
+DIR  profiles\node_modules\fflate\
+DIR  profiles\node_modules\finalhandler\
+DIR  profiles\node_modules\formdata-polyfill\
+DIR  profiles\node_modules\forwarded\
+DIR  profiles\node_modules\fresh\
+DIR  profiles\node_modules\function-bind\
+DIR  profiles\node_modules\gaxios\
+DIR  profiles\node_modules\gcp-metadata\
+DIR  profiles\node_modules\get-intrinsic\
+DIR  profiles\node_modules\get-proto\
+DIR  profiles\node_modules\google-auth-library\
+DIR  profiles\node_modules\google-logging-utils\
+DIR  profiles\node_modules\gopd\
+DIR  profiles\node_modules\hasown\
+DIR  profiles\node_modules\has-symbols\
+DIR  profiles\node_modules\hono\
+DIR  profiles\node_modules\http-errors\
+DIR  profiles\node_modules\http-proxy-agent\
+DIR  profiles\node_modules\https-proxy-agent\
+DIR  profiles\node_modules\iconv-lite\
+DIR  profiles\node_modules\immer\
+DIR  profiles\node_modules\inherits\
+DIR  profiles\node_modules\ipaddr.js\
+DIR  profiles\node_modules\ip-address\
+DIR  profiles\node_modules\is-docker\
+DIR  profiles\node_modules\isexe\
+DIR  profiles\node_modules\is-inside-container\
+DIR  profiles\node_modules\is-in-ssh\
+DIR  profiles\node_modules\is-promise\
+DIR  profiles\node_modules\is-wsl\
+DIR  profiles\node_modules\jose\
+DIR  profiles\node_modules\json-bigint\
+DIR  profiles\node_modules\json-schema-to-ts\
+DIR  profiles\node_modules\json-schema-traverse\
+DIR  profiles\node_modules\json-schema-typed\
+DIR  profiles\node_modules\js-tokens\
+DIR  profiles\node_modules\js-yaml\
+DIR  profiles\node_modules\jwa\
+DIR  profiles\node_modules\jws\
+DIR  profiles\node_modules\koffi\
+DIR  profiles\node_modules\long\
+DIR  profiles\node_modules\loose-envify\
+DIR  profiles\node_modules\math-intrinsics\
+DIR  profiles\node_modules\media-typer\
+DIR  profiles\node_modules\merge-descriptors\
+DIR  profiles\node_modules\mime-db\
+DIR  profiles\node_modules\mime-types\
+DIR  profiles\node_modules\ms\
+DIR  profiles\node_modules\negotiator\
+DIR  profiles\node_modules\node-addon-api\
+DIR  profiles\node_modules\node-addon-native-custom-loader\
+DIR  profiles\node_modules\node-addon-require-builtin\
+DIR  profiles\node_modules\node-domexception\
+DIR  profiles\node_modules\node-fetch\
+DIR  profiles\node_modules\node-pty\
+DIR  profiles\node_modules\object-assign\
+DIR  profiles\node_modules\object-inspect\
+DIR  profiles\node_modules\once\
+DIR  profiles\node_modules\on-finished\
+DIR  profiles\node_modules\on-headers\
+DIR  profiles\node_modules\open\
+DIR  profiles\node_modules\openai\
+DIR  profiles\node_modules\parseurl\
+DIR  profiles\node_modules\partial-json\
+DIR  profiles\node_modules\path-key\
+DIR  profiles\node_modules\path-to-regexp\
+DIR  profiles\node_modules\picocolors\
+DIR  profiles\node_modules\picomatch\
+DIR  profiles\node_modules\pkce-challenge\
+DIR  profiles\node_modules\powershell-utils\
+DIR  profiles\node_modules\p-retry\
+DIR  profiles\node_modules\protobufjs\
+DIR  profiles\node_modules\proxy-addr\
+DIR  profiles\node_modules\qs\
+DIR  profiles\node_modules\range-parser\
+DIR  profiles\node_modules\raw-body\
+DIR  profiles\node_modules\react\
+DIR  profiles\node_modules\react-dom\
+DIR  profiles\node_modules\readdirp\
+DIR  profiles\node_modules\require-from-string\
+DIR  profiles\node_modules\resolve.exports\
+DIR  profiles\node_modules\retry\
+DIR  profiles\node_modules\router\
+DIR  profiles\node_modules\run-applescript\
+DIR  profiles\node_modules\safe-buffer\
+DIR  profiles\node_modules\safer-buffer\
+DIR  profiles\node_modules\scheduler\
+DIR  profiles\node_modules\semver\
+DIR  profiles\node_modules\send\
+DIR  profiles\node_modules\serve-static\
+DIR  profiles\node_modules\setprototypeof\
+DIR  profiles\node_modules\sharp\
+DIR  profiles\node_modules\shebang-command\
+DIR  profiles\node_modules\shebang-regex\
+DIR  profiles\node_modules\side-channel\
+DIR  profiles\node_modules\side-channel-list\
+DIR  profiles\node_modules\side-channel-map\
+DIR  profiles\node_modules\side-channel-weakmap\
+DIR  profiles\node_modules\standardwebhooks\
+DIR  profiles\node_modules\statuses\
+DIR  profiles\node_modules\toidentifier\
+DIR  profiles\node_modules\ts-algebra\
+DIR  profiles\node_modules\tslib\
+DIR  profiles\node_modules\turndown\
+DIR  profiles\node_modules\typebox\
+DIR  profiles\node_modules\type-is\
+DIR  profiles\node_modules\undici\
+DIR  profiles\node_modules\undici-types\
+DIR  profiles\node_modules\unpipe\
+DIR  profiles\node_modules\use-sync-external-store\
+DIR  profiles\node_modules\vary\
+DIR  profiles\node_modules\web-streams-polyfill\
+DIR  profiles\node_modules\which\
+DIR  profiles\node_modules\wrappy\
+DIR  profiles\node_modules\ws\
+DIR  profiles\node_modules\wsl-utils\
+DIR  profiles\node_modules\yaml\
+DIR  profiles\node_modules\zod\
+DIR  profiles\node_modules\zod-to-json-schema\
+DIR  profiles\node_modules\zustand\
+DIR  profiles\web\
+DIR  profiles\web\.dsh-module-fallback\
+DIR  profiles\web\.dsh-module-fallback\node_modules\
+       217  2026-08-28 17:21:45  profiles\web\cordis.patch.yml
+       223  2026-09-12 16:18:42  profiles\web\cordis.yml
+DIR  profiles\web\node_modules\
+       236  2026-09-10 15:50:19  profiles\web\package.json
+        61  2026-08-28 17:21:45  profiles\web\pnpm-workspace.yaml
+DIR  sessions\
+DIR  sessions\--D-Navidrome-music-~97F3~4E50~5E93--\
+DIR  sessions\--D-Navidrome-music-~97F3~4E50~5E93--\session-e4f8bff9-73a5-466d-99fb-cbe2ee3096cd\
+    274509  2026-09-21 14:00:25  sessions\--D-Navidrome-music-~97F3~4E50~5E93--\session-e4f8bff9-73a5-466d-99fb-cbe2ee3096cd\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-deputy~0020to~0020the~0020People~0027s~0020Congress--\
+DIR  sessions\--D-Projects-deputy~0020to~0020the~0020People~0027s~0020Congress--\session-0715dc36-822c-4b44-bd33-bd695aa14215\
+    474649  2026-09-22 12:14:52  sessions\--D-Projects-deputy~0020to~0020the~0020People~0027s~0020Congress--\session-0715dc36-822c-4b44-bd33-bd695aa14215\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\
+DIR  sessions\--D-Projects-dsh-test--\3d350dbc-3c82-45a6-a16d-89bed7a89f64\
+     18409  2026-09-12 22:05:27  sessions\--D-Projects-dsh-test--\3d350dbc-3c82-45a6-a16d-89bed7a89f64\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\a2f6bb4d-520f-4be8-99c0-748992b56212\
+     25546  2026-09-12 22:07:03  sessions\--D-Projects-dsh-test--\a2f6bb4d-520f-4be8-99c0-748992b56212\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\d724e5cd-f5b5-429f-9b8c-19a5033dc61a\
+     17857  2026-09-12 22:04:47  sessions\--D-Projects-dsh-test--\d724e5cd-f5b5-429f-9b8c-19a5033dc61a\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\session-21dbfd25-7ec1-4490-b205-5c54b7e570a4\
+    182256  2026-09-12 22:17:06  sessions\--D-Projects-dsh-test--\session-21dbfd25-7ec1-4490-b205-5c54b7e570a4\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\session-3ac9dad2-098f-4ded-b433-fb6d52e57262\
+       319  2026-09-12 16:21:28  sessions\--D-Projects-dsh-test--\session-3ac9dad2-098f-4ded-b433-fb6d52e57262\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\session-665e3202-af85-462f-a897-7cd662332be1\
+   3766987  2026-09-10 15:32:47  sessions\--D-Projects-dsh-test--\session-665e3202-af85-462f-a897-7cd662332be1\session.jsonl.zstd
+   3633837  2026-10-04 20:17:27  sessions\--D-Projects-dsh-test--\session-665e3202-af85-462f-a897-7cd662332be1\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-dsh-test--\session-dd5b0ae2-ccb2-436f-bd38-4ba880f35122\
+   1124854  2026-09-12 16:51:59  sessions\--D-Projects-dsh-test--\session-dd5b0ae2-ccb2-436f-bd38-4ba880f35122\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\040e6241-91ec-4279-87af-b27d8950e183\
+    512758  2026-09-27 17:48:45  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\040e6241-91ec-4279-87af-b27d8950e183\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\0a4ce259-afaf-4e2e-ae10-b83ac6ef53a1\
+    601866  2026-09-29 20:11:00  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\0a4ce259-afaf-4e2e-ae10-b83ac6ef53a1\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\101aa775-2fda-4e88-9618-e39b2addd2da\
+    258049  2026-09-20 16:24:12  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\101aa775-2fda-4e88-9618-e39b2addd2da\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\25133eb6-9b3b-447e-ba03-8d4ec9201ccc\
+    383017  2026-09-21 19:09:59  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\25133eb6-9b3b-447e-ba03-8d4ec9201ccc\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\26128fc7-4fd5-43cf-b5b9-17c9bc121389\
+  20015227  2026-09-20 16:23:59  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\26128fc7-4fd5-43cf-b5b9-17c9bc121389\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\2d85f766-3cc4-4bf1-a88e-a33f69192a95\
+    552785  2026-09-20 19:04:32  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\2d85f766-3cc4-4bf1-a88e-a33f69192a95\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\2ef9f76b-19e2-4b88-b05b-4c238e6885d1\
+    729148  2026-09-29 20:15:44  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\2ef9f76b-19e2-4b88-b05b-4c238e6885d1\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\311d0ddd-7d25-4047-93f8-dfd061db95dc\
+    607109  2026-09-27 17:52:02  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\311d0ddd-7d25-4047-93f8-dfd061db95dc\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\345dd33e-1a83-40e3-8172-0e0dbdb9e067\
+    633284  2026-09-29 20:12:21  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\345dd33e-1a83-40e3-8172-0e0dbdb9e067\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\3e1dfbbc-587d-47f5-8b34-e976aca49446\
+    335279  2026-09-19 16:09:39  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\3e1dfbbc-587d-47f5-8b34-e976aca49446\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\411bb080-62ab-4220-a69f-8f347456cc3a\
+    325641  2026-09-27 15:49:56  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\411bb080-62ab-4220-a69f-8f347456cc3a\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\4601a547-2018-4b7a-8376-6ed6f0522cd5\
+    334903  2026-09-19 14:16:59  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\4601a547-2018-4b7a-8376-6ed6f0522cd5\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\4a70f24b-8142-4fbb-8c56-644f0849e364\
+    534433  2026-09-20 19:03:49  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\4a70f24b-8142-4fbb-8c56-644f0849e364\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\55f12a0c-0870-4e65-a858-f9e52f858d7a\
+    385953  2026-09-21 19:06:17  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\55f12a0c-0870-4e65-a858-f9e52f858d7a\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5994a5a0-4dee-4f80-a4ec-b9c879feda43\
+    288676  2026-09-21 19:06:09  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5994a5a0-4dee-4f80-a4ec-b9c879feda43\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5adf1ab9-2d0e-4f25-b719-2426dfb9ad8e\
+    379198  2026-09-20 19:02:20  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5adf1ab9-2d0e-4f25-b719-2426dfb9ad8e\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5ed0b2db-5605-4e7c-9934-ad6cb205f288\
+    222784  2026-09-19 16:07:48  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\5ed0b2db-5605-4e7c-9934-ad6cb205f288\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\63248342-5ebd-4525-b8f6-c75496e51477\
+    742728  2026-09-29 20:12:22  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\63248342-5ebd-4525-b8f6-c75496e51477\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\7d9229e8-8617-4e44-a593-94637b14c3c6\
+    510725  2026-09-27 18:23:20  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\7d9229e8-8617-4e44-a593-94637b14c3c6\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\7f19db12-0050-44a3-95bc-f115993b5260\
+    673992  2026-09-29 20:11:49  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\7f19db12-0050-44a3-95bc-f115993b5260\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\9108ee37-2170-47b6-a894-3313ec6db83d\
+    503830  2026-09-29 20:12:07  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\9108ee37-2170-47b6-a894-3313ec6db83d\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\94f4f24b-5944-493d-a9eb-4be44dd3102d\
+    666631  2026-09-29 20:12:48  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\94f4f24b-5944-493d-a9eb-4be44dd3102d\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a4bb1b6a-70eb-40a5-8448-4129350c6dce\
+    327675  2026-09-19 16:10:19  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a4bb1b6a-70eb-40a5-8448-4129350c6dce\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a7c35e4c-0008-44be-9570-38430f1f2e5a\
+    146833  2026-09-27 15:50:45  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a7c35e4c-0008-44be-9570-38430f1f2e5a\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a812a4fe-22bf-44a1-9e61-fb025960f0b8\
+    600298  2026-09-20 19:04:54  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\a812a4fe-22bf-44a1-9e61-fb025960f0b8\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\ab42d479-be2c-4bf8-aae2-56e8252ebe42\
+    486565  2026-09-20 19:04:09  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\ab42d479-be2c-4bf8-aae2-56e8252ebe42\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\b1fb8d8a-6a08-43b0-9bea-5f36366fc8e4\
+    380607  2026-09-19 14:17:04  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\b1fb8d8a-6a08-43b0-9bea-5f36366fc8e4\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\b3b4f4e3-c7fb-4f6e-bc6a-445c5fe489d5\
+    602629  2026-09-27 17:55:56  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\b3b4f4e3-c7fb-4f6e-bc6a-445c5fe489d5\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\cc0111b6-d588-42be-9b49-1cda1dc2ce3e\
+    286871  2026-09-19 16:08:18  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\cc0111b6-d588-42be-9b49-1cda1dc2ce3e\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\d35cc472-c9ce-4c36-951b-d91f61f19d49\
+    933631  2026-09-21 20:54:51  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\d35cc472-c9ce-4c36-951b-d91f61f19d49\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\dd8a480a-bdc7-4279-a4f6-e1d2a8200566\
+    327952  2026-09-21 19:05:33  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\dd8a480a-bdc7-4279-a4f6-e1d2a8200566\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e007409d-f430-4e47-8ea3-4e373ff6e907\
+    416385  2026-09-27 17:48:37  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e007409d-f430-4e47-8ea3-4e373ff6e907\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e95167f0-387d-483d-8259-f0d26267a2c2\
+    464494  2026-09-21 19:08:57  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e95167f0-387d-483d-8259-f0d26267a2c2\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e96f0718-8ccb-496f-be91-5768633cf15d\
+    333509  2026-09-21 19:05:53  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\e96f0718-8ccb-496f-be91-5768633cf15d\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f3e04070-5308-4dc6-b72b-9d744f0c25e3\
+    192717  2026-09-19 14:14:46  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f3e04070-5308-4dc6-b72b-9d744f0c25e3\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f5feb9a3-3a80-4c9a-b736-23c1e65302a6\
+    921453  2026-09-20 19:05:53  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f5feb9a3-3a80-4c9a-b736-23c1e65302a6\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f7c9dfac-b129-4484-ac17-aadcf72183ac\
+    659873  2026-09-29 20:11:55  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\f7c9dfac-b129-4484-ac17-aadcf72183ac\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\fa0fc3e8-cbb0-4f02-88a0-b5a6d855e5f1\
+    464531  2026-09-27 17:48:52  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\fa0fc3e8-cbb0-4f02-88a0-b5a6d855e5f1\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\fbe26c05-392f-4add-9306-41c61c0c74e5\
+    596908  2026-09-20 19:03:14  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\fbe26c05-392f-4add-9306-41c61c0c74e5\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-183298af-f21f-4b93-9a1b-568951ac8809\
+  23903980  2026-10-04 19:37:39  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-183298af-f21f-4b93-9a1b-568951ac8809\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-1c4f609d-34bf-46ad-9fc3-c1094a328998\
+   1058795  2026-09-10 14:54:38  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-1c4f609d-34bf-46ad-9fc3-c1094a328998\session.jsonl.zstd
+  44631108  2026-09-23 13:28:31  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-1c4f609d-34bf-46ad-9fc3-c1094a328998\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-cf268bc7-f6d2-4eb0-8e35-b044d04c45a9\
+  14545436  2026-09-28 21:09:08  sessions\--D-Projects-Personal~0020Job~0020Search~0020OS--\session-cf268bc7-f6d2-4eb0-8e35-b044d04c45a9\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Remote~0020boot--\
+DIR  sessions\--D-Projects-Remote~0020boot--\bf36f47f-67fc-473f-b238-d1d93abf8acc\
+    311599  2026-09-18 12:36:05  sessions\--D-Projects-Remote~0020boot--\bf36f47f-67fc-473f-b238-d1d93abf8acc\session.v3.jsonl.zstd
+DIR  sessions\--D-Projects-Remote~0020boot--\session-c3fc25c6-2f3b-411a-85c8-1d7aca6a18e6\
+    995556  2026-09-18 16:20:32  sessions\--D-Projects-Remote~0020boot--\session-c3fc25c6-2f3b-411a-85c8-1d7aca6a18e6\session.v3.jsonl.zstd
+       175  2026-09-30 23:05:13  settings.yaml
+DIR  storages\
+DIR  storages\session_projcache\
+      7911  2026-09-10 15:32:47  storages\session_projcache.json
+DIR  storages\session_projcache\sessions\
+     44629  2026-09-27 17:48:45  storages\session_projcache\sessions\040e6241-91ec-4279-87af-b27d8950e183.json
+     28869  2026-09-29 20:11:00  storages\session_projcache\sessions\0a4ce259-afaf-4e2e-ae10-b83ac6ef53a1.json
+     21436  2026-09-20 16:24:12  storages\session_projcache\sessions\101aa775-2fda-4e88-9618-e39b2addd2da.json
+     24657  2026-09-21 19:09:59  storages\session_projcache\sessions\25133eb6-9b3b-447e-ba03-8d4ec9201ccc.json
+    211205  2026-09-20 16:23:59  storages\session_projcache\sessions\26128fc7-4fd5-43cf-b5b9-17c9bc121389.json
+     18353  2026-09-20 19:04:32  storages\session_projcache\sessions\2d85f766-3cc4-4bf1-a88e-a33f69192a95.json
+     34936  2026-09-29 20:15:44  storages\session_projcache\sessions\2ef9f76b-19e2-4b88-b05b-4c238e6885d1.json
+     48450  2026-09-27 17:52:02  storages\session_projcache\sessions\311d0ddd-7d25-4047-93f8-dfd061db95dc.json
+     30633  2026-09-29 20:12:21  storages\session_projcache\sessions\345dd33e-1a83-40e3-8172-0e0dbdb9e067.json
+      5594  2026-09-12 22:05:27  storages\session_projcache\sessions\3d350dbc-3c82-45a6-a16d-89bed7a89f64.json
+     22368  2026-09-19 16:09:39  storages\session_projcache\sessions\3e1dfbbc-587d-47f5-8b34-e976aca49446.json
+     17349  2026-09-27 15:49:56  storages\session_projcache\sessions\411bb080-62ab-4220-a69f-8f347456cc3a.json
+     25283  2026-09-19 14:16:59  storages\session_projcache\sessions\4601a547-2018-4b7a-8376-6ed6f0522cd5.json
+     21351  2026-09-20 19:03:49  storages\session_projcache\sessions\4a70f24b-8142-4fbb-8c56-644f0849e364.json
+     25366  2026-09-21 19:06:17  storages\session_projcache\sessions\55f12a0c-0870-4e65-a858-f9e52f858d7a.json
+     23293  2026-09-21 19:06:09  storages\session_projcache\sessions\5994a5a0-4dee-4f80-a4ec-b9c879feda43.json
+     24092  2026-09-20 19:02:20  storages\session_projcache\sessions\5adf1ab9-2d0e-4f25-b719-2426dfb9ad8e.json
+     18652  2026-09-19 16:07:48  storages\session_projcache\sessions\5ed0b2db-5605-4e7c-9934-ad6cb205f288.json
+     36473  2026-09-29 20:12:22  storages\session_projcache\sessions\63248342-5ebd-4525-b8f6-c75496e51477.json
+     53620  2026-09-27 18:23:20  storages\session_projcache\sessions\7d9229e8-8617-4e44-a593-94637b14c3c6.json
+     30663  2026-09-29 20:11:49  storages\session_projcache\sessions\7f19db12-0050-44a3-95bc-f115993b5260.json
+     29190  2026-09-29 20:12:07  storages\session_projcache\sessions\9108ee37-2170-47b6-a894-3313ec6db83d.json
+     29866  2026-09-29 20:12:48  storages\session_projcache\sessions\94f4f24b-5944-493d-a9eb-4be44dd3102d.json
+      5794  2026-09-12 22:07:03  storages\session_projcache\sessions\a2f6bb4d-520f-4be8-99c0-748992b56212.json
+     21239  2026-09-19 16:10:19  storages\session_projcache\sessions\a4bb1b6a-70eb-40a5-8448-4129350c6dce.json
+     17099  2026-09-27 15:50:45  storages\session_projcache\sessions\a7c35e4c-0008-44be-9570-38430f1f2e5a.json
+     31336  2026-09-20 19:04:54  storages\session_projcache\sessions\a812a4fe-22bf-44a1-9e61-fb025960f0b8.json
+     28527  2026-09-20 19:04:09  storages\session_projcache\sessions\ab42d479-be2c-4bf8-aae2-56e8252ebe42.json
+     20688  2026-09-19 14:17:04  storages\session_projcache\sessions\b1fb8d8a-6a08-43b0-9bea-5f36366fc8e4.json
+     45266  2026-09-27 17:55:56  storages\session_projcache\sessions\b3b4f4e3-c7fb-4f6e-bc6a-445c5fe489d5.json
+     29517  2026-09-18 12:36:05  storages\session_projcache\sessions\bf36f47f-67fc-473f-b238-d1d93abf8acc.json
+     18505  2026-09-19 16:08:18  storages\session_projcache\sessions\cc0111b6-d588-42be-9b49-1cda1dc2ce3e.json
+     59733  2026-09-21 20:54:51  storages\session_projcache\sessions\d35cc472-c9ce-4c36-951b-d91f61f19d49.json
+      5667  2026-09-12 22:04:47  storages\session_projcache\sessions\d724e5cd-f5b5-429f-9b8c-19a5033dc61a.json
+     23849  2026-09-21 19:05:33  storages\session_projcache\sessions\dd8a480a-bdc7-4279-a4f6-e1d2a8200566.json
+     31948  2026-09-27 17:48:37  storages\session_projcache\sessions\e007409d-f430-4e47-8ea3-4e373ff6e907.json
+     24925  2026-09-21 19:08:57  storages\session_projcache\sessions\e95167f0-387d-483d-8259-f0d26267a2c2.json
+     25879  2026-09-21 19:05:53  storages\session_projcache\sessions\e96f0718-8ccb-496f-be91-5768633cf15d.json
+     17629  2026-09-19 14:14:46  storages\session_projcache\sessions\f3e04070-5308-4dc6-b72b-9d744f0c25e3.json
+     32845  2026-09-20 19:05:53  storages\session_projcache\sessions\f5feb9a3-3a80-4c9a-b736-23c1e65302a6.json
+     30806  2026-09-29 20:11:55  storages\session_projcache\sessions\f7c9dfac-b129-4484-ac17-aadcf72183ac.json
+     35734  2026-09-27 17:48:52  storages\session_projcache\sessions\fa0fc3e8-cbb0-4f02-88a0-b5a6d855e5f1.json
+     30484  2026-09-20 19:03:14  storages\session_projcache\sessions\fbe26c05-392f-4add-9306-41c61c0c74e5.json
+     41490  2026-09-22 12:14:52  storages\session_projcache\sessions\session-0715dc36-822c-4b44-bd33-bd695aa14215.json
+    125512  2026-10-04 19:37:39  storages\session_projcache\sessions\session-183298af-f21f-4b93-9a1b-568951ac8809.json
+    134126  2026-09-23 13:28:32  storages\session_projcache\sessions\session-1c4f609d-34bf-46ad-9fc3-c1094a328998.json
+     14491  2026-09-12 22:17:06  storages\session_projcache\sessions\session-21dbfd25-7ec1-4490-b205-5c54b7e570a4.json
+      3881  2026-09-12 16:21:28  storages\session_projcache\sessions\session-3ac9dad2-098f-4ded-b433-fb6d52e57262.json
+     52265  2026-10-04 20:17:23  storages\session_projcache\sessions\session-665e3202-af85-462f-a897-7cd662332be1.json
+     43559  2026-09-18 16:20:32  storages\session_projcache\sessions\session-c3fc25c6-2f3b-411a-85c8-1d7aca6a18e6.json
+    121336  2026-09-28 21:09:08  storages\session_projcache\sessions\session-cf268bc7-f6d2-4eb0-8e35-b044d04c45a9.json
+     67311  2026-09-12 16:52:04  storages\session_projcache\sessions\session-dd5b0ae2-ccb2-436f-bd38-4ba880f35122.json
+     22064  2026-09-21 14:00:25  storages\session_projcache\sessions\session-e4f8bff9-73a5-466d-99fb-cbe2ee3096cd.json
+      2402  2026-09-27 15:10:47  storages\workspace.json
+DIR  whale-audio\
+DIR  whale-bubble-imgs\
+DIR  whale-roles\
+       152  2026-09-15 20:46:45  whale-roles\roles.json
+```

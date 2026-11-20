@@ -1,0 +1,103 @@
+{
+  "unit": {
+    "name": "workspace",
+    "version": 2
+  },
+  "global": {
+    "initialized": true,
+    "workspaceIds": [
+      "ef6f489c-c00b-46ac-94ce-1581a8137b3f",
+      "41ca9182-9deb-40c2-b134-c53eeee668dc",
+      "df23ecdb-b1bc-48fe-bfef-14c2cc47d2b4",
+      "10ca80a4-4243-4c42-b402-a95ddef6d071",
+      "2c92c2f3-10b6-4ff9-a142-bd3c0f22bed4",
+      "eb84051f-17cb-458e-8773-327f3979f784",
+      "92030ae8-62db-4114-bf99-5ccdcb4c1449",
+      "94e1e0d8-edab-4efb-a542-b2692c895b25"
+    ],
+    "archivedSessionIds": [],
+    "pinnedSessionIds": []
+  },
+  "tables": {
+    "workspaces": {
+      "94e1e0d8-edab-4efb-a542-b2692c895b25": {
+        "path": "D:\\Projects\\dsh-test",
+        "title": "dsh-test",
+        "sessionIds": [
+          "session-3ac9dad2-098f-4ded-b433-fb6d52e57262",
+          "session-665e3202-af85-462f-a897-7cd662332be1",
+          "session-dd5b0ae2-ccb2-436f-bd38-4ba880f35122",
+          "session-21dbfd25-7ec1-4490-b205-5c54b7e570a4"
+        ],
+        "createdAt": "2026-09-08T06:20:02.410Z",
+        "updatedAt": "2026-09-12T08:53:20.389Z"
+      },
+      "92030ae8-62db-4114-bf99-5ccdcb4c1449": {
+        "path": "D:\\Projects\\Personal Job Search OS",
+        "title": "Personal Job Search OS",
+        "sessionIds": [
+          "session-58274ec2-1ad1-4634-9f8a-eb292bd1767b",
+          "session-183298af-f21f-4b93-9a1b-568951ac8809",
+          "session-cf268bc7-f6d2-4eb0-8e35-b044d04c45a9",
+          "session-1c4f609d-34bf-46ad-9fc3-c1094a328998"
+        ],
+        "createdAt": "2026-09-09T05:42:06.159Z",
+        "updatedAt": "2026-10-04T13:14:44.821Z"
+      },
+      "eb84051f-17cb-458e-8773-327f3979f784": {
+        "path": "D:\\Projects\\Remote boot",
+        "title": "Remote boot",
+        "sessionIds": [
+          "session-c3fc25c6-2f3b-411a-85c8-1d7aca6a18e6"
+        ],
+        "createdAt": "2026-09-18T04:27:45.195Z",
+        "updatedAt": "2026-09-18T04:27:45.259Z"
+      },
+      "2c92c2f3-10b6-4ff9-a142-bd3c0f22bed4": {
+        "path": "D:\\Navidrome\\music\\音乐库",
+        "title": "音乐库",
+        "sessionIds": [
+          "session-e4f8bff9-73a5-466d-99fb-cbe2ee3096cd"
+        ],
+        "createdAt": "2026-09-21T05:50:18.790Z",
+        "updatedAt": "2026-09-21T05:50:18.864Z"
+      },
+      "10ca80a4-4243-4c42-b402-a95ddef6d071": {
+        "path": "D:\\Projects\\deputy to the People's Congress",
+        "title": "deputy to the People's Congress",
+        "sessionIds": [
+          "session-0715dc36-822c-4b44-bd33-bd695aa14215"
+        ],
+        "createdAt": "2026-09-22T03:54:56.738Z",
+        "updatedAt": "2026-09-22T03:54:56.800Z"
+      },
+      "df23ecdb-b1bc-48fe-bfef-14c2cc47d2b4": {
+        "path": "D:\\Projects\\dsh-desktop-runtime-test",
+        "title": "dsh-desktop-runtime-test",
+        "sessionIds": [
+          "session-701e8f07-08ab-46e5-9b1b-bfb2b0d45227"
+        ],
+        "createdAt": "2026-10-04T14:45:29.381Z",
+        "updatedAt": "2026-10-05T04:29:41.487Z"
+      },
+      "41ca9182-9deb-40c2-b134-c53eeee668dc": {
+        "path": "D:\\Projects\\dsh-desktop-runtime-test-2",
+        "title": "dsh-desktop-runtime-test-2",
+        "sessionIds": [
+          "session-944c61ce-dbf6-4bc6-aa79-9fbb05d0a55d"
+        ],
+        "createdAt": "2026-10-05T06:50:43.054Z",
+        "updatedAt": "2026-10-05T06:50:43.094Z"
+      },
+      "ef6f489c-c00b-46ac-94ce-1581a8137b3f": {
+        "path": "D:\\Projects\\dsh-desktop-runtime-test-3",
+        "title": "dsh-desktop-runtime-test-3",
+        "sessionIds": [
+          "session-f2bc40b9-0196-4d85-b573-2468122f5ead"
+        ],
+        "createdAt": "2026-10-05T07:39:39.165Z",
+        "updatedAt": "2026-10-05T08:00:07.169Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿================================================================
+STEP 1 - QUIESCENT BASELINE CAPTURE     (2026-10-05 13:33:18)
+Root = D:\Projects\dsh-test\evidence\desktop\runtime
+================================================================
+
+--- A. quiescence gate (before capture #1) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+[PASS] all hosts stopped and 3080/3180 free
+
+--- B. capture #1 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT ---
+[PASS] capture #1 written
+--- C. waiting 20s ---
+--- D0. quiescence gate (before capture #2) ---
+  desktop(electron-shell/desktop-host) = 0
+  cli host (@deepseek-ai/dsh/lib/bin.js) = 0
+  playwright MCP processes                 = 0
+  MCP-dedicated Chrome                     = 0
+  listeners on 3080/3180                   = 0
+--- D. capture #2 -> D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-2 ---
+[PASS] capture #2 written
+
+--- E. diff capture #1 vs capture #2 ---
+  per-section counts:
+
+--- F0. session format denial ---
+================================================================
+QUIESCENT BASELINE: PASS
+  both captures are byte-identical: no ADDED / DELETED / CONTENT-CHANGED / MTIME-ONLY
+  baseline : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT
+  verify   : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-2
+
+MTIME-ONLY POLICY (explicit)
+  allowed for a QUIESCENT claim : none
+  effect on baseline usability  : content-identical => usable as CONTENT guard only
+  effect on the E1 guard        : e1-capture.ps1 compares CONTENT (Size/Sha256) only,
+                                  so an mtime-only baseline is still a valid content baseline
+captures: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT
+          D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-2
+compare : D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-compare

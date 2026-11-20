@@ -1,0 +1,12 @@
+﻿{
+    "RunName":  "run2",
+    "LockedAt":  "2026-10-05 14:53:24",
+    "WorkspacePath":  "D:\\Projects\\dsh-desktop-runtime-test-2",
+    "WorkspaceDir":  "C:\\Users\\user02\\.dsh\\sessions\\--D-Projects-dsh-desktop-runtime-test-2--",
+    "SessionId":  "session-944c61ce-dbf6-4bc6-aa79-9fbb05d0a55d",
+    "File":  "session.v4.jsonl.zstd",
+    "Format":  "v4",
+    "SizeAtLock":  16640,
+    "Sha256AtLock":  "A1D877A9E9E9148DFEED08FF8EFF104BB5397B8BECE700F58A7CC9E6543D5921",
+    "ProjCache":  "C:\\Users\\user02\\.dsh\\storages\\session_projcache\\sessions\\session-944c61ce-dbf6-4bc6-aa79-9fbb05d0a55d.json"
+}

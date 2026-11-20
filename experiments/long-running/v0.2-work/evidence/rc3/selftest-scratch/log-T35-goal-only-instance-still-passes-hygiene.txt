@@ -1,0 +1,14 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Hygiene
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\17-T35-goal-only\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate\long-running
+instance root (default): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\17-T35-goal-only\docs\long-running
+guarantee scope: this run does NOT verify the frozen goal contract, does NOT verify
+initialization readiness, and does NOT authorize creating or arming a goal.
+
+HYGIENE PASS
+  CONTRACT NOT CHECKED - the frozen goal contract was not read, so this run says nothing
+  about whether the inspected directory is the declared one.
+  NOT an ADOPTION PASS. This does not prove contract consistency or initialization readiness,
+  does not prove human approval, and does not authorize creating or arming a goal.

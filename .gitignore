@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# dsh-test - repository ignore rules
+#
+# Principle: commit research knowledge and evidence; ignore only what is
+# regenerable from committed inputs, or runtime exhaust that never belonged
+# in a research repository.
+#
+# Nothing here deletes anything: ignored files stay on disk, they are simply
+# not tracked. Log files, evidence archives and research artifacts are
+# deliberately NOT ignored - many are primary evidence cited by reports.
+# ---------------------------------------------------------------------------
+
+# Unpacked npm package trees produced while auditing DSH versions.
+# The audit README states these are regenerable intermediates, NOT the evidence
+# itself: the evidence is the per-file SHA-256 comparison in package-diff.json.
+# Excluding them keeps the repository ~11 MB instead of ~211 MB.
+experiments/dsh-version-audit/*/evidence/work/
+
+# Dependencies (none committed today; guarded against accidental `npm install`)
+node_modules/
+.pnpm-store/
+
+# Raw session logs are runtime exhaust, not research records.
+# Note the narrow path: `.log` evidence files everywhere else ARE tracked.
+archive/session-logs/
+
+# Owner-kept manual snapshot archives (untracked on purpose; kept on disk).
+# Only the three snapshots in the v0.2 candidate directory are excluded;
+# `evidence/desktop/archive/*.zip` is primary evidence and stays tracked.
+experiments/long-running/v0.2-work/candidate/*.zip
+
+# Runtime attachments / spills / local DSH state
+.dsh/
+*.attachment
+*.spill
+
+# Scratch files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp

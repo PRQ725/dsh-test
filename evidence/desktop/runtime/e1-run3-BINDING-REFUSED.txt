@@ -1,0 +1,24 @@
+﻿================================================================
+E1 RUN run3  STAGE A   (captured 2026-10-05 15:01:06)
+stageDir = D:\Projects\dsh-test\evidence\desktop\runtime\e1-run3-A
+================================================================
+
+--- preconditions ---
+--- explicit run context / baseline binding ---
+  metadata      : D:\Projects\dsh-test\evidence\desktop\runtime\e1-run3.metadata.json
+[STOP] [binding] declared baseline directory does not exist: D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-R3
+       Create/inspect the run with:  new-e1-run.ps1 -RunName run3
+       Seal the baseline with:       capture-e1-quiescent-baseline.ps1 -Namespace <ns> -MetadataPath <meta>
+
+REFUSED: the run baseline binding is not valid; no stage may run without it
+stage directory was NOT created: D:\Projects\dsh-test\evidence\desktop\runtime\e1-run3-A
+
+--------------------------------------------------------------------
+READER NOTE (appended 2026-10-05 15:0x, after the fact):
+This refusal is EXPECTED and is evidence that the binding gate works. It was produced by a
+deliberate pre-flight test of e1-capture.ps1 -RunName run3 -Stage A executed BEFORE the R3
+baseline had been captured. It does NOT mean run3 Stage A failed: no Stage A has been run,
+no stage directory was created, and no capture was performed.
+The real Stage A happens only after capture-e1-quiescent-baseline.ps1 -Namespace
+e1-BASE-QUIESCENT-R3 reports PASS and seals e1-run3.metadata.json.
+See e1-run3-runbook.md.

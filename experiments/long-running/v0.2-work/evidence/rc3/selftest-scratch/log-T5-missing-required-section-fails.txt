@@ -1,0 +1,11 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\05-T5-section\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+FAIL
+  - V1 missing required section in METHODOLOGY.md: '## 6 Stop'
+  - V12 -Proposal does not resolve to a candidate root containing long-running/
+
+failure reasons: 2

@@ -1,0 +1,1 @@
+ERROR: root does not exist: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\selftest-scratch\does-not-exist

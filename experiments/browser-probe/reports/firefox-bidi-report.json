@@ -1,0 +1,182 @@
+{
+  "tag": "firefox",
+  "port": "9224",
+  "url": "https://bambulab.jobs.feishu.cn/campus",
+  "layers": {
+    "1.bidi_handshake": {
+      "ok": true,
+      "detail": "websocket /session open (W3C BiDi endpoint)"
+    },
+    "2.session_new": {
+      "ok": true,
+      "detail": "sessionId=6a019051-1d3d-4388-a069-42f3be55b4a7 browser=firefox 154.0.1 webSocketUrl=n/a"
+    },
+    "3.domains_enabled": {
+      "ok": true,
+      "detail": "{\"script.enable\":\"unsupported: \\\"unknown command\\\"\",\"log.enable\":\"unsupported: \\\"unknown command\\\"\",\"browsingContext.enable\":\"unsupported: \\\"unknown command\\\"\",\"session.subscribe\":\"enabled\"}"
+    },
+    "4.browsing_context": {
+      "ok": true,
+      "detail": "context=f849bc02-d772-47f3-aa60-c8e31064c7f4; tree=[{\"context\":\"f849bc02-d772-47f3-aa60-c8e31064c7f4\",\"url\":\"https://bambulab.jobs.feishu.cn/campus\",\"children\":2}]"
+    },
+    "5.navigate": {
+      "ok": true,
+      "detail": "reached=https://bambulab.jobs.feishu.cn/campus readyState via wait=complete"
+    },
+    "6.js_execution": {
+      "ok": true,
+      "detail": "proof=JS_EVAL_OK title=\"欢迎加入拓竹科技\""
+    },
+    "7.rendered_dom": {
+      "ok": true,
+      "detail": "captured 2350324 chars -> firefox-rendered-dom.html"
+    },
+    "8.screenshot": {
+      "ok": true,
+      "detail": "5501 bytes -> firefox-screenshot.png"
+    },
+    "9.after_settle_render": {
+      "ok": true,
+      "detail": "textLen=2541 anchors=16 jobIds=10"
+    }
+  },
+  "console": [
+    {
+      "level": "warn",
+      "text": "react-intl-universal locales data \"null\" not exists."
+    },
+    {
+      "level": "info",
+      "text": "1.0.0.1095"
+    },
+    {
+      "level": "info",
+      "text": "version:0.1.7"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal locales data \"null\" not exists."
+    },
+    {
+      "level": "info",
+      "text": "1.0.0.1095"
+    },
+    {
+      "level": "info",
+      "text": "version:0.1.7"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    },
+    {
+      "level": "warn",
+      "text": "react-intl-universal key \"职位\" not defined in zh-CN"
+    }
+  ],
+  "errors": [],
+  "sessionId": "6a019051-1d3d-4388-a069-42f3be55b4a7",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "154.0.1",
+    "platformName": "windows",
+    "setWindowRect": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0",
+    "moz:buildID": "20260824154132",
+    "moz:headless": true,
+    "moz:platformVersion": "10.0",
+    "moz:processID": 1884,
+    "moz:profile": "D:\\Projects\\dsh-test\\browser-probe\\ff-profile",
+    "moz:shutdownTimeout": 60000
+  },
+  "contextTree": [
+    {
+      "context": "f849bc02-d772-47f3-aa60-c8e31064c7f4",
+      "url": "https://bambulab.jobs.feishu.cn/campus",
+      "children": 2
+    }
+  ],
+  "navigation": {
+    "navigation": "f7fd3d49-4929-4aa5-9995-dd0e3d6c2bbb",
+    "url": "https://bambulab.jobs.feishu.cn/campus"
+  },
+  "eval": {
+    "title": "欢迎加入拓竹科技",
+    "href": "https://bambulab.jobs.feishu.cn/campus",
+    "readyState": "complete",
+    "htmlLength": 2350324,
+    "textLength": 18,
+    "textSample": "搜索\n筛选\n清除\n开启新的工作（0）",
+    "anchorCount": 0,
+    "jobishAnchorCount": 0,
+    "jobishIds": [],
+    "antiBotSignals": {
+      "slideVerifyScript": true,
+      "verifyContainers": 0,
+      "signatureRefsInHtml": 1
+    },
+    "jsExecutionProof": "JS_EVAL_OK"
+  },
+  "evalAfterWait": {
+    "title": "欢迎加入拓竹科技",
+    "href": "https://bambulab.jobs.feishu.cn/campus",
+    "readyState": "complete",
+    "htmlLength": 2375412,
+    "textLength": 2541,
+    "textSample": "职位\n产品官网\n招聘官网首页\n社会招聘\n校招FAQ\n登录\n搜索\n筛选\n清除\n招聘项目\n27届校招\n27届秋招（制造类）\n27届秋招（研发类）\n27届秋招（非研发类）\n27届暑期实习\n日常实习\n制造技能人才招聘\n城市\n深圳\n上海\n武汉\n杭州\n北京\n惠州\n职能分类\n研发\nMakerWorld\n供应链\n物流\n市场&销售\n产品\n客户关系\n设计\n生产制造\n职能支持\n项目管理\n产品知识中心\n职位标签\n热招\n开启新的工作（167）\n东南亚KOL实习生\n深圳实习市场&销售 - 电商\n1. 负责泰国 / 越南市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的日常运营，参与内容创意讨论，支持 Bambu Lab 产品在本地市场的推广。\n3. 跟进样机寄送、素材整理、内容链接收集、数据记录等项目执行事务。\n4. 进行本地用户、平台热点、KOL生态及竞品动作研究，输出市场洞察和内容机会点。\n体验设计实习生\n上海实习设计\n1、参与Bambu Lab产品的全链路体验设计工作，包括设备屏幕、控制软件等;\n2、在设计师指导下，支持从用户研究、信息架构、交互流程到UI视觉的完整设计流程;\n3、协助开展用户调研（用户访谈、可用性测试、竞品分析等），帮助团队深入理解用户需求;\n4、参与设计规范、设计资产和流程机制建设，推动复杂业务场景下的设计复用与提效；\n俄语KOL实习生\n深圳实习市场&销售 - 市场\n1. 负责俄语市场 KOL 物色、沟通及合作跟进，协助完成从创意构思到内容发布的执行流程。\n2. 协助社媒账号的日常运营，参与内容创意讨论，支持 Bambu Lab 产",
+    "anchorCount": 16,
+    "jobishAnchorCount": 11,
+    "jobishIds": [
+      "7682701506303117614",
+      "7682699711812323622",
+      "7682616300249876746",
+      "7681625231060568371",
+      "7681283467217193254",
+      "7681277524110248201",
+      "7680781837862963497",
+      "7680780327866386698",
+      "7678992301288802610",
+      "7678544081724164371"
+    ],
+    "antiBotSignals": {
+      "slideVerifyScript": true,
+      "verifyContainers": 0,
+      "signatureRefsInHtml": 1
+    },
+    "jsExecutionProof": "JS_EVAL_OK"
+  },
+  "summary": {
+    "bidiEndpoint": true,
+    "sessionCreated": true,
+    "navigated": true,
+    "jsExecuted": true,
+    "domObtained": true,
+    "renderedContent": true,
+    "jobIdsFound": 10
+  }
+}

@@ -1,0 +1,11 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc1-scenarios\E-pristine-toolkit\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work\candidate
+instance root: not resolved (see the failure reasons below)
+
+FAIL
+  - V12 the default instance root does not exist: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc1-scenarios\E-pristine-toolkit\docs\long-running (pass -InstanceRoot to declare a different directory)
+
+failure reasons: 1

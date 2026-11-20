@@ -1,0 +1,33 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Readiness
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S4-blank-declaration\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S4-blank-declaration\planning
+instance-root consistency: FAIL
+
+INITIALIZATION READINESS
+  PASS = mechanically checked and satisfied | POLICY = a record, not authorization
+  PENDING = a human gate, not performed by the evaluator | FAIL = a checkable prerequisite is absent
+
+  R01  FAIL    filled objective contract :: GOAL.md still carries the UNFILLED marker
+  R02  POLICY  approved plan :: approval record present: approved, 2026-10-09 (a record, not proof of intent)
+  R03  PASS    initialized state :: round field: synthetic rc.2 value. The round number and the cap it runs against, written as rounds started over the
+  R04  PASS    filled evaluation contract :: EVALUATION.md present with no blank-form marker
+  R05  PASS    project evaluator exists :: resolved 'evaluator/check-project.ps1' to a file on disk
+  R06  POLICY  evaluator test evidence :: record present: untouched project -> exit 0; one missing file -> exit 1 naming it; missing root -> exit 2 (the adequacy of those tests stays a human judgement)
+  R07  PASS    evaluator freeze baseline recorded :: a hash-shaped freeze record is present
+  R08  PASS    budget and stop conditions stated :: both are stated in the objective contract
+  R09  PENDING workspace and permission boundary verified :: the evaluator cannot verify which sandbox mode or scope a human actually accepted; this stays a human gate
+  R10  FAIL    instance-root consistency :: the declaration and the inspected directory disagree; a human must decide which side is corrected
+  R11  PENDING human approval records :: plan approval: recorded; workspace-boundary acceptance and goal-arming authorization are human acts with no mechanical proof
+  R12  PASS    final report path and owner determined :: both are named in the report contract
+
+INSTANCE HYGIENE
+  FAIL
+    - V12 the project document GOAL.md is still a blank form (contains UNFILLED)
+    - V13 the 'Instance root:' field of D:\Projects\dsh-test\experiments\long-running\v0.2-work\adoption\rc2-scenarios\S4-blank-declaration\planning\GOAL.md is not recorded ('UNFILLED - not decided yet'); a blank declaration is not a valid path
+
+NOT CLAIMED: whether a plan was genuinely approved, whether the permission boundary was deliberately accepted,
+whether the evaluator tests were adequate, and whether this guidance is any good. Those are human judgements.
+
+NOT READY (instance hygiene failed: 2 reason(s))

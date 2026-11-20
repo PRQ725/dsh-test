@@ -1,0 +1,70 @@
+# Runtime identity capture — 2026-11-08T12:45 (+08:00)
+# Workspace: D:\Projects\dsh-test
+# Method: direct read-only DSH tool calls in this session (pwsh, read, grep, glob).
+# All values below are transcribed from direct command output in this session.
+
+## Anchors
+
+dsh_cli_version            = 0.2.2-rc.1
+installed_pkg_version      = 0.2.2-rc.1
+installed_pkg_path         = C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh
+installed_pkg_mtime        = 2026-11-08 12:35:48
+where_dsh                  = C:\Users\user02\AppData\Roaming\npm\dsh ; ...\dsh.cmd
+npm_root_g                   = C:\Users\user02\AppData\Roaming\npm\node_modules
+npm_dist_tags              = latest = 0.2.2-rc.1 ; next = 0.2.2-rc.1 ; alpha = 0.2.2-alpha.3
+profile                    = browser-lab           (DSH_PROFILE)
+profile_dir                = C:\Users\user02\.dsh\profiles\browser-lab
+dsh_home                   = C:\Users\user02\.dsh
+web_url                    = http://127.0.0.1:3080
+profile_org                = C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh\node_modules\@deepseek-ai
+
+## Second installation anchor (NOT upgraded)
+
+desktop_app_path           = C:\Users\user02\AppData\Local\Programs\DeepSeek Harness
+desktop_runtime_json       = resources\runtime\primary-runtime\runtime.json -> desktopVersion = 0.2.0-rc.2
+desktop_exe_fileversion    = 0.2.0-rc.2
+=> CLI/Web 0.2.2-rc.1 and Desktop bundled 0.2.0-rc.2 coexist; they share $DSH_HOME.
+
+## Platform
+
+node                       = v24.20.0     (DSH 0.2.2 lowered bound to >= 24.9)
+npm                        = 12.0.2
+platform                   = win32 / x64
+file_policy (this session) = danger-full-access
+approval policy            = never (approval prompts disabled)
+
+## Mechanism constants (source-confirmed in this install)
+
+session_format_version     = 4              (dsh-session/lib/types -> SESSION_FORMAT_VERSION = 4)
+session_format_migration   = dsh-session-format-v3-to-v4 PRESENT
+workspace_storage_unit     = version 2
+cordis_core                = 4.1.0
+cordis_plugin_loader       = 1.1.0
+cordis_plugin_include      = 1.1.0
+tools_executor_native      = ENABLED in dsh-base
+tools_executor_ptc         = disabled: true in dsh-base   (native is the default)
+DSH_TOOLS_MODE / tools.mode = ZERO hits anywhere in the install tree (fully removed)
+websocket_compression      = present (dsh-api-gateway), default "deflate"
+file_ui_locales            = de, en, es, fr, ja, pt, ru, zh
+
+## Shipped composition facts relevant to tool behaviour
+
+dsh-base fs-observation-policy : disabled: true    (read-before-write is OFF by default)
+dsh-base tool-fs applyPatch    : false             (apply_patch NOT registered)
+dsh-web-app/presets applyPatch : false             (same)
+dsh-web-app cordis.patch.yml   : tool-fs / tool-fs-search / plan-mode are disabled host-plane,
+                                 re-inserted per preset
+
+## Known discrepancy
+
+[dsh-tool-fs README, 0.2.2] claims "dsh-base and the Web standard preset enable applyPatch".
+Actual shipped patch files set applyPatch: false in both layers.
+=> Treat the patch files as authoritative; record the README sentence as DISCREPANCY.
+
+## Not verified in this round
+
+- Whether Web/Desktop actually route to a different model weight version (UNKNOWN; no 1017 badge package in 0.2.2).
+- Live behaviour of --tls-cert/--tls-key and --public-url (flags read from --help only).
+- Live behaviour of the new Session API split (snapshot vs subscribe).
+- Any Goal / long-running live test (NOT RUN; out of scope for this audit).
+- Out-of-workspace write denial (still NOT TESTED; unchanged from the 2026-10-19 audit).

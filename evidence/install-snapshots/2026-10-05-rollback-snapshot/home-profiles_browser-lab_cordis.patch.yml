@@ -1,0 +1,22 @@
+# Your patch layer for this dsh profile, applied after every bundle layer:
+# a top-level YAML array of loader patch entries (id-targeted config
+# overrides, disables, and insert lists; `!!js` expressions allowed).
+#
+# Phase 3.4 — mount the MCP client bridge for this profile only.
+# `insert` without a target `id` appends to the profile root entry list.
+# Schema verified against @deepseek-ai/dsh-mcp-client@0.1.5-rc.1
+# (lib/index.js stdio branch: transport/serverName/command required;
+#  args/env/cwd/toolCallTimeoutMs/failOnStartupError defaulted).
+# `reconnect` is intentionally omitted so its package defaults apply.
+- insert:
+    - id: mcp-playwright
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: playwright
+        transport: stdio
+        command: npx
+        args:
+          - '-y'
+          - '@playwright/mcp@latest'
+          - '--browser=chrome'
+        failOnStartupError: true

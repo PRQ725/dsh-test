@@ -1,0 +1,9 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Candidate
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc1\selftest-scratch\project-default\toolkit\long-running
+candidate: D:\Projects\dsh-test\experiments\long-running\v0.2-work
+
+PASS
+  all V1-V12 and R1-R3 checks satisfied.
+  NOTE: this says nothing about guidance quality, adoptability or version-claim correctness - human review required.

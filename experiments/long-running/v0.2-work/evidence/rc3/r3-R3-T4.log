@@ -1,0 +1,11 @@
+
+check-v0.2.ps1 - Long-running Toolkit v0.2 evaluator
+mode: Adoption
+root: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U1-consistent\toolkit\long-running
+instance root (declared): D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U1-consistent\planning
+instance-root consistency: FAIL
+
+FAIL
+  - V13 the objective contract named by -GoalContract does not exist: D:\Projects\dsh-test\experiments\long-running\v0.2-work\evidence\rc3\scenarios\U1-consistent\planning\NOPE.md
+
+failure reasons: 1

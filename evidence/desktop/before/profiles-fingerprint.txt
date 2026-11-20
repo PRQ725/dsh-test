@@ -1,0 +1,42 @@
+﻿# Profiles 指纹 — Desktop 安装前基线 (P0)
+
+采集时间：2026-10-04 20:17:48
+
+## profile 清单
+
+| profile | 存在 |
+|---|---|
+| `browser-lab` | YES |
+| `web` | YES |
+| `desktop` | **NO** |
+
+## `browser-lab`
+
+| 文件 | Size | LastWriteTime | SHA-256 |
+|---|---|---|---|
+| `package.json` | 308 | 2026-09-15 20:41:43 | `A225D87A466F586DA6AF9A3615AECD21C48FC0038BC1322700BD3B4F8A92C39B` |
+| `pnpm-lock.yaml` | 408 | 2026-09-15 20:41:43 | `5843424E4CC6FAD2BC3641508CD669C20AA9DF78580D7F41074668FBB70125B3` |
+| `pnpm-workspace.yaml` | 114 | 2026-09-15 20:41:41 | `AAB600C54042C51BE168789E5D22CABDB8731A009BF9E8D53A0C6180CAAD8228` |
+| `cordis.patch.yml` | 925 | 2026-09-12 15:10:27 | `EFBE0E95CB160B52C2F3D5B3C204F1EF6963932EBD99E96F2524D60F74F30C76` |
+| `cordis.yml` | 223 | 2026-10-04 19:35:58 | `C300DCF2EBC5F02062D6591268D29D3DB6FE45E0CB138F5467276FE2BA06076E` |
+
+## `web`
+
+| 文件 | Size | LastWriteTime | SHA-256 |
+|---|---|---|---|
+| `package.json` | 236 | 2026-09-10 15:50:19 | `B07F71CBA5C341F6BD6EBF1316573588817E3A15629A86F11D34D4A01A82C94B` |
+| `pnpm-lock.yaml` | - | - | **ABSENT** |
+| `pnpm-workspace.yaml` | 61 | 2026-08-28 17:21:45 | `AE7C5B68E2F157528E62885804E69E88583897B775E03C86FCBE52FEAF498ABA` |
+| `cordis.patch.yml` | 217 | 2026-08-28 17:21:45 | `EF189A8C27DB6D63930AA3046A3040482E952EAFCB7487C644D508E8D461F027` |
+| `cordis.yml` | 223 | 2026-09-12 16:18:42 | `C300DCF2EBC5F02062D6591268D29D3DB6FE45E0CB138F5467276FE2BA06076E` |
+
+## ``profiles\node_modules``（共享 module fallback）
+
+- CreationTime: 08/28/2026 17:21:45
+- LastWriteTime: 09/23/2026 13:27:45
+- `@deepseek-ai` 条目数: 244
+- 含 `dsh-whale-widget`: False
+
+## 跨 profile 共享层
+
+- `C:\Users\user02\.dsh\cordis.patch.yml` 存在: False

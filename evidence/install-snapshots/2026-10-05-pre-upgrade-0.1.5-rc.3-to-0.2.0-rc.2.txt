@@ -1,0 +1,50 @@
+﻿=== PRE-UPGRADE SNAPSHOT  (2026-10-05 17:04:59) ===
+target: global @deepseek-ai/dsh  latest dist-tag = 0.2.0-rc.2
+
+--- CLI ---
+where dsh        : C:\Users\user02\AppData\Roaming\npm\dsh | C:\Users\user02\AppData\Roaming\npm\dsh.cmd
+dsh --version    : 0.1.5-rc.3
+npm global root  : C:\Users\user02\AppData\Roaming\npm\node_modules
+npm -g --depth=0 : @anthropic-ai/claude-code@2.1.220, @deepseek-ai/dsh@0.1.5-rc.3, npm@12.0.2
+
+--- global install anchor ---
+install dir      : C:\Users\user02\AppData\Roaming\npm\node_modules\@deepseek-ai\dsh
+files / size     : 25448 / 222,694,619 B
+package.json sha : E6C20794B703B108DE3D2E27C6201D21D76C979B7E153D0812C770DC4F5BB3D8
+package.json ver : 0.1.5-rc.3
+@deepseek-ai pkg count : 239
+
+--- \ key state ---
+  settings.yaml                   151 B  sha=28AB17AE30A305C3F68E6D3FEEA0E12232ACF4D1BC8B66089B04C7CD5D745AE7
+  settings.yaml.imported           52 B  sha=EA141B86779C2C88208AF7B032BFB8AD0E53069E83B42693598042269C884BAF
+  cordis.patch.yml           ABSENT
+  package.json               ABSENT
+  AGENTS.md                       626 B  sha=DFBC51358430BDC0091658C62925BFA9385621F6E07197BFADDC7B19A043872C
+  .credentials.yaml               540 B  sha=633798C8C979E96D3D29E5FD36646A1DEA40C8077AD33C585D6BD76C8D68BA98
+  storages\workspace.json        3681 B  sha=7B96C73DC57D2E9FD4BFFD5C051CF1B726151F90E34CF5FF959EB8B310F919E4
+
+--- profiles ---
+  profiles\browser-lab\package.json      308 B  sha=A225D87A466F586DA6AF9A3615AECD21C48FC0038BC1322700BD3B4F8A92C39B
+  profiles\browser-lab\cordis.patch.yml     925 B  sha=EFBE0E95CB160B52C2F3D5B3C204F1EF6963932EBD99E96F2524D60F74F30C76
+  profiles\browser-lab\cordis.yml        223 B  sha=C300DCF2EBC5F02062D6591268D29D3DB6FE45E0CB138F5467276FE2BA06076E
+  profiles\web\package.json              236 B  sha=B07F71CBA5C341F6BD6EBF1316573588817E3A15629A86F11D34D4A01A82C94B
+  profiles\web\cordis.patch.yml          217 B  sha=EF189A8C27DB6D63930AA3046A3040482E952EAFCB7487C644D508E8D461F027
+  profiles\web\cordis.yml                223 B  sha=C300DCF2EBC5F02062D6591268D29D3DB6FE45E0CB138F5467276FE2BA06076E
+  profiles\desktop\package.json          211 B  sha=EAFC5B4EBC3E702E8AAEE00F6012AE1D76EF8EA24B8BBE03A003F369C5D2934F
+  profiles\desktop\cordis.patch.yml     1039 B  sha=80655B36FC5EEC417533FE415C57370D7D07129A7E5DD30C8E7637B208B35DA5
+  profiles\desktop\cordis.yml            223 B  sha=C300DCF2EBC5F02062D6591268D29D3DB6FE45E0CB138F5467276FE2BA06076E
+
+--- sessions by format ---
+  total session files : 59
+    v3 = 55
+    v4 = 4
+  v4 sessions         : 4
+
+--- real-home fingerprint (for post-upgrade comparison) ---
+  settings.yaml                                  28AB17AE30A305C3F68E6D3FEEA0E12232ACF4D1BC8B66089B04C7CD5D745AE7
+  settings.yaml.imported                         EA141B86779C2C88208AF7B032BFB8AD0E53069E83B42693598042269C884BAF
+  profiles\browser-lab\package.json              A225D87A466F586DA6AF9A3615AECD21C48FC0038BC1322700BD3B4F8A92C39B
+  profiles\browser-lab\cordis.patch.yml          EFBE0E95CB160B52C2F3D5B3C204F1EF6963932EBD99E96F2524D60F74F30C76
+  profiles\web\package.json                      B07F71CBA5C341F6BD6EBF1316573588817E3A15629A86F11D34D4A01A82C94B
+  profiles\web\cordis.patch.yml                  EF189A8C27DB6D63930AA3046A3040482E952EAFCB7487C644D508E8D461F027
+  AGENTS.md                                      DFBC51358430BDC0091658C62925BFA9385621F6E07197BFADDC7B19A043872C

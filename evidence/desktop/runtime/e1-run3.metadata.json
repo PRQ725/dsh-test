@@ -1,0 +1,34 @@
+﻿{
+    "SchemaVersion":  1,
+    "RunName":  "run3",
+    "CreatedAt":  "2026-10-05 15:00:26",
+    "EvidenceRoot":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime",
+    "WorkspacePath":  "D:\\Projects\\dsh-desktop-runtime-test-3",
+    "WorkspaceDirName":  "--D-Projects-dsh-desktop-runtime-test-3--",
+    "WorkspaceSessionDir":  "C:\\Users\\user02\\.dsh\\sessions\\--D-Projects-dsh-desktop-runtime-test-3--",
+    "BaselineNamespace":  "e1-BASE-QUIESCENT-R3",
+    "BaselineDir":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-BASE-QUIESCENT-R3",
+    "BaselineVerifyDir":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-BASE-QUIESCENT-R3-VERIFY",
+    "BaselineCompareDir":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-BASE-QUIESCENT-R3-compare",
+    "BaselineVerdictPath":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-BASE-QUIESCENT-R3-VERDICT.txt",
+    "BaselineSource":  "capture-e1-quiescent-baseline.ps1",
+    "BaselineVerified":  true,
+    "BaselineSealedAt":  "2026-10-05 15:38:03",
+    "BaselineFingerprint":  {
+                                "shared-state-manifest.csv":  "0EA73083A8009146B5F6DA7D0061574199627C37F4ECC1579D02B3A187F19BE3",
+                                "dsh-home-fingerprints.csv":  "1B8A70A2C649474B564E6A3950EC10BF1465356BD4AAE8AFEA569019B906AE89",
+                                "session-inventory.csv":  "EEC0302E99F43F34638FDC49B3C357C6DC3DA47B35E9A4AF631EAB5D601C4B3A",
+                                "projcache-inventory.csv":  "556C81957124C09EBF39EE86ADF6ED87E8EBDCE4E49406F017A0DE04BB63972C"
+                            },
+    "StageDirs":  {
+                      "A":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-A",
+                      "B":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-B",
+                      "C":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-C"
+                  },
+    "CompareDirs":  {
+                        "BASELINE-A":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-BASELINE-A-compare",
+                        "A-B":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-A-B-compare",
+                        "B-C":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3-B-C-compare"
+                    },
+    "LockFile":  "D:\\Projects\\dsh-test\\evidence\\desktop\\runtime\\e1-run3.session.lock.json"
+}

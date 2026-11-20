@@ -1,0 +1,5781 @@
+{
+  "generatedAt": "2026-11-08T04:44:07.268Z",
+  "v1": "0.2.1-rc.2",
+  "v2": "0.2.2-rc.1",
+  "packages": [
+    {
+      "name": "dsh",
+      "added": [
+        "package/lib/dump-config-D97dwXdd.js",
+        "package/lib/dump-config-DuXZcU0e.js",
+        "package/lib/dump-config-schema-r4V15-lg.js",
+        "package/lib/plugin-DscIHF4k.js",
+        "package/lib/profile-boot-e2mS45fC.js"
+      ],
+      "removed": [
+        "package/lib/dump-config-CWs_HdOc.js",
+        "package/lib/dump-config-CxNkSYcK.js",
+        "package/lib/dump-config-schema-D_PxIzpe.js",
+        "package/lib/plugin-BiveYA7h.js",
+        "package/lib/profile-boot-C14i-8IN.js"
+      ],
+      "changed": [
+        "package/lib/bin.js",
+        "package/lib/profile-boot.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-acp",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/content.d.ts",
+        "package/lib/types/model-control.d.ts",
+        "package/lib/types/session.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-acp-app",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-agent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/model-selection.d.ts",
+        "package/lib/types/model-selection.js",
+        "package/lib/types/projection.d.ts",
+        "package/lib/types/projection.js",
+        "package/lib/types/runtime-types.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-agent-default-model",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-agent-instructions",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/config.d.ts",
+        "package/lib/types/render.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-agent-loop",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/tool-calls.d.ts"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/agent.d.ts",
+        "package/lib/types/inbox.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/runtime-context.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-agent-preset",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/de.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/es.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/fr.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/ja.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/pt.json",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/ru.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/de.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/es.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/fr.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/ja.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/pt.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/skills/cordis-composition-reference/references/packages.md",
+        "package/skills/cordis-plugin-development/references/host-plugin.md",
+        "package/skills/cordis-plugin-development/SKILL.md",
+        "package/skills/cordis-plugin-development/templates/decoration/locale/en.json",
+        "package/skills/cordis-plugin-development/templates/mcp/locale/en.json"
+      ]
+    },
+    {
+      "name": "dsh-agent-preset-registry",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/mount.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-agent-tool-presentation",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-anonymous-user-id",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-account-controller",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-gateway",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.browser.js",
+        "package/lib/client.node.js",
+        "package/lib/index.js",
+        "package/lib/types/access.d.ts",
+        "package/lib/types/access.js",
+        "package/lib/types/client/remote-events.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/stream-server.d.ts",
+        "package/lib/types/stream-server.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-api-job-controller",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-remote-access",
+      "added": [
+        "package/lib/types/client/when-allowed.d.ts",
+        "package/lib/types/client/when-allowed.js",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/index.js",
+        "package/lib/types/client/mount.d.ts",
+        "package/lib/types/client/mount.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-api-remotes",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/index.js",
+        "package/lib/types/remote-events.d.ts",
+        "package/lib/types/remote-events.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-api-session-controller",
+      "added": [
+        "package/lib/types/history/assistant-stream.d.ts",
+        "package/lib/types/history/assistant-stream.js",
+        "package/lib/types/history/controller.d.ts",
+        "package/lib/types/history/controller.js",
+        "package/lib/types/history/listener.d.ts",
+        "package/lib/types/history/listener.js",
+        "package/lib/types/state/controller.d.ts",
+        "package/lib/types/state/controller.js",
+        "package/lib/types/state/listener.d.ts",
+        "package/lib/types/state/listener.js",
+        "package/lib/types/web/controller.d.ts",
+        "package/lib/types/web/controller.js",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/model-selection-projection.d.ts",
+        "package/lib/types/model-selection-projection.js"
+      ],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.d.ts",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/agent.d.ts",
+        "package/lib/types/agent.js",
+        "package/lib/types/catalog.js",
+        "package/lib/types/client/contract/session.d.ts",
+        "package/lib/types/client/contract/snapshot.d.ts",
+        "package/lib/types/client/sessions/lineage.d.ts",
+        "package/lib/types/client/sessions/lineage.js",
+        "package/lib/types/client/sessions/manager.d.ts",
+        "package/lib/types/client/sessions/manager.js",
+        "package/lib/types/client/sessions/service.d.ts",
+        "package/lib/types/client/sessions/session.d.ts",
+        "package/lib/types/client/sessions/session.js",
+        "package/lib/types/client/transport.js",
+        "package/lib/types/commands.d.ts",
+        "package/lib/types/commands.js",
+        "package/lib/types/control.js",
+        "package/lib/types/history.d.ts",
+        "package/lib/types/history.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/list.d.ts",
+        "package/lib/types/list.js",
+        "package/lib/types/media-references.d.ts",
+        "package/lib/types/media-references.js",
+        "package/lib/types/types.d.ts",
+        "package/lib/types/types.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-api-settings-controller",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-terminal-controller",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/typert.host.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-workspace-controller",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-api-workspace-files",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-app-boot",
+      "added": [
+        "package/lib/types/bundle-platform.d.ts",
+        "package/lib/types/startup-diagnostics.d.ts"
+      ],
+      "removed": [
+        "package/lib/types/official-bundle-packages.d.ts",
+        "package/lib/types/official-bundles.d.ts",
+        "package/lib/types/official-bundles.generated.d.ts"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/profile-plugins.d.ts",
+        "package/lib/types/profile.d.ts",
+        "package/lib/worker/profile-resolution-bootstrap.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-atomic-write",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-attachment",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-attachment-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/store.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-authorization",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-base",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-bash-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-bash-sandbox",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-brand",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-chunked-list",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-connection",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/client/index.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-file-upload",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/client/contract.d.ts",
+        "package/lib/types/client/runtime.d.ts",
+        "package/lib/types/client/runtime.js",
+        "package/lib/types/http-route.d.ts",
+        "package/lib/types/http-route.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-hmr",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-locale",
+      "added": [
+        "package/lib/types/locales/de.d.ts",
+        "package/lib/types/locales/es.d.ts",
+        "package/lib/types/locales/fr.d.ts",
+        "package/lib/types/locales/ja.d.ts",
+        "package/lib/types/locales/pt.d.ts",
+        "package/lib/types/locales/ru.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/locale-settings.d.ts",
+        "package/lib/types/locales/index.d.ts",
+        "package/lib/types/locales/settings.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-modules",
+      "added": [
+        "package/lib/types/assets.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/manifest.d.ts",
+        "package/lib/types/client/system.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-product-analytics",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/events.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-resources",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-shortcuts",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-agent-preset",
+      "added": [
+        "package/lib/types/client/analytics.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/guide-locales.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/seat-store.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-approval",
+      "added": [
+        "package/lib/types/client/ApprovalCard.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/ApprovalPanel.d.ts",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-attachment",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/ComposerAttachments.d.ts",
+        "package/lib/types/client/drop-events.d.ts",
+        "package/lib/types/client/MessageImages.d.ts",
+        "package/lib/types/MessageImage.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-brand-official",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-chat",
+      "added": [
+        "package/lib/assets/running-whale@2x-06738fa29b2f.png",
+        "package/lib/types/client/chat/text-interaction.d.ts",
+        "package/lib/types/client/chat/text-selection.d.ts",
+        "package/lib/types/client/file-path.d.ts",
+        "package/lib/types/client/reasoning-text.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/chat-settings.d.ts",
+        "package/lib/types/client/chat/AssistantMarkdown.d.ts",
+        "package/lib/types/client/chat/AssistantNodeView.d.ts",
+        "package/lib/types/client/chat/ChatFlow.d.ts",
+        "package/lib/types/client/chat/ChatNodeSeat.d.ts",
+        "package/lib/types/client/chat/ChatView.d.ts",
+        "package/lib/types/client/chat/flow-motion.d.ts",
+        "package/lib/types/client/chat/MessageItem.d.ts",
+        "package/lib/types/client/chat/ReasoningContent.d.ts",
+        "package/lib/types/client/chat/ReasoningRow.d.ts",
+        "package/lib/types/client/chat/RunningStatus.d.ts",
+        "package/lib/types/client/chat/use-chat-reading.d.ts",
+        "package/lib/types/client/chat/use-chat-scroll.d.ts",
+        "package/lib/types/client/chat/use-chat-viewport.d.ts",
+        "package/lib/types/client/contract/group-tree.d.ts",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/contract/snapshot.d.ts",
+        "package/lib/types/client/conversation-nodes/assistant.d.ts",
+        "package/lib/types/client/conversation-nodes/inbox.d.ts",
+        "package/lib/types/client/conversation-nodes/message.d.ts",
+        "package/lib/types/client/conversation-nodes/request-prompt.d.ts",
+        "package/lib/types/client/conversation-nodes/turn-process.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locale.d.ts",
+        "package/lib/types/client/presentation-policy.d.ts",
+        "package/lib/types/client/settings/TranscriptViewRow.d.ts",
+        "package/lib/types/client/transcript-view.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-commands",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/resolution.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-conversation",
+      "added": [
+        "package/lib/types/client/contract/text-interaction.d.ts",
+        "package/lib/types/client/conversation/interaction-registry.d.ts",
+        "package/lib/types/client/input/editor/QuoteNode.d.ts",
+        "package/lib/types/client/input/prompt.d.ts",
+        "package/lib/types/client/view-pins.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/contract/composer-submission.d.ts",
+        "package/lib/types/client/contract/draft-editor.d.ts",
+        "package/lib/types/client/contract/input.d.ts",
+        "package/lib/types/client/contract/records.d.ts",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/conversation/assembly.d.ts",
+        "package/lib/types/client/conversation/historical-images.d.ts",
+        "package/lib/types/client/draft.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/input/decorations.d.ts",
+        "package/lib/types/client/input/editor/projection.d.ts",
+        "package/lib/types/client/input/editor/runtime.d.ts",
+        "package/lib/types/client/input/editor/view-binding.d.ts",
+        "package/lib/types/client/input/facade.d.ts",
+        "package/lib/types/client/input/hub.d.ts",
+        "package/lib/types/client/input/machine.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/service.d.ts",
+        "package/lib/types/client/skeleton/ConversationSession.d.ts",
+        "package/lib/types/client/skeleton/InputBar.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-cordis",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-deliverables",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/Deliverables.d.ts",
+        "package/lib/types/client/file-actions.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/present-open.d.ts",
+        "package/lib/types/client/PresentedFileCard.d.ts",
+        "package/lib/types/client/turn-deliverables.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-directory-picker-browse",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-directory-picker-native",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-goal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/GoalBar.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-input-trigger",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-jobs",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-layout",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/AppFrame.d.ts",
+        "package/lib/types/client/columns.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/shortcut-locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-message-feedback",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/MessageFeedbackActions.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-model-selection",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/directory.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/ModelSelect.d.ts",
+        "package/lib/types/client/slots.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-open-in-app",
+      "added": [
+        "package/lib/types/client/context-menus.d.ts",
+        "package/lib/types/client/open-toast.d.ts",
+        "package/lib/types/client/outcome.d.ts",
+        "package/lib/types/client/session-reveal.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/client/open-failure-toast.d.ts"
+      ],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/controller.d.ts",
+        "package/lib/types/client/FileRouteAction.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/open-path.d.ts",
+        "package/lib/types/client/OpenInAppAction.d.ts",
+        "package/lib/types/client/OpenPathAction.d.ts",
+        "package/lib/types/client/OpenTargetButton.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-permission-presets",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-plan",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/plan-resource.d.ts",
+        "package/lib/types/client/plan.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-plugin-manager",
+      "added": [
+        "package/lib/types/client/BundleDetailSection.d.ts",
+        "package/lib/types/client/detail-store.d.ts",
+        "package/lib/types/client/header-scroll.d.ts",
+        "package/lib/types/client/versions.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/manager-store.d.ts",
+        "package/lib/types/client/navigation-store.d.ts",
+        "package/lib/types/client/PluginManagerPage.d.ts",
+        "package/lib/types/client/slot-contract.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-plugin-market",
+      "added": [
+        "package/lib/types/client/PluginDetailSection.d.ts",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/market-store.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-reference",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/FileReference.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-renderer",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-schedule",
+      "added": [
+        "package/lib/types/client/clear-ended.d.ts",
+        "package/lib/types/client/editor-store.d.ts",
+        "package/lib/types/client/editor-timing.d.ts",
+        "package/lib/types/client/NewSessionLimit.d.ts",
+        "package/lib/types/client/RuleSelectRow.d.ts",
+        "package/lib/types/client/ScheduleEmptyIllustration.d.ts",
+        "package/lib/types/client/task-record.d.ts",
+        "package/lib/types/client/TaskEditorFields.d.ts",
+        "package/lib/types/client/TaskRuleControls.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/client/task-timing.d.ts"
+      ],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/catalog-source.d.ts",
+        "package/lib/types/client/ClockPicker.d.ts",
+        "package/lib/types/client/DeleteToast.d.ts",
+        "package/lib/types/client/DeliveryHistory.d.ts",
+        "package/lib/types/client/frequency-locales.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/relative-clock.d.ts",
+        "package/lib/types/client/schedule-format.d.ts",
+        "package/lib/types/client/ScheduleCatalogAction.d.ts",
+        "package/lib/types/client/ScheduleTaskTab.d.ts",
+        "package/lib/types/client/session-link.d.ts",
+        "package/lib/types/client/session-schedule-state.d.ts",
+        "package/lib/types/client/task-cron.d.ts",
+        "package/lib/types/client/task-manager-locales.d.ts",
+        "package/lib/types/client/TaskDetail.d.ts",
+        "package/lib/types/client/TaskManagerPage.d.ts",
+        "package/lib/types/client/TaskMenu.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-secret-mask",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-session",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-account",
+      "added": [
+        "package/lib/assets/onboarding-back-04427ce3e26c.svg",
+        "package/lib/assets/onboarding-code-130f4f9f819c.svg",
+        "package/lib/assets/onboarding-compact-4d29ad212f3b.svg",
+        "package/lib/assets/onboarding-detailed-0e44397e280d.svg",
+        "package/lib/assets/onboarding-office-8ca45c77307a.svg",
+        "package/lib/assets/onboarding-recharge-9a85d64a2d3b.webp",
+        "package/lib/assets/onboarding-recharge-dark-9878e7197bac.webp",
+        "package/lib/assets/onboarding-recharge-zh-aec6cd5fc265.webp",
+        "package/lib/assets/onboarding-recharge-zh-dark-5289932ad3f8.webp",
+        "package/lib/assets/onboarding-standard-13b8aa0232ab.svg",
+        "package/lib/assets/onboarding-welcome-8bee260fc9a4.webp",
+        "package/lib/assets/onboarding-welcome-dark-1bdaf68d0d0a.webp",
+        "package/lib/assets/onboarding-welcome-zh-9a237747664d.webp",
+        "package/lib/assets/onboarding-welcome-zh-dark-6c914dc6013e.webp",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales/onboarding.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-agent-loop",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-general",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/shell-contract.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-models",
+      "added": [
+        "package/lib/types/client/useModelRows.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/ModelListEditor.d.ts",
+        "package/lib/types/client/ModelRow.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-plugin-inventory",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-plugins",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-session-log",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-shell",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-subagent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-settings-web-search",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/web-search-card-controller.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-shortcuts",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar",
+      "added": [
+        "package/lib/types/client/panel-pins.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/HeaderLeadingControls.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/SidebarRoot.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar-browser",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar-documentpreview",
+      "added": [
+        "package/lib/types/client/image/pan.d.ts",
+        "package/lib/types/client/PreviewFrame.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/client/zoom/ZoomControls.d.ts"
+      ],
+      "changed": [
+        "package/lib/client.excel.js",
+        "package/lib/client.js",
+        "package/lib/types/client/code/locales.d.ts",
+        "package/lib/types/client/document/registry.d.ts",
+        "package/lib/types/client/excel/locales.d.ts",
+        "package/lib/types/client/html/locales.d.ts",
+        "package/lib/types/client/image/ImageBody.d.ts",
+        "package/lib/types/client/image/index.d.ts",
+        "package/lib/types/client/image/locales.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/markdown/locales.d.ts",
+        "package/lib/types/client/office/locales.d.ts",
+        "package/lib/types/client/pdf/locales.d.ts",
+        "package/lib/types/client/text/lines.d.ts",
+        "package/lib/types/client/TextPreview.d.ts",
+        "package/lib/types/client/zoom/locales.d.ts",
+        "package/lib/types/client/zoom/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar-files",
+      "added": [
+        "package/lib/types/client/FileNavigator.d.ts",
+        "package/lib/types/client/FileTree.d.ts",
+        "package/lib/types/client/navigator-layout.d.ts",
+        "package/lib/types/client/NavigatorToggle.d.ts",
+        "package/lib/types/client/workspace-tree.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/face.d.ts",
+        "package/lib/types/client/FilesBody.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/store.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar-right",
+      "added": [
+        "package/lib/types/client/shell/flash.d.ts",
+        "package/lib/types/client/shell/TabMenuContent.d.ts",
+        "package/lib/types/client/tabs/guide/guide-pins.d.ts",
+        "package/lib/types/client/tabs/guide/GuideMoreIcon.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/service.d.ts",
+        "package/lib/types/client/shell/ExpandButton.d.ts",
+        "package/lib/types/client/shell/SidebarRight.d.ts",
+        "package/lib/types/client/stores.d.ts",
+        "package/lib/types/client/tabs/guide/GuideBody.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-sidebar-terminal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-skill",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-subagent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-theme",
+      "added": [
+        "package/lib/types/client/icon-sprite.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/styles.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-tool",
+      "added": [
+        "package/lib/types/client/tool/file-menu.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/apply.d.ts",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/tool/components/ToolRow.d.ts",
+        "package/lib/types/client/tool/models/diff-card-model.d.ts",
+        "package/lib/types/client/tool/models/image-card-model.d.ts",
+        "package/lib/types/client/tool/ToolCallTree.d.ts",
+        "package/lib/types/client/tool/toolviews/file-mutation-row.d.ts",
+        "package/lib/types/client/tool/toolviews/GenericToolCard.d.ts",
+        "package/lib/types/client/tool/toolviews/read-family-row.d.ts",
+        "package/lib/types/client/tool/toolviews/read-row.d.ts",
+        "package/lib/types/client/tool/toolviews/web-row.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-trajectory",
+      "added": [
+        "package/lib/typert.host.d.ts",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.d.ts",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/client/watch-tool-result.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/code-program.d.ts",
+        "package/lib/types/client/layout.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/trajectory-record.d.ts",
+        "package/lib/types/client/trajectory-virtual-rows.d.ts",
+        "package/lib/types/client/TrajectoryCell.d.ts",
+        "package/lib/types/client/TrajectoryTable.d.ts",
+        "package/lib/types/client/TrajectoryToolbar.d.ts",
+        "package/lib/types/client/TrajectoryView.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-user-questions",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/question-reply.d.ts",
+        "package/lib/types/client/QuestionReplyView.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-workflow-run",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-client-ui-workspace",
+      "added": [
+        "package/lib/types/client/path-suffix.d.ts",
+        "package/lib/types/client/rows/WorkspaceDialogs.d.ts",
+        "package/lib/types/client/session-actions/context-menus.d.ts",
+        "package/lib/types/client/session-actions/SessionMenu.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/client/rows/AnimatedRows.d.ts",
+        "package/lib/types/client/session-actions/ForkSession.d.ts",
+        "package/lib/types/client/session-actions/SessionId.d.ts"
+      ],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/contract/slots.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/navigation.d.ts",
+        "package/lib/types/client/rows/Rows.d.ts",
+        "package/lib/types/client/rows/WorkspaceBrowser.d.ts",
+        "package/lib/types/client/session-actions/ArchiveSession.d.ts",
+        "package/lib/types/client/session-actions/PinSession.d.ts",
+        "package/lib/types/client/session-actions/RenameSession.d.ts",
+        "package/lib/types/client/shortcuts.d.ts",
+        "package/lib/types/client/tree.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-cmdline",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-command-compact",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-command-feedback",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-command-goal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-commands",
+      "added": [
+        "package/lib/types/builtin.d.ts",
+        "package/lib/types/builtin.js",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/typert.host.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-compaction",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-compaction-basic",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-compaction-image-offload",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-compaction-tool-result-pruner",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-config-editor",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-cordis-client-runner",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/client/timer.d.ts"
+      ],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-cordis-host-runner",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/types/guard.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-credentials",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-credentials-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-deepseek-account",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-deepseek-account-platform",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-deepseek-llm-api-extensions",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-deque",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-agent-team",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/journal.d.ts",
+        "package/lib/types/journal.js",
+        "package/lib/types/projection.d.ts",
+        "package/locale/en.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-agent-team-profile",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-api-speech-to-text",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-auto-review",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/lib/types/locales.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-badge-skill-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-client-ui-agent-team",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/locale/en.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-client-ui-cot-translation",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/TranslationBody.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-client-ui-voice-input",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/VoiceInput.d.ts",
+        "package/lib/types/client/VoiceSetupDialog.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-cot-translation-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-inspector",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.page.js",
+        "package/lib/index.js",
+        "package/lib/types/client/bottom/locales.d.ts",
+        "package/locale/en.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-inspector-profile",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-plugin-market-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/lib/types/index.d.ts",
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-ralph-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-session-inspector",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/client/views/InspectorObjectTree.d.ts",
+        "package/locale/en.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-session-search",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-session-titles-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-speech-to-text",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-speech-to-text-sensevoice",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-terminal-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-tool-agent-team",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-tool-worktree",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-experimental-translator",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/deepseek.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-voice-input-bundle",
+      "added": [
+        "package/docs/DETAIL.md",
+        "package/docs/DETAIL.zh.md",
+        "package/docs/preview.svg",
+        "package/docs/preview.zh.svg",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/locale/en.json",
+        "package/locale/zh.json",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-experimental-worktree",
+      "added": [
+        "package/lib/types/name.d.ts",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-file-reference",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-file-reference-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-fs",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-fs-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/fsio.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-fs-observation-policy",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-fs-sandbox",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-goal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-goal-round-driver",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-harness-dev-context",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-headless",
+      "added": [
+        "package/lib/json-stream-Dc3g2Bl1.js",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [
+        "package/lib/json-stream-BA-F3lfb.js"
+      ],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/lib/index.js",
+        "package/lib/startup.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/json-stream.d.ts",
+        "package/lib/types/startup.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-hmr",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-home-paths",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-host-directory-picker",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-host-directory-picker-auto",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-host-directory-picker-browse",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-host-directory-picker-native",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-host-frontend-static",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-host-open-in-app",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-host-plugin-inventory",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-host-product-telemetry-otel",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-host-webserver",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-http-proxy",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-jobs",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-jobs-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-launch-environment",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-lazy-require",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-llm",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-llm-deepseek",
+      "added": [
+        "package/lib/types/listed-catalog.d.ts",
+        "package/lib/types/listing-cache.d.ts",
+        "package/lib/types/listing-config.d.ts",
+        "package/lib/types/listing.d.ts"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/adapter.d.ts",
+        "package/lib/types/config.d.ts",
+        "package/lib/types/host.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/model-info.d.ts",
+        "package/lib/types/models.d.ts",
+        "package/lib/types/serialize.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-llm-deepseek-account",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/catalog.d.ts",
+        "package/lib/types/listing.d.ts",
+        "package/lib/types/resolve-catalog.d.ts"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/config.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-llm-deepseek-api-key",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/config.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-llm-pi-ai",
+      "added": [
+        "package/lib/types/types.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/adapter.d.ts",
+        "package/lib/types/catalog.d.ts",
+        "package/lib/types/config.d.ts",
+        "package/lib/types/context.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/stream.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-llm-retry",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-mcp-client",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-mcp-resources",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-message-feedback",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-native-command",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-office-to-pdf",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-otel",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-output-retention",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-package-manifest",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-permission-presets",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-persona",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-plan-mode",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-plugin-manager",
+      "added": [
+        "package/lib/types/bundle-detail.d.ts",
+        "package/lib/types/bundle-detail.js",
+        "package/lib/types/diagnostic.d.ts",
+        "package/lib/types/diagnostic.js",
+        "package/lib/types/git-transport.d.ts",
+        "package/lib/types/git-transport.js",
+        "package/lib/types/versions.d.ts",
+        "package/lib/types/versions.js",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/tools/de.json",
+        "package/locale/tools/es.json",
+        "package/locale/tools/fr.json",
+        "package/locale/tools/ja.json",
+        "package/locale/tools/pt.json",
+        "package/locale/tools/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.d.ts",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/build-approval.d.ts",
+        "package/lib/types/build-approval.js",
+        "package/lib/types/github-connection.d.ts",
+        "package/lib/types/github-connection.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/install-failure.js",
+        "package/lib/types/install-spec.d.ts",
+        "package/lib/types/install-spec.js",
+        "package/lib/types/operations.d.ts",
+        "package/lib/types/operations.js",
+        "package/lib/types/tools.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-plugin-market",
+      "added": [
+        "package/lib/types/detail-files.d.ts",
+        "package/lib/types/detail-files.js",
+        "package/lib/types/detail.d.ts",
+        "package/lib/types/detail.js",
+        "package/lib/types/repository-cache.d.ts",
+        "package/lib/types/repository-cache.js",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.d.ts",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/tools.d.ts",
+        "package/lib/types/tools.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-plugin-market-index",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-plugin-package-inventory-deepseek",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-ptc-runtime",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-ptc-runtime-node",
+      "added": [
+        "package/lib/configuration.js",
+        "package/lib/types/configuration.d.ts",
+        "package/lib/types/evaluators/async-function.d.ts",
+        "package/lib/types/evaluators/index.d.ts",
+        "package/lib/types/evaluators/repl.d.ts",
+        "package/lib/types/evaluators/types.d.ts",
+        "package/lib/types/evaluators/vm-script-await.d.ts",
+        "package/lib/types/evaluators/vm-script.d.ts",
+        "package/lib/types/execution.d.ts",
+        "package/lib/types/rpc.d.ts",
+        "package/lib/types/worker.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/channel.d.ts",
+        "package/lib/types/persistent.d.ts"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/persistent-process.js",
+        "package/lib/process.js",
+        "package/lib/types/bindings.d.ts",
+        "package/lib/types/bootstrap.d.ts",
+        "package/lib/types/config.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/json-wire.d.ts",
+        "package/lib/types/launch.d.ts",
+        "package/lib/types/persistent-process.d.ts",
+        "package/lib/types/process.d.ts",
+        "package/lib/types/protocol.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-pwsh-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-pwsh-sandbox",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-repeat-tool-reminder",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-sandbox",
+      "added": [
+        "package/lib/types/locales.d.ts"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/roots.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sandbox-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/profiles.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sandbox-policy",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sandbox-windows-acl",
+      "added": [
+        "package/lib/types-DFdfvhLN.js"
+      ],
+      "removed": [
+        "package/lib/types-Cl_DXjhk.js"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/runner.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-schedule",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.d.ts",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/delivery-history.d.ts",
+        "package/lib/types/delivery-history.js",
+        "package/lib/types/domain.d.ts",
+        "package/lib/types/domain.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/runtime.d.ts",
+        "package/lib/types/runtime.js",
+        "package/lib/types/storage.d.ts",
+        "package/lib/types/storage.js",
+        "package/lib/types/types.d.ts",
+        "package/lib/types/types.js",
+        "package/lib/types/update.d.ts",
+        "package/lib/types/update.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-scope",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-sdk-app",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sdk-jsonrpc-server",
+      "added": [
+        "package/lib/types/query-activity.d.ts",
+        "package/lib/types/query-content.d.ts",
+        "package/lib/types/query-input.d.ts",
+        "package/lib/types/user-questions.d.ts",
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/server.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sdk-minimal",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-sdk-protocol",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/transport.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-checkpoint-policy",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format-catalog",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format-v0-to-v1",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/payload-validation.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format-v1-to-v2",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format-v2-to-v3",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-format-v3-to-v4",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-log-deepseek",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-log-export",
+      "added": [
+        "package/lib/types/client/copy-controller.d.ts",
+        "package/lib/types/client/CopyToast.d.ts",
+        "package/lib/types/markdown.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.js",
+        "package/lib/index.js",
+        "package/lib/types/client/HeaderAction.d.ts",
+        "package/lib/types/client/index.d.ts",
+        "package/lib/types/client/locales.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/routes.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-persistence",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/types/errors.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-persistence-jsonl",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/zstd.d.ts",
+        "package/lib/worker.cjs",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-projection",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-projection-cache",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-query",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-query-sqlite",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-reference",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-stats",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/projection.d.ts",
+        "package/lib/types/projection.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-telemetry",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-telemetry-otel",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-title",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-title-all-prompts-llm",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-title-first-prompt-llm",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-session-title-llm",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-session-turn-outline",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/projection.d.ts",
+        "package/lib/types/projection.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-settings",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-shell",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-shell-env",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-skill",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-skill-badge",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-skill-filesystem",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-skill-office",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/assets/office-docx/SKILL.md",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-spill",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-spill-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-spill-policy",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/index.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-storage",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/backend.d.ts",
+        "package/lib/types/error.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-storage-domain",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/domain.d.ts",
+        "package/lib/types/spec.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-storage-json",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/atomic.d.ts",
+        "package/lib/types/format.d.ts",
+        "package/lib/types/per-record-unit.d.ts",
+        "package/lib/types/single-unit.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-subagent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/activation.d.ts",
+        "package/lib/types/catalog.d.ts",
+        "package/lib/types/child-agent.d.ts",
+        "package/lib/types/child-agent.js",
+        "package/lib/types/continuation-messages.d.ts",
+        "package/lib/types/continuation-messages.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/manager.js",
+        "package/lib/types/projection.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-subagent-fork-in-process",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-subagent-spawn-in-process",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-subprocess",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-subprocess-local",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-system-prompt",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-terminal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-terminal-bash",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-time-context",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/request-zone.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-timeout",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tmux-context",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-token-meter",
+      "added": [
+        "package/lib/types/measurement-projection.d.ts",
+        "package/lib/types/measurement-projection.js",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/breakdown-projection.d.ts",
+        "package/lib/types/breakdown-projection.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/projection.d.ts",
+        "package/lib/types/usage-projection.d.ts",
+        "package/lib/types/usage-projection.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-ask-user",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/timed.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-bash",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/render.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-bash-persistent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-call-timeout-policy",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-cordis",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/host/de.json",
+        "package/locale/host/es.json",
+        "package/locale/host/fr.json",
+        "package/locale/host/ja.json",
+        "package/locale/host/pt.json",
+        "package/locale/host/ru.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/types/api-catalog.js",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-fs",
+      "added": [
+        "package/lib/types/apply-patch-output.d.ts",
+        "package/lib/types/apply-patch-presentation.d.ts",
+        "package/lib/types/apply-patch.d.ts",
+        "package/lib/types/patch/execute.d.ts",
+        "package/lib/types/patch/index.d.ts",
+        "package/lib/types/patch/plan.d.ts",
+        "package/lib/types/patch/preflight.d.ts",
+        "package/lib/types/patch/types.d.ts",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/diff.d.ts",
+        "package/lib/types/error.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/sandbox.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-fs-search",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/glob.d.ts",
+        "package/lib/types/grep.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-goal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-jobs",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-present",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-pwsh",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/render.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-pwsh-persistent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-ralph",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-schedule",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-session-query",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/workspace-access.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-skill",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-str-replace-editor",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-subagent",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/model-selection-settings/de.json",
+        "package/locale/model-selection-settings/es.json",
+        "package/locale/model-selection-settings/fr.json",
+        "package/locale/model-selection-settings/ja.json",
+        "package/locale/model-selection-settings/pt.json",
+        "package/locale/model-selection-settings/ru.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/model-selection-settings.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/list-models.d.ts",
+        "package/lib/types/model-selection-settings.d.ts",
+        "package/lib/types/model-selection-state.d.ts",
+        "package/lib/types/model-selection.d.ts",
+        "package/lib/types/preset-selection.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-subagent-control",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/index.js",
+        "package/lib/types/list-agents.js",
+        "package/locale/list-agents/en.json",
+        "package/locale/list-agents/zh.json"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/list-agents.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-terminal",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-todo",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/types.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-web",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/fetch.d.ts",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/search.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-tool-workflow",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-working-directory",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tool-workspace-dependencies",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-tools",
+      "added": [
+        "package/lib/pipeline.js",
+        "package/lib/shared-DTdn5dXO.js",
+        "package/lib/types/batch.d.ts",
+        "package/lib/types/batch.js",
+        "package/lib/types/contracts.d.ts",
+        "package/lib/types/contracts.js",
+        "package/lib/types/events.d.ts",
+        "package/lib/types/events.js",
+        "package/lib/types/executor.d.ts",
+        "package/lib/types/executor.js",
+        "package/lib/types/pipeline.d.ts",
+        "package/lib/types/pipeline.js",
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/ptc-calls.d.ts",
+        "package/lib/types/ptc-calls.js",
+        "package/lib/types/ptc.d.ts",
+        "package/lib/types/ptc.js",
+        "package/lib/types/py-types.d.ts",
+        "package/lib/types/py-types.js",
+        "package/lib/types/testing.d.ts",
+        "package/lib/types/testing.js",
+        "package/lib/types/ts-types.d.ts",
+        "package/lib/types/ts-types.js",
+        "package/lib/types/types.d.ts",
+        "package/lib/types/types.js"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/schema.d.ts",
+        "package/lib/types/schema.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-typert-loader",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-typert-protocol",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-typert-registry",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/client.browser.js",
+        "package/lib/client.node.js",
+        "package/lib/index.js",
+        "package/lib/types/service.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-user-approval",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-user-questions",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/typert.host.js",
+        "package/lib/typert.remote-client.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/index.js",
+        "package/lib/types/projection.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-util-code-language",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-util-crypto",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-util-time",
+      "added": [
+        "package/lib/types/cron.d.ts",
+        "package/lib/types/duration.d.ts",
+        "package/lib/types/instant.d.ts",
+        "package/lib/types/recurrence.d.ts",
+        "package/lib/types/rrule.d.ts"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-util-values",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-util-workspace-path",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-web",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/types.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-web-app",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/startup/de.json",
+        "package/locale/startup/es.json",
+        "package/locale/startup/fr.json",
+        "package/locale/startup/ja.json",
+        "package/locale/startup/pt.json",
+        "package/locale/startup/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/cordis.patch.yml",
+        "package/package.json",
+        "package/presets/cordis.patch.yml",
+        "package/presets/ptc.patch.yml",
+        "package/presets/standard.patch.yml",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-web-deepseek-api",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/search.d.ts",
+        "package/lib/types/transport.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-web-fetch-http",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [
+        "package/lib/types/network.d.ts"
+      ],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/lib/types/policy.d.ts",
+        "package/lib/types/provider.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-web-frontend",
+      "added": [
+        "package/dist/apple-touch-icon.png",
+        "package/dist/assets/index-BgUyXZcc.js",
+        "package/dist/assets/index-lh_YM6sT.css",
+        "package/dist/assets/langs/graphql-DFkUqiqq.js",
+        "package/dist/assets/langs/http-BbPA7N5Y.js",
+        "package/dist/assets/langs/php-BcJWnZHR.js",
+        "package/dist/assets/langs/rst-CtdShwKQ.js",
+        "package/dist/assets/langs/ruby-DllPV2XI.js",
+        "package/dist/assets/langs/svelte-ZPgsG5h9.js",
+        "package/dist/assets/langs/vue-CnLRC5W9.js",
+        "package/dist/assets/vendor-BUMdD3V7.js",
+        "package/dist/icon-192.png",
+        "package/dist/icon-512.png",
+        "package/dist/icon-maskable-512.png"
+      ],
+      "removed": [
+        "package/dist/assets/index-BxpfOGf3.css",
+        "package/dist/assets/index-CN7NIWNw.js",
+        "package/dist/assets/langs/graphql-VhKNCVsv.js",
+        "package/dist/assets/langs/http-br_RHStI.js",
+        "package/dist/assets/langs/php-hBQ2F09C.js",
+        "package/dist/assets/langs/rst-CyvSi_BO.js",
+        "package/dist/assets/langs/ruby-CO7l6YCm.js",
+        "package/dist/assets/langs/svelte-BYadmKUw.js",
+        "package/dist/assets/langs/vue-B0l-UZcs.js",
+        "package/dist/assets/vendor-DcuzkuQH.js"
+      ],
+      "changed": [
+        "package/dist/index.html",
+        "package/dist/manifest.webmanifest",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-web-search-deepseek",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-win32-process",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-workflow",
+      "added": [],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-workflow-ptc",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/guest-source.d.ts",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    },
+    {
+      "name": "dsh-working-directory",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/en.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json",
+        "package/locale/zh.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.d.ts",
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-workspace",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/package.json"
+      ]
+    },
+    {
+      "name": "dsh-workspace-changes",
+      "added": [
+        "package/locale/de.json",
+        "package/locale/es.json",
+        "package/locale/fr.json",
+        "package/locale/ja.json",
+        "package/locale/pt.json",
+        "package/locale/ru.json"
+      ],
+      "removed": [],
+      "changed": [
+        "package/lib/index.js",
+        "package/lib/types/index.js",
+        "package/package.json",
+        "package/README.i18n.yaml",
+        "package/README.md",
+        "package/README.zh.md"
+      ]
+    }
+  ],
+  "addedPackages": [
+    "dsh-action-cards",
+    "dsh-client-ui-action-cards",
+    "dsh-client-ui-context-menu",
+    "dsh-client-ui-creation-recommendations",
+    "dsh-client-ui-entry-customization",
+    "dsh-client-ui-file-actions",
+    "dsh-client-ui-file-drag",
+    "dsh-client-ui-plugin-recommendations",
+    "dsh-creation-recommendations",
+    "dsh-deliverable-file-references",
+    "dsh-experimental-client-ui-forge",
+    "dsh-experimental-client-ui-stats",
+    "dsh-experimental-forge",
+    "dsh-experimental-forge-bundle",
+    "dsh-experimental-forge-github",
+    "dsh-experimental-forge-session",
+    "dsh-experimental-liveshare",
+    "dsh-experimental-liveshare-protocol",
+    "dsh-fs-patch",
+    "dsh-message-quotes",
+    "dsh-official-bundles",
+    "dsh-personalized-recommendations",
+    "dsh-plugin-detail",
+    "dsh-plugin-recommendations",
+    "dsh-tool-executor-native",
+    "dsh-tool-executor-ptc"
+  ],
+  "removedPackages": [
+    "dsh-client-ui-deepseek-model-label-1017"
+  ],
+  "summary": {
+    "compared": 294,
+    "addedPackages": 26,
+    "removedPackages": 1,
+    "changedPackages": 294,
+    "addedFiles": 1752,
+    "removedFiles": 52,
+    "changedFiles": 1609
+  }
+}

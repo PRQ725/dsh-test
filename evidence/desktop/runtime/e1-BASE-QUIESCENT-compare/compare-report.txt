@@ -1,0 +1,33 @@
+﻿=== SCRIPT D: compare captures ===
+Before = D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT
+After  = D:\Projects\dsh-test\evidence\desktop\runtime\e1-BASE-QUIESCENT-2
+Time   = 2026-10-05 13:33:45
+
+--------------------------------------------------------------------
+SECTION: SHARED STATE   (shared-state-manifest.csv)
+--------------------------------------------------------------------
+  SKIPPED (manifest not found in one of the captures)
+
+--------------------------------------------------------------------
+SECTION: DSH_HOME FINGERPRINTS (script A)   (dsh-home-fingerprints.csv)
+--------------------------------------------------------------------
+  SKIPPED (manifest not found in one of the captures)
+
+--------------------------------------------------------------------
+SECTION: SESSION INVENTORY   (session-inventory.csv)
+--------------------------------------------------------------------
+  SKIPPED (manifest not found in one of the captures)
+
+--------------------------------------------------------------------
+SECTION: PROJCACHE INVENTORY   (projcache-inventory.csv)
+--------------------------------------------------------------------
+  SKIPPED (manifest not found in one of the captures)
+
+--------------------------------------------------------------------
+SECTION: SESSION FORMAT SUMMARY (informational)
+--------------------------------------------------------------------
+  BEFORE  (no session-inventory.csv)
+  AFTER   (no session-inventory.csv)
+
+
+warnings: 4
